@@ -1,0 +1,26 @@
+# Earlier prototypes and local test data (contain copyrighted PDFs and credentials)
+prev-prototypes/
+test/
+
+# User projects: manuscripts, seed lists, credentials and all results stay local
+projects/*
+!projects/.gitkeep
+
+# Credentials
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+~$*
+.vscode/

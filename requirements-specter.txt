@@ -1,0 +1,4 @@
+# Optional: only needed when use_specter is on.
+# For GPU support install a CUDA build of torch first: https://pytorch.org/get-started/locally/
+torch>=2.0
+sentence-transformers>=2.2

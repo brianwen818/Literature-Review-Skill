@@ -1,0 +1,48 @@
+# lit-review-automation 專案設定 / project settings
+# 留空或刪除某一行即採用預設值。 Leave a value out to use the default.
+
+# ---- 目標 / target ----
+n_articles: 50                 # 短名單要幾篇 / size of the shortlist (n)
+shortlist_mode: global         # global = 全域前 n 篇; per-journal = 每本期刊 n/m 篇
+per_journal_redistribute: true # per-journal 時，不足額的名額是否讓給其他期刊
+min_agent_relevance: 3         # agent 評分 (1-5) 至少幾分才可進短名單
+
+# ---- 檢索 / search ----
+crossref_mailto: ""            # 你的 email；Crossref 會給較穩定的服務（選填）
+year_from:                     # 出版年份下限，例如 2010；留空 = 不限
+year_to:                       # 出版年份上限；留空 = 不限
+max_keywords: 30               # 關鍵詞數量上限（查詢次數 = 關鍵詞 x 期刊）
+rows_per_query: 20             # 每次查詢取回幾筆
+
+# ---- 評分 / scoring ----
+weights:                       # 缺少的訊號會自動由其餘訊號重新分配
+  coupling: 0.40               # 引文重疊
+  specter: 0.40                # 語意相似（只有 use_specter 開啟時才有）
+  tfidf: 0.20                  # 用詞相似
+direct_citation_weight: 3.0    # 直接引用種子文獻的加權倍數
+use_specter: off               # off | on | auto；先跑 07_check_specter.py 看建議
+pool_top_share: 0.20           # 分數前多少比例算「過門檻」，列入 all-relevant-articles
+judge_multiplier: 3            # agent 細讀的篇數 = n x 這個倍數
+judge_batch_size: 25
+
+# ---- 引文回溯 / snowballing ----
+snowball:
+  enabled: true
+  max_sources: 100             # 以最相關的幾篇文章（加上種子）作為來源
+  min_citing_sources: 2        # 至少被幾個來源引用才列入
+  fetch_max: 300
+  judge_max: 60                # 交給 agent 細讀的上限
+  n_items: 30                  # 最後列在 snowball 分頁的篇數上限
+
+# ---- 圖書館連結 / library link ----
+# {title} 會被換成文章標題。換成你學校的 Primo 網址即可。
+library_link_template: "https://nccu.primo.exlibrisgroup.com/discovery/search?query=any,contains,{title}&vid=886NCCU_INST:886NCCU_INST"
+library_link_column: nccu-lib-link
+
+# ---- 總結報告 / summary ----
+summary_language: zh-TW        # zh-TW | en
+
+# ---- Zotero ----
+zotero:
+  collection: ""               # 要加入的 collection：名稱、"上層/下層" 路徑、或 collection key；留空 = 不放進 collection
+  tag: lit-review-automation   # 每筆都會加上這個標籤，方便日後整批找出
