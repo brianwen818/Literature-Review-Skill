@@ -134,6 +134,7 @@ python codes/scripts/07_check_specter.py
 - [summary.md](example/tw-150-portfolio/outputs/summary.md)：數量漏斗、各期刊結果、最相關文章與理由，以及 agent 的分析
 - [shortlist.xlsx](example/tw-150-portfolio/outputs/shortlist.xlsx)、[all-relevant-articles.xlsx](example/tw-150-portfolio/outputs/all-relevant-articles.xlsx)
 - [zotero-added.xlsx](example/tw-150-portfolio/outputs/zotero-added.xlsx)、[zotero-import.ris](example/tw-150-portfolio/outputs/zotero-import.ris)
+- [literature-review.md](example/tw-150-portfolio/outputs/literature-review.md)：事後另外請 agent 以蒐集到的文獻（並上網補充 F、G 方向）撰寫的四方向文獻回顧，不屬於 skill 的標準產出
 
 `intermediate-data/` 保留了關鍵詞、種子比對、每批的閱讀判斷（`judging/*/judged-*.json`）與評分結果；三個體積較大的原始快取（約 50 MB）沒有提交，重跑步驟 6、8、10 會重新產生。
 
