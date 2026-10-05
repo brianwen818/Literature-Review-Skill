@@ -1,0 +1,5966 @@
+{
+ "10.1287/mnsc.2022.4449": {
+  "title": "Machine Learning vs. Economic Restrictions: Evidence from Stock Return Predictability",
+  "abstract": "This paper shows that investments based on deep learning signals extract profitability from difficult-to-arbitrage stocks and during high limits-to-arbitrage market states. In particular, excluding microcaps, distressed stocks, or episodes of high market volatility considerably attenuates profitability. Machine learning-based performance further deteriorates in the presence of reasonable trading costs because of high turnover and extreme positions in the tangency portfolio implied by the pricing kernel. Despite their opaque nature, machine learning methods successfully identify mispriced stocks consistent with most anomalies. Beyond economic restrictions, deep learning signals are profitable in long positions and recent years and command low downside risk. This paper was accepted by Kay Giesecke, finance. Funding: D. Avramov acknowledges the Israel Science Foundation (Grant 288/18) for financial support. S. Cheng acknowledges the General Research Fund of the Research Grants Council of Hong Kong [Project 14502318] for financial support. Supplemental Material: The data files and online appendix are available at https://doi.org/10.1287/mnsc.2022.4449 .",
+  "journal": "Management Science",
+  "year": "2023",
+  "ref_dois": [
+   "10.1002/9781119751182.ch1",
+   "10.1002/asmb.2209",
+   "10.1016/0304-405x(80)90007-0",
+   "10.1016/0304-405x(93)90023-5",
+   "10.1016/j.jacceco.2014.06.001",
+   "10.1016/j.jeconom.2019.08.012",
+   "10.1016/j.jeconom.2020.07.009",
+   "10.1016/j.jfi.2008.12.002",
+   "10.1016/j.jfineco.2008.02.005",
+   "10.1016/j.jfineco.2011.12.001",
+   "10.1016/j.jfineco.2012.10.005",
+   "10.1016/j.jfineco.2014.10.010",
+   "10.1016/j.jfineco.2015.12.002",
+   "10.1016/j.jfineco.2018.02.012",
+   "10.1016/j.jfineco.2019.05.001",
+   "10.1016/j.jfineco.2019.06.008",
+   "10.1016/j.jfineco.2020.12.003",
+   "10.1016/s0304-405x(02)00228-3",
+   "10.1016/s0304-405x(98)00026-9",
+   "10.1016/s1386-4181(01)00024-6",
+   "10.1017/s0022109000003173",
+   "10.1017/s0022109014000404",
+   "10.1017/s0022109016000764",
+   "10.1080/0015198x.2019.1596678",
+   "10.1086/260061",
+   "10.1086/261749",
+   "10.1086/374184",
+   "10.1086/375379",
+   "10.1093/rfs/hhaa009",
+   "10.1093/rfs/hhaa019",
+   "10.1093/rfs/hhaa020",
+   "10.1093/rfs/hhaa062",
+   "10.1093/rfs/hhaa102",
+   "10.1093/rfs/hhj025",
+   "10.1093/rfs/hhm014",
+   "10.1093/rfs/hhn098",
+   "10.1093/rfs/hhp003",
+   "10.1093/rfs/hhs066",
+   "10.1093/rfs/hht023",
+   "10.1093/rfs/hhu080",
+   "10.1093/rfs/hhv059",
+   "10.1093/rfs/hhv063",
+   "10.1093/rfs/hhw107",
+   "10.1093/rfs/hhx019",
+   "10.1093/rfs/hhy131",
+   "10.1093/rfs/hhz123",
+   "10.1111/0022-1082.00145",
+   "10.1111/0022-1082.00206",
+   "10.1111/1540-6261.00498",
+   "10.1111/j.1540-6261.1977.tb03317.x",
+   "10.1111/j.1540-6261.1992.tb04683.x",
+   "10.1111/j.1540-6261.1997.tb03808.x",
+   "10.1111/j.1540-6261.2008.01335.x",
+   "10.1111/j.1540-6261.2008.01371.x",
+   "10.1111/j.1540-6261.2011.01663.x",
+   "10.1111/j.1540-6261.2011.01671.x",
+   "10.1111/jofi.12041",
+   "10.1111/jofi.12286",
+   "10.1111/jofi.12365",
+   "10.1111/jofi.12530",
+   "10.1177/0148558x11400577",
+   "10.1257/jep.21.2.129",
+   "10.2307/1913601",
+   "10.2307/1913610",
+   "10.3905/jfds.2019.1.3.009",
+   "10.3905/jpm.2019.45.4.018"
+  ],
+  "references": [
+   {
+    "doi": "10.1016/j.jfi.2008.12.002"
+   },
+   {
+    "doi": "10.1016/s1386-4181(01)00024-6"
+   },
+   {
+    "doi": "10.3905/jpm.2019.45.4.018"
+   },
+   {
+    "doi": "10.1093/rfs/hhj025"
+   },
+   {
+    "doi": "10.1017/s0022109016000764"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2008.02.005"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2012.10.005"
+   },
+   {
+    "doi": "10.1257/jep.21.2.129"
+   },
+   {
+    "doi": "10.1093/rfs/hhaa062"
+   },
+   {
+    "doi": "10.1093/rfs/hhp003"
+   },
+   {
+    "doi": "10.1093/rfs/hhn098"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1997.tb03808.x"
+   },
+   {
+    "doi": "10.1093/rfs/hht023"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2020.12.003"
+   },
+   {
+    "doi": "10.1016/j.jacceco.2014.06.001"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2011.01671.x"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2015.12.002"
+   },
+   {
+    "doi": "10.1016/s0304-405x(98)00026-9"
+   },
+   {
+    "doi": "10.1016/0304-405x(93)90023-5"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2008.01371.x"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2014.10.010"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2018.02.012"
+   },
+   {
+    "doi": "10.1086/260061"
+   },
+   {
+    "doi": "10.1093/rfs/hhz123"
+   },
+   {
+    "doi": "10.1086/375379"
+   },
+   {
+    "doi": "10.1093/rfs/hhx019"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1992.tb04683.x"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2011.01663.x"
+   },
+   {
+    "doi": "10.1016/s0304-405x(02)00228-3"
+   },
+   {
+    "doi": "10.1093/rfs/hhaa009"
+   },
+   {
+    "doi": "10.1016/j.jeconom.2020.07.009"
+   },
+   {
+    "doi": "10.1017/s0022109014000404"
+   },
+   {
+    "doi": "10.1177/0148558x11400577"
+   },
+   {
+    "doi": "10.1086/261749"
+   },
+   {
+    "doi": "10.2307/1913601"
+   },
+   {
+    "doi": "10.1111/jofi.12530"
+   },
+   {
+    "doi": "10.1093/rfs/hhv059"
+   },
+   {
+    "doi": "10.1002/asmb.2209"
+   },
+   {
+    "doi": "10.1111/0022-1082.00206"
+   },
+   {
+    "doi": "10.1093/rfs/hhy131"
+   },
+   {
+    "doi": "10.1093/rfs/hhu080"
+   },
+   {
+    "doi": "10.1111/1540-6261.00498"
+   },
+   {
+    "doi": "10.1111/0022-1082.00145"
+   },
+   {
+    "doi": "10.1093/rfs/hhaa019"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2019.05.001"
+   },
+   {
+    "doi": "10.1093/rfs/hhaa102"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2019.06.008"
+   },
+   {
+    "doi": "10.1016/j.jeconom.2019.08.012"
+   },
+   {
+    "doi": "10.1093/rfs/hhaa020"
+   },
+   {
+    "doi": "10.1111/jofi.12365"
+   },
+   {
+    "doi": "10.1016/0304-405x(80)90007-0"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1977.tb03317.x"
+   },
+   {
+    "doi": "10.1093/rfs/hhs066"
+   },
+   {
+    "doi": "10.2307/1913610"
+   },
+   {
+    "doi": "10.1093/rfs/hhv063"
+   },
+   {
+    "doi": "10.1086/374184"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2008.01335.x"
+   },
+   {
+    "doi": "10.1002/9781119751182.ch1"
+   },
+   {
+    "doi": "10.1111/jofi.12041"
+   },
+   {
+    "doi": "10.3905/jfds.2019.1.3.009"
+   },
+   {
+    "doi": "10.1080/0015198x.2019.1596678"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2011.12.001"
+   },
+   {
+    "doi": "10.1111/jofi.12286"
+   },
+   {
+    "doi": "10.1093/rfs/hhw107"
+   },
+   {
+    "doi": "10.1017/s0022109000003173"
+   },
+   {
+    "doi": "10.1093/rfs/hhm014"
+   }
+  ]
+ },
+ "10.2469/faj.v67.n1.4": {
+  "title": "Benchmarks as Limits to Arbitrage: Understanding the Low-Volatility Anomaly",
+  "abstract": "",
+  "journal": "Financial Analysts Journal",
+  "year": "2011",
+  "ref_dois": [
+   "10.1007/bf00122574",
+   "10.1016/j.jfineco.2007.12.005",
+   "10.1016/j.jfineco.2008.02.011",
+   "10.1037/0033-295x.90.4.293",
+   "10.1037/0096-1523.3.4.552",
+   "10.1086/295472",
+   "10.1093/0198292279.001.0001",
+   "10.1093/revfin/hhm011",
+   "10.1093/rfs/hhp041",
+   "10.1111/0022-1082.00490",
+   "10.1111/j.1540-6261.2006.00836.x",
+   "10.1111/j.1540-6261.2008.01376.x",
+   "10.1111/j.1540-6261.2009.01483.x",
+   "10.1257/aer.98.5.2066",
+   "10.1257/jep.21.2.129",
+   "10.2307/1914185",
+   "10.2307/2326520",
+   "10.2307/2329112",
+   "10.2307/2330270",
+   "10.2307/2331255",
+   "10.2307/2676187",
+   "10.2307/3595012",
+   "10.2469/faj.v61.n1.2684",
+   "10.3905/joi.2009.18.3.027",
+   "10.3905/jpm.1992.701922",
+   "10.3905/jpm.2006.661366",
+   "10.3905/jpm.2007.698039"
+  ],
+  "references": [
+   {
+    "author": "Alpert Marc",
+    "year": "1982",
+    "volume_title": "Judgment under Uncertainty: Heuristics and Biases"
+   },
+   {
+    "author": "Anand Shefali",
+    "year": "2009",
+    "journal_title": "Wall Street Journal"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2006.00836.x"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2007.12.005"
+   },
+   {
+    "doi": "10.1257/jep.21.2.129"
+   },
+   {
+    "author": "Bali Turan",
+    "journal_title": "Journal of Financial Economics"
+   },
+   {
+    "doi": "10.1257/aer.98.5.2066"
+   },
+   {
+    "author": "Barberis Nicholas",
+    "year": "2003",
+    "volume_title": "Handbook of the Economics of Finance"
+   },
+   {
+    "doi": "10.1086/295472"
+   },
+   {
+    "author": "Black Fischer",
+    "year": "1972",
+    "volume_title": "Studies in the Theory of Capital Markets"
+   },
+   {
+    "doi": "10.3905/jpm.2007.698039"
+   },
+   {
+    "doi": "10.1093/rfs/hhp041"
+   },
+   {
+    "doi": "10.3905/jpm.2006.661366"
+   },
+   {
+    "doi": "10.3905/joi.2009.18.3.027"
+   },
+   {
+    "doi": "10.2469/faj.v61.n1.2684"
+   },
+   {
+    "doi": "10.1111/0022-1082.00490"
+   },
+   {
+    "doi": "10.2307/2329112"
+   },
+   {
+    "doi": "10.1037/0096-1523.3.4.552"
+   },
+   {
+    "doi": "10.2307/2330270"
+   },
+   {
+    "doi": "10.2307/1914185"
+   },
+   {
+    "doi": "10.2307/3595012"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2009.01483.x"
+   },
+   {
+    "doi": "10.2307/2326520"
+   },
+   {
+    "doi": "10.1093/revfin/hhm011"
+   },
+   {
+    "doi": "10.2307/2331255"
+   },
+   {
+    "doi": "10.3905/jpm.1992.701922"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2008.02.011"
+   },
+   {
+    "doi": "10.2307/2676187"
+   },
+   {
+    "doi": "10.1093/0198292279.001.0001"
+   },
+   {
+    "doi": "10.1037/0033-295x.90.4.293"
+   },
+   {
+    "doi": "10.1007/bf00122574"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2008.01376.x"
+   }
+  ]
+ },
+ "10.3905/jpm.2014.40.5.094": {
+  "title": "The Deflated Sharpe Ratio: Correcting for Selection Bias, Backtest Overfitting, and Non-Normality",
+  "abstract": "",
+  "journal": "The Journal of Portfolio Management",
+  "year": "2014",
+  "ref_dois": [
+   "10.1002/9780470316672",
+   "10.1007/978-0-387-49317-6",
+   "10.1086/294846",
+   "10.1111/j.2517-6161.1995.tb02031.x",
+   "10.1147/rd.41.0066",
+   "10.1201/9781584889854",
+   "10.1214/aop/1176993237",
+   "10.1257/aer.102.3.477",
+   "10.1371/journal.pmed.0020124",
+   "10.21314/jois.2012.010",
+   "10.21314/jor.2012.255",
+   "10.2469/faj.v58.n4.2453",
+   "10.3905/jpm.1975.408513",
+   "10.3905/jpm.1994.409501"
+  ],
+  "references": [
+   {
+    "doi": "10.21314/jor.2012.255"
+   },
+   {
+    "doi": "10.21314/jois.2012.010"
+   },
+   {
+    "doi": "10.1111/j.2517-6161.1995.tb02031.x"
+   },
+   {
+    "author": "Bennet C.",
+    "year": "2010",
+    "journal_title": "Journal of Serendipitous and Unexpected Results"
+   },
+   {
+    "doi": "10.1214/aop/1176993237"
+   },
+   {
+    "doi": "10.1201/9781584889854"
+   },
+   {
+    "doi": "10.1007/978-0-387-49317-6"
+   },
+   {
+    "author": "Fisher R.A.",
+    "year": "1915",
+    "journal_title": "Biometrika"
+   },
+   {
+    "author": "Hand D.J.",
+    "year": "2014",
+    "volume_title": "The Improbability Principle"
+   },
+   {
+    "doi": "10.1002/9780470316672"
+   },
+   {
+    "author": "Holm S.",
+    "year": "1979",
+    "journal_title": "Scandinavian Journal of Statistics"
+   },
+   {
+    "doi": "10.1371/journal.pmed.0020124"
+   },
+   {
+    "author": "Ingersoll J.",
+    "year": "2007",
+    "journal_title": "The Review of Financial Studies"
+   },
+   {
+    "doi": "10.2469/faj.v58.n4.2453"
+   },
+   {
+    "doi": "10.1257/aer.102.3.477"
+   },
+   {
+    "doi": "10.1086/294846"
+   },
+   {
+    "doi": "10.3905/jpm.1975.408513"
+   },
+   {
+    "doi": "10.3905/jpm.1994.409501"
+   },
+   {
+    "author": "Studený M.",
+    "year": "1999",
+    "volume_title": "Learning in Graphical Models"
+   },
+   {
+    "doi": "10.1147/rd.41.0066"
+   }
+  ]
+ },
+ "10.1080/14697688.2019.1571683": {
+  "title": "Deep hedging",
+  "abstract": "",
+  "journal": "Quantitative Finance",
+  "year": "2019",
+  "ref_dois": [
+   "10.1002/9780470061602.eqf13009",
+   "10.1007/978-0-387-21617-1",
+   "10.1007/s007800050008",
+   "10.1007/s007800050046",
+   "10.1007/s10436-005-0023-x",
+   "10.1007/s11579-016-0178-4",
+   "10.1016/0893-6080(91)90009-t",
+   "10.1016/j.acha.2016.04.003",
+   "10.1016/j.frl.2005.08.004",
+   "10.1016/j.insmatheco.2005.08.008",
+   "10.1016/j.jbankfin.2006.11.011",
+   "10.1016/j.jbankfin.2017.05.006",
+   "10.1016/j.spa.2009.06.009",
+   "10.1017/cbo9781139151184.030",
+   "10.1080/14697680400000038",
+   "10.1080/14697688.2010.494613",
+   "10.1090/conm/351/06411",
+   "10.1109/cifer.1997.618952",
+   "10.1111/1467-9965.00034",
+   "10.1111/j.1467-9965.2007.00311.x",
+   "10.1111/j.1467-9965.2007.00317.x",
+   "10.1111/j.1467-9965.2010.00413.x",
+   "10.1111/j.1540-6261.1994.tb00081.x",
+   "10.1111/mafi.12035",
+   "10.1137/0331022",
+   "10.1137/15m1006787",
+   "10.1146/annurev-financial-110716-032445",
+   "10.1214/aoap/1177004767",
+   "10.1287/opre.1050.0247",
+   "10.1515/9783110463453",
+   "10.2139/ssrn.3087076"
+  ],
+  "references": [
+   {
+    "doi": "10.1016/j.jbankfin.2006.11.011"
+   },
+   {
+    "doi": "10.1002/9780470061602.eqf13009"
+   },
+   {
+    "doi": "10.1007/s11579-016-0178-4"
+   },
+   {
+    "doi": "10.1007/s007800050046"
+   },
+   {
+    "doi": "10.1016/j.frl.2005.08.004"
+   },
+   {
+    "doi": "10.1111/j.1467-9965.2007.00311.x"
+   },
+   {
+    "unstructured": "Bölcskei H. Grohs P. Kutyniok G. and Petersen P. Optimal approximation with sparsely connected deep neural networks. Preprint arXiv:1705.01714 2017."
+   },
+   {
+    "doi": "10.1137/15m1006787"
+   },
+   {
+    "doi": "10.1287/opre.1050.0247"
+   },
+   {
+    "doi": "10.1016/j.insmatheco.2005.08.008"
+   },
+   {
+    "author": "Carmona R.",
+    "year": "2009",
+    "volume_title": "Indifference Pricing: Theory and Applications",
+    "unstructured": "Carmona, R., Indifference Pricing: Theory and Applications, 2009 (Princeton University Press: Princeton, NJ)."
+   },
+   {
+    "doi": "10.1080/14697680400000038"
+   },
+   {
+    "doi": "10.1137/0331022"
+   },
+   {
+    "unstructured": "Du X. Zhai J. and Lv K. Algorithm trading using q-learning and recurrent reinforcement learning. arxiv 2009. Available online at: https://arxiv.org/pdf/1707.07338.pdf."
+   },
+   {
+    "unstructured": "Dufresne D. The integrated square-root process Centre for Actuarial Studies Research Paper no. 90 University of Melbourne 2001."
+   },
+   {
+    "author": "Dupire B.",
+    "year": "1994",
+    "article_title": "Pricing with a smile",
+    "journal_title": "Risk",
+    "unstructured": "Dupire, B., Pricing with a smile. Risk, 1994, 7, 18–20."
+   },
+   {
+    "doi": "10.1007/s007800050008"
+   },
+   {
+    "doi": "10.1515/9783110463453"
+   },
+   {
+    "doi": "10.1017/cbo9781139151184.030"
+   },
+   {
+    "doi": "10.1007/978-0-387-21617-1"
+   },
+   {
+    "unstructured": "Goodfellow I. Bengio Y. and Courville A. Deep Learning 2016 (MIT Press). Available online at: http://www.deeplearningbook.org."
+   },
+   {
+    "doi": "10.2139/ssrn.3087076"
+   },
+   {
+    "author": "Hodges S.",
+    "year": "1989",
+    "article_title": "Optimal replication of contingent claims under transaction costs",
+    "journal_title": "Rev. Futures Markets",
+    "unstructured": "Hodges, S. and Neuberger, A., Optimal replication of contingent claims under transaction costs. Rev. Futures Markets, 1989, 8, 222–239."
+   },
+   {
+    "doi": "10.1016/0893-6080(91)90009-t"
+   },
+   {
+    "doi": "10.1016/j.jbankfin.2017.05.006"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1994.tb00081.x"
+   },
+   {
+    "doi": "10.1016/j.spa.2009.06.009"
+   },
+   {
+    "unstructured": "Ioffe S. and Szegedy C. Batch normalization: Accelerating deep network training by reducing internal covariate shift. In Proceedings of the 32nd International Conference on Machine Learning pp. 448–456 2015."
+   },
+   {
+    "unstructured": "Jiang Z. Xu D. and Liang J. A deep reinforcement learning framework for the financial portfolio management problem. arxiv 2017. Available online at: https://arxiv.org/abs/1706.10059."
+   },
+   {
+    "author": "Kabanov Y.",
+    "year": "2009",
+    "volume_title": "Markets with Transaction Costs: Mathematical Theory",
+    "unstructured": "Kabanov, Y. and Safarian, M., Markets with Transaction Costs: Mathematical Theory, 2009 (Springer: Berlin, Germany)."
+   },
+   {
+    "doi": "10.1111/mafi.12035"
+   },
+   {
+    "unstructured": "Kingma D.P. and Ba J. Adam: A method for stochastic optimization. Proceedings of the International Conference on Learning Representations (ICLR) 2015."
+   },
+   {
+    "doi": "10.1111/j.1467-9965.2007.00317.x"
+   },
+   {
+    "unstructured": "Lu D. Agent inspired trading using recurrent reinforcement learning and LSTM neural networks. arxiv 2017. Available online at: https://arxiv.org/pdf/1707.07338.pdf."
+   },
+   {
+    "doi": "10.1109/cifer.1997.618952"
+   },
+   {
+    "doi": "10.1146/annurev-financial-110716-032445"
+   },
+   {
+    "doi": "10.1090/conm/351/06411"
+   },
+   {
+    "doi": "10.1111/j.1467-9965.2010.00413.x"
+   },
+   {
+    "doi": "10.1080/14697688.2010.494613"
+   },
+   {
+    "doi": "10.1016/j.acha.2016.04.003"
+   },
+   {
+    "doi": "10.1214/aoap/1177004767"
+   },
+   {
+    "doi": "10.1111/1467-9965.00034"
+   },
+   {
+    "doi": "10.1007/s10436-005-0023-x"
+   }
+  ]
+ },
+ "10.1287/mnsc.2023.4695": {
+  "title": "Deep Learning in Asset Pricing",
+  "abstract": "We use deep neural networks to estimate an asset pricing model for individual stock returns that takes advantage of the vast amount of conditioning information, keeps a fully flexible form, and accounts for time variation. The key innovations are to use the fundamental no-arbitrage condition as criterion function to construct the most informative test assets with an adversarial approach and to extract the states of the economy from many macroeconomic time series. Our asset pricing model outperforms out-of-sample all benchmark approaches in terms of Sharpe ratio, explained variation, and pricing errors and identifies the key factors that drive asset prices. This paper was accepted by Agostino Capponi, finance. Supplemental Material: The online appendix and data are available at https://doi.org/10.1287/mnsc.2023.4695 .",
+  "journal": "Management Science",
+  "year": "2024",
+  "ref_dois": [
+   "10.1002/asmb.2209",
+   "10.1002/jae.1091",
+   "10.1016/0022-0531(76)90046-6",
+   "10.1016/0304-405x(93)90023-5",
+   "10.1016/0304-4076(87)90015-7",
+   "10.1016/j.jeconom.2020.07.009",
+   "10.1016/j.jfineco.2005.12.002",
+   "10.1016/j.jfineco.2014.10.010",
+   "10.1016/j.jfineco.2019.05.001",
+   "10.1016/j.jfineco.2019.06.008",
+   "10.1017/jpr.2019.49",
+   "10.1080/07350015.2015.1086655",
+   "10.1080/07350015.2021.1927744",
+   "10.1093/jjfinec/nbaa025",
+   "10.1093/rfs/8.2.287",
+   "10.1093/rfs/hhaa009",
+   "10.1093/rfs/hhaa020",
+   "10.1093/rfs/hhm014",
+   "10.1093/rfs/hhp081",
+   "10.1093/rfs/hhz123",
+   "10.1111/j.1540-6261.1992.tb04398.x",
+   "10.1111/j.1540-6261.1993.tb04753.x",
+   "10.1111/j.1540-6261.1993.tb05126.x",
+   "10.1111/j.1540-6261.1995.tb04055.x",
+   "10.1111/j.1540-6261.1997.tb04813.x",
+   "10.1111/j.1540-6261.2011.01654.x",
+   "10.1111/jofi.12898",
+   "10.1162/neco.1997.9.8.1735",
+   "10.2307/1912275",
+   "10.2307/1912775",
+   "10.3905/jfds.2020.1.053"
+  ],
+  "references": [
+   {
+    "author": "Bakshi GS",
+    "year": "1997",
+    "journal_title": "Amer. Econom. Rev."
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1993.tb04753.x"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1993.tb05126.x"
+   },
+   {
+    "doi": "10.1017/jpr.2019.49"
+   },
+   {
+    "doi": "10.1016/0304-4076(87)90015-7"
+   },
+   {
+    "doi": "10.2307/1912275"
+   },
+   {
+    "doi": "10.1002/jae.1091"
+   },
+   {
+    "doi": "10.1093/rfs/8.2.287"
+   },
+   {
+    "doi": "10.3905/jfds.2020.1.053"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1992.tb04398.x"
+   },
+   {
+    "doi": "10.1016/0304-405x(93)90023-5"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2014.10.010"
+   },
+   {
+    "doi": "10.1093/rfs/hhz123"
+   },
+   {
+    "author": "Goodfellow I",
+    "year": "2016",
+    "volume_title": "Deep Learning"
+   },
+   {
+    "author": "Goodfellow I",
+    "year": "2014",
+    "journal_title": "Adv. Neural Inform. Processing Systems"
+   },
+   {
+    "doi": "10.1093/rfs/hhaa009"
+   },
+   {
+    "doi": "10.1016/j.jeconom.2020.07.009"
+   },
+   {
+    "doi": "10.2307/1912775"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1997.tb04813.x"
+   },
+   {
+    "doi": "10.1002/asmb.2209"
+   },
+   {
+    "doi": "10.1162/neco.1997.9.8.1735"
+   },
+   {
+    "author": "Horel E",
+    "year": "2020",
+    "journal_title": "J. Machine Learn. Res."
+   },
+   {
+    "doi": "10.1016/j.jfineco.2019.05.001"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2019.06.008"
+   },
+   {
+    "doi": "10.1093/rfs/hhaa020"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2005.12.002"
+   },
+   {
+    "doi": "10.1093/rfs/hhp081"
+   },
+   {
+    "doi": "10.1080/07350015.2015.1086655"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2011.01654.x"
+   },
+   {
+    "doi": "10.1111/jofi.12898"
+   },
+   {
+    "doi": "10.1080/07350015.2021.1927744"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1995.tb04055.x"
+   },
+   {
+    "doi": "10.1016/0022-0531(76)90046-6"
+   },
+   {
+    "doi": "10.1093/jjfinec/nbaa025"
+   },
+   {
+    "author": "Srivastava N",
+    "year": "2014",
+    "journal_title": "J. Machine Learn. Res."
+   },
+   {
+    "author": "Wager S",
+    "year": "2013",
+    "journal_title": "Adv. Neural Inform. Processing Systems"
+   },
+   {
+    "doi": "10.1093/rfs/hhm014"
+   }
+  ]
+ },
+ "10.1287/mnsc.2020.3922": {
+  "title": "Smart “Predict, then Optimize”",
+  "abstract": "Many real-world analytics problems involve two significant challenges: prediction and optimization. Because of the typically complex nature of each challenge, the standard paradigm is predict-then-optimize. By and large, machine learning tools are intended to minimize prediction error and do not account for how the predictions will be used in the downstream optimization problem. In contrast, we propose a new and very general framework, called Smart “Predict, then Optimize” (SPO), which directly leverages the optimization problem structure—that is, its objective and constraints—for designing better prediction models. A key component of our framework is the SPO loss function, which measures the decision error induced by a prediction. Training a prediction model with respect to the SPO loss is computationally challenging, and, thus, we derive, using duality theory, a convex surrogate loss function, which we call the SPO+ loss. Most importantly, we prove that the SPO+ loss is statistically consistent with respect to the SPO loss under mild conditions. Our SPO+ loss function can tractably handle any polyhedral, convex, or even mixed-integer optimization problem with a linear objective. Numerical experiments on shortest-path and portfolio-optimization problems show that the SPO framework can lead to significant improvement under the predict-then-optimize paradigm, in particular, when the prediction model being trained is misspecified. We find that linear models trained using SPO+ loss tend to dominate random-forest algorithms, even when the ground truth is highly nonlinear. This paper was accepted by Yinyu Ye, optimization. Supplemental Material: Data and the online appendix are available at https://doi.org/10.1287/mnsc.2020.3922",
+  "journal": "Management Science",
+  "year": "2022",
+  "ref_dois": [
+   "10.1006/jcom.2002.0642",
+   "10.1007/s10107-014-0819-4",
+   "10.1007/s10107-015-0920-3",
+   "10.1007/s10107-017-1125-8",
+   "10.1007/s10107-017-1174-z",
+   "10.1007/s10107-017-1216-6",
+   "10.1007/s10287-015-0240-3",
+   "10.1016/j.ejor.2008.11.040",
+   "10.1016/j.orl.2004.08.003",
+   "10.1016/j.orl.2007.04.010",
+   "10.1016/j.spl.2004.03.002",
+   "10.1016/s0022-0000(03)00038-2",
+   "10.1109/isic.2011.6045410",
+   "10.1137/15m1020575",
+   "10.1137/s1052623499363220",
+   "10.1145/3055399.3055406",
+   "10.1198/016214505000000907",
+   "10.1214/009053607000000677",
+   "10.1214/08-aoas198",
+   "10.1287/mnsc.1120.1518",
+   "10.1287/mnsc.2014.1919",
+   "10.1287/mnsc.2016.2644",
+   "10.1287/mnsc.2018.3253",
+   "10.1287/mnsc.5.1.89",
+   "10.1287/moor.1050.0178",
+   "10.1287/msom.1090.0264",
+   "10.1287/msom.1120.0412",
+   "10.1287/msom.2013.0471",
+   "10.1287/msom.2015.0548",
+   "10.1287/msom.2015.0561",
+   "10.1287/msom.2019.0805",
+   "10.1287/opre.1100.0871",
+   "10.1287/opre.1120.1105",
+   "10.1287/opre.2014.1267",
+   "10.1287/opre.2014.1343",
+   "10.1287/opre.2015.1353",
+   "10.1287/opre.2016.1573",
+   "10.1287/opre.2017.1705",
+   "10.1287/opre.2018.1757",
+   "10.1561/0600000033"
+  ],
+  "references": [
+   {
+    "author": "Ahuja RK",
+    "year": "1993",
+    "volume_title": "Network Flows: Theory, Algorithms, and Applications"
+   },
+   {
+    "doi": "10.1287/mnsc.2014.1919"
+   },
+   {
+    "doi": "10.1287/opre.2017.1705"
+   },
+   {
+    "author": "Balkanski E",
+    "year": "2016",
+    "journal_title": "Adv. Neural Inform. Processing Systems"
+   },
+   {
+    "doi": "10.1145/3055399.3055406"
+   },
+   {
+    "doi": "10.1287/opre.2018.1757"
+   },
+   {
+    "doi": "10.1287/mnsc.2016.2644"
+   },
+   {
+    "doi": "10.1198/016214505000000907"
+   },
+   {
+    "doi": "10.1016/s0022-0000(03)00038-2"
+   },
+   {
+    "doi": "10.1287/mnsc.2018.3253"
+   },
+   {
+    "doi": "10.1007/s10107-017-1125-8"
+   },
+   {
+    "doi": "10.1007/s10107-017-1174-z"
+   },
+   {
+    "doi": "10.1007/s10107-014-0819-4"
+   },
+   {
+    "doi": "10.1287/msom.2015.0548"
+   },
+   {
+    "doi": "10.1287/msom.1090.0264"
+   },
+   {
+    "doi": "10.1287/opre.1120.1105"
+   },
+   {
+    "doi": "10.1287/msom.1120.0412"
+   },
+   {
+    "doi": "10.1287/opre.2014.1267"
+   },
+   {
+    "doi": "10.1007/s10107-015-0920-3"
+   },
+   {
+    "doi": "10.1016/j.orl.2007.04.010"
+   },
+   {
+    "doi": "10.1287/opre.2016.1573"
+   },
+   {
+    "doi": "10.1287/opre.2015.1353"
+   },
+   {
+    "author": "Donti P",
+    "year": "2017",
+    "volume_title": "Adv. Neural Inform. Processing Systems."
+   },
+   {
+    "doi": "10.1137/15m1020575"
+   },
+   {
+    "author": "El Balghiti O",
+    "year": "2019",
+    "volume_title": "Adv. Neural Inform. Processing Systems"
+   },
+   {
+    "author": "Elmachtoub AN",
+    "year": "2020",
+    "volume_title": "Proc. 37th Internat. Conf. Machine Learn"
+   },
+   {
+    "doi": "10.1007/s10107-017-1216-6"
+   },
+   {
+    "doi": "10.1287/msom.2015.0561"
+   },
+   {
+    "doi": "10.1287/opre.2014.1343"
+   },
+   {
+    "doi": "10.1214/009053607000000677"
+   },
+   {
+    "author": "Kao Y-h",
+    "year": "2009",
+    "journal_title": "Adv. Neural Inform. Processing Systems"
+   },
+   {
+    "doi": "10.1109/isic.2011.6045410"
+   },
+   {
+    "doi": "10.1137/s1052623499363220"
+   },
+   {
+    "doi": "10.1287/moor.1050.0178"
+   },
+   {
+    "doi": "10.1287/mnsc.1120.1518"
+   },
+   {
+    "doi": "10.1016/j.spl.2004.03.002"
+   },
+   {
+    "doi": "10.1016/j.orl.2004.08.003"
+   },
+   {
+    "author": "Markowitz H",
+    "year": "1952",
+    "journal_title": "J. Finance"
+   },
+   {
+    "doi": "10.1287/opre.1100.0871"
+   },
+   {
+    "doi": "10.1287/msom.2019.0805"
+   },
+   {
+    "doi": "10.1561/0600000033"
+   },
+   {
+    "author": "Osokin A",
+    "year": "2017",
+    "journal_title": "NIPS’17 Proc. 31st Internat. Conf. Neural Inform. Processing Systems"
+   },
+   {
+    "doi": "10.1016/j.ejor.2008.11.040"
+   },
+   {
+    "doi": "10.1287/msom.2013.0471"
+   },
+   {
+    "doi": "10.1006/jcom.2002.0642"
+   },
+   {
+    "author": "Taskar B",
+    "year": "2004",
+    "journal_title": "Adv. Neural Inform. Processing Systems"
+   },
+   {
+    "author": "Taskar B",
+    "year": "2005",
+    "journal_title": "Proc. 22nd Internat. Conf. Machine Learn."
+   },
+   {
+    "author": "Tewari A",
+    "year": "2007",
+    "journal_title": "J. Machine Learn. Res."
+   },
+   {
+    "author": "Tsochantaridis I",
+    "year": "2005",
+    "journal_title": "J. Machine Learn. Res."
+   },
+   {
+    "author": "Tulabandhula T",
+    "year": "2013",
+    "journal_title": "J. Machine Learn. Res."
+   },
+   {
+    "doi": "10.1287/mnsc.5.1.89"
+   },
+   {
+    "doi": "10.1007/s10287-015-0240-3"
+   },
+   {
+    "author": "Zhang T",
+    "year": "2004",
+    "journal_title": "J. Machine Learn. Res."
+   },
+   {
+    "doi": "10.1214/08-aoas198"
+   }
+  ]
+ },
+ "10.1016/j.jfineco.2013.10.005": {
+  "title": "Betting against beta",
+  "abstract": "",
+  "journal": "Journal of Financial Economics",
+  "year": "2014",
+  "ref_dois": [
+   "10.1006/jeth.1996.2207",
+   "10.1016/0304-405x(80)90007-0",
+   "10.1016/0304-405x(82)90028-9",
+   "10.1016/0304-405x(84)90013-8",
+   "10.1016/0304-405x(84)90017-5",
+   "10.1016/0304-405x(85)90002-9",
+   "10.1016/0304-405x(86)90010-3",
+   "10.1016/0304-405x(93)90023-5",
+   "10.1016/0304-4068(94)00682-z",
+   "10.1016/j.jfineco.2004.06.007",
+   "10.1016/j.jfineco.2005.03.013",
+   "10.1016/j.jfineco.2005.05.012",
+   "10.1016/j.jfineco.2007.12.005",
+   "10.1016/j.jfineco.2008.02.003",
+   "10.1016/j.jfineco.2010.08.014",
+   "10.1016/j.jfineco.2011.11.003",
+   "10.1016/s0304-405x(02)00228-3",
+   "10.1086/295472",
+   "10.1086/374184",
+   "10.1086/524204",
+   "10.1086/657530",
+   "10.1093/rfs/hhl041",
+   "10.1093/rfs/hhn098",
+   "10.1093/rfs/hhr027",
+   "10.1111/0022-1082.00226",
+   "10.1111/j.1540-6261.1973.tb01452.x",
+   "10.1111/j.1540-6261.1992.tb04398.x",
+   "10.1111/j.1540-6261.1996.tb05202.x",
+   "10.1111/j.1540-6261.1997.tb02745.x",
+   "10.1111/j.1540-6261.1997.tb03808.x",
+   "10.1111/j.1540-6261.2006.00836.x",
+   "10.1111/j.1540-6261.2011.01701.x",
+   "10.2307/1912934",
+   "10.2307/1913610",
+   "10.2307/2296205",
+   "10.2307/2329856",
+   "10.2307/3595012",
+   "10.2469/faj.v67.n1.4",
+   "10.2469/faj.v68.n1.1",
+   "10.3386/w19681",
+   "10.3905/jpm.1993.409462",
+   "10.3905/jpm.2013.39.4.049"
+  ],
+  "references": [
+   {
+    "doi": "10.1016/j.jfineco.2004.06.007"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2006.00836.x"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2007.12.005"
+   },
+   {
+    "doi": "10.1086/657530"
+   },
+   {
+    "doi": "10.3905/jpm.2013.39.4.049"
+   },
+   {
+    "doi": "10.2469/faj.v68.n1.1"
+   },
+   {
+    "doi": "10.2469/faj.v67.n1.4"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2010.08.014"
+   },
+   {
+    "doi": "10.1111/0022-1082.00226"
+   },
+   {
+    "doi": "10.1086/295472"
+   },
+   {
+    "doi": "10.3905/jpm.1993.409462"
+   },
+   {
+    "author": "Black",
+    "year": "1972",
+    "article_title": "The capital asset pricing model: some empirical tests",
+    "series_title": "Studies in the Theory of Capital Markets"
+   },
+   {
+    "doi": "10.2307/2329856"
+   },
+   {
+    "unstructured": "Brennan, M.J., 1993. Agency and asset pricing. Unpublished working paper. University of California, Los Angeles, CA."
+   },
+   {
+    "doi": "10.1093/rfs/hhn098"
+   },
+   {
+    "doi": "10.1086/524204"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1997.tb03808.x"
+   },
+   {
+    "author": "Cohen",
+    "year": "2005",
+    "article_title": "Money illusion in the stock market: the Modigliani-Cohn hypothesis",
+    "journal_title": "Q. J. Econ."
+   },
+   {
+    "doi": "10.1006/jeth.1996.2207"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1997.tb02745.x"
+   },
+   {
+    "unstructured": "Duffee, G., 2010. Sharpe ratios in term structure models. Unpublished working paper. Johns Hopkins University, Baltimore, MD."
+   },
+   {
+    "author": "Elton",
+    "year": "2003",
+    "series_title": "Modern Portfolio Theory and Investment Analysis"
+   },
+   {
+    "author": "Falkenstein",
+    "year": "1994",
+    "series_title": "Mutual Funds, Idiosyncratic Variance, and Asset Returns"
+   },
+   {
+    "doi": "10.1016/0304-405x(84)90013-8"
+   },
+   {
+    "doi": "10.1016/0304-405x(86)90010-3"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1992.tb04398.x"
+   },
+   {
+    "doi": "10.1016/0304-405x(93)90023-5"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1996.tb05202.x"
+   },
+   {
+    "doi": "10.3386/w19681"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2008.02.003"
+   },
+   {
+    "doi": "10.1093/rfs/hhr027"
+   },
+   {
+    "doi": "10.1016/0304-405x(82)90028-9"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2011.01701.x"
+   },
+   {
+    "doi": "10.1016/s0304-405x(02)00228-3"
+   },
+   {
+    "doi": "10.1016/0304-4068(94)00682-z"
+   },
+   {
+    "doi": "10.1093/rfs/hhl041"
+   },
+   {
+    "doi": "10.1016/0304-405x(84)90017-5"
+   },
+   {
+    "doi": "10.2307/3595012"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2005.05.012"
+   },
+   {
+    "author": "Mehrling",
+    "year": "2005",
+    "series_title": "Fischer Black and the Revolutionary Idea of Finance"
+   },
+   {
+    "doi": "10.1016/0304-405x(80)90007-0"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2011.11.003"
+   },
+   {
+    "doi": "10.2307/1913610"
+   },
+   {
+    "doi": "10.1086/374184"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2005.03.013"
+   },
+   {
+    "doi": "10.1016/0304-405x(85)90002-9"
+   },
+   {
+    "doi": "10.2307/2296205"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1973.tb01452.x"
+   },
+   {
+    "doi": "10.2307/1912934"
+   }
+  ]
+ },
+ "10.1111/jofi.12080": {
+  "title": "Dynamic Trading with Predictable Returns and Transaction Costs",
+  "abstract": "We derive a closed‐form optimal dynamic portfolio policy when trading is costly and security returns are predictable by signals with different mean‐reversion speeds. The optimal strategy is characterized by two principles: (1) aim in front of the target, and (2) trade partially toward the current aim. Specifically, the optimal updated portfolio is a linear combination of the existing portfolio and an “aim portfolio,” which is a weighted average of the current Markowitz portfolio (the moving target) and the expected Markowitz portfolios on all future dates (where the target is moving). Intuitively, predictors with slower mean‐reversion (alpha decay) get more weight in the aim portfolio. We implement the optimal strategy for commodity futures and find superior net returns relative to more naive benchmarks.",
+  "journal": "The Journal of Finance",
+  "year": "2013",
+  "ref_dois": [
+   "10.1007/s001990050268",
+   "10.1016/0304-405x(86)90065-6",
+   "10.1016/j.jet.2008.07.006",
+   "10.1016/j.jfineco.2004.03.007",
+   "10.1016/j.jfineco.2004.06.007",
+   "10.1016/s0304-405x(99)00004-5",
+   "10.1016/s1386-4181(97)00012-8",
+   "10.1038/421129a",
+   "10.1086/261410",
+   "10.1086/262030",
+   "10.1086/422565",
+   "10.1093/0198296940.001.0001",
+   "10.1093/rfs/11.1.1",
+   "10.1093/rfs/14.2.407",
+   "10.1093/rfs/hhp005",
+   "10.1111/0022-1082.00287",
+   "10.1111/j.1540-6261.1952.tb01525.x",
+   "10.1111/j.1540-6261.1988.tb04594.x",
+   "10.1111/j.1540-6261.2004.00634.x",
+   "10.1111/j.1540-6261.2005.00781.x",
+   "10.1111/j.1540-6261.2007.01274.x",
+   "10.1111/j.1540-6261.2007.01277.x",
+   "10.1111/j.1540-6261.2011.01662.x",
+   "10.1111/jofi.12021",
+   "10.1287/mnsc.48.4.470.210",
+   "10.1287/moor.15.4.676",
+   "10.21314/jor.2001.041",
+   "10.2139/ssrn.1211162",
+   "10.2139/ssrn.1364126",
+   "10.2469/faj.v62.n2.4084",
+   "10.3905/jpm.1988.409150",
+   "10.3905/jpm.2007.674792",
+   "10.3982/ecta7250"
+  ],
+  "references": [
+   {
+    "doi": "10.1016/j.jfineco.2004.06.007"
+   },
+   {
+    "doi": "10.21314/jor.2001.041"
+   },
+   {
+    "doi": "10.1016/0304-405x(86)90065-6"
+   },
+   {
+    "doi": "10.1111/jofi.12021"
+   },
+   {
+    "doi": "10.1016/s0304-405x(99)00004-5"
+   },
+   {
+    "doi": "10.1016/s1386-4181(97)00012-8"
+   },
+   {
+    "doi": "10.1287/mnsc.48.4.470.210"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2005.00781.x"
+   },
+   {
+    "doi": "10.1093/0198296940.001.0001"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2007.01274.x"
+   },
+   {
+    "doi": "10.1086/261410"
+   },
+   {
+    "doi": "10.1287/moor.15.4.676"
+   },
+   {
+    "doi": "10.3905/jpm.2007.674792"
+   },
+   {
+    "doi": "10.2139/ssrn.1211162"
+   },
+   {
+    "doi": "10.2469/faj.v62.n2.4084"
+   },
+   {
+    "doi": "10.1016/j.jet.2008.07.006"
+   },
+   {
+    "doi": "10.1093/rfs/hhp005"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2004.03.007"
+   },
+   {
+    "author": "Grinold Richard",
+    "year": "2006",
+    "article_title": "A dynamic model of portfolio management",
+    "journal_title": "Journal of Investment Management"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1988.tb04594.x"
+   },
+   {
+    "doi": "10.1086/262030"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2007.01277.x"
+   },
+   {
+    "doi": "10.3982/ecta7250"
+   },
+   {
+    "doi": "10.1038/421129a"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2004.00634.x"
+   },
+   {
+    "author": "Ljungqvist Lars",
+    "year": "2004",
+    "volume_title": "Recursive Macroeconomic Theory, 2nd edition"
+   },
+   {
+    "doi": "10.1086/422565"
+   },
+   {
+    "doi": "10.1093/rfs/14.2.407"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2011.01662.x"
+   },
+   {
+    "doi": "10.1111/0022-1082.00287"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1952.tb01525.x"
+   },
+   {
+    "author": "Obizhaeva Anna",
+    "year": "2006",
+    "volume_title": "Optimal trading strategy and supply/demand dynamics"
+   },
+   {
+    "doi": "10.2139/ssrn.1364126"
+   },
+   {
+    "doi": "10.3905/jpm.1988.409150"
+   },
+   {
+    "doi": "10.1093/rfs/11.1.1"
+   },
+   {
+    "doi": "10.1007/s001990050268"
+   }
+  ]
+ },
+ "10.1093/rfs/hhaa009": {
+  "title": "Empirical Asset Pricing via Machine Learning",
+  "abstract": "We perform a comparative analysis of machine learning methods for the canonical problem of empirical asset pricing: measuring asset risk premiums. We demonstrate large economic gains to investors using machine learning forecasts, in some cases doubling the performance of leading regression-based strategies from the literature. We identify the best-performing methods (trees and neural networks) and trace their predictive gains to allowing nonlinear predictor interactions missed by other methods. All methods agree on the same set of dominant predictive signals, a set that includes variations on momentum, liquidity, and volatility. Authors have furnished an Internet Appendix, which is available on the Oxford University Press Web site next to the link to the final published paper online.",
+  "journal": "The Review of Financial Studies",
+  "year": "2020",
+  "ref_dois": [
+   "10.1006/inco.1995.1136",
+   "10.1007/3-540-45014-9_1",
+   "10.1007/978-0-387-84858-7",
+   "10.1007/bf00116037",
+   "10.1007/bf02309007",
+   "10.1007/bf02551274",
+   "10.1007/s11142-013-9231-1",
+   "10.1016/0169-7439(93)85002-x",
+   "10.1016/0304-405x(93)90023-5",
+   "10.1016/0893-6080(89)90020-8",
+   "10.1016/j.jbankfin.2010.06.001",
+   "10.1016/j.jbankfin.2016.07.015",
+   "10.1016/j.jeconom.2015.02.011",
+   "10.1016/j.jfineco.2014.10.010",
+   "10.1016/j.jfineco.2019.05.001",
+   "10.1016/j.jfineco.2019.06.008",
+   "10.1016/s0305-0483(99)00066-3",
+   "10.1016/s0893-6080(03)00138-2",
+   "10.1023/a:1010933404324",
+   "10.1080/07350015.2014.983236",
+   "10.1093/biomet/40.3-4.318",
+   "10.1093/rfs/3.3.431",
+   "10.1093/rfs/hhm014",
+   "10.1093/rfs/hhm046",
+   "10.1093/rfs/hhm055",
+   "10.1093/rfs/hhv059",
+   "10.1093/rfs/hhx019",
+   "10.1093/rfs/hhz123",
+   "10.1109/34.58871",
+   "10.1109/cvpr.2016.90",
+   "10.1109/iccv.2009.5459469",
+   "10.1111/0022-1082.00148",
+   "10.1111/j.1540-6261.1994.tb00081.x",
+   "10.1111/j.1540-6261.2008.01371.x",
+   "10.1111/jofi.12041",
+   "10.1111/jofi.12060",
+   "10.1111/rssb.12166",
+   "10.1146/annurev-financial-102710-144905",
+   "10.1162/neco.2006.18.7.1527",
+   "10.1214/aoms/1177703732",
+   "10.1214/aos/1016218223",
+   "10.1561/104.00000024",
+   "10.2139/ssrn.3307895",
+   "10.2307/2330104",
+   "10.2307/2526245"
+  ],
+  "references": [
+   {
+    "author": "Bishop,",
+    "year": "1995",
+    "volume_title": "Neural networks for pattern recognition"
+   },
+   {
+    "doi": "10.1093/biomet/40.3-4.318"
+   },
+   {
+    "doi": "10.1023/a:1010933404324"
+   },
+   {
+    "author": "Breiman,",
+    "year": "1984",
+    "volume_title": "Classification and regression trees"
+   },
+   {
+    "doi": "10.1016/j.jbankfin.2016.07.015"
+   },
+   {
+    "doi": "10.1093/rfs/hhm055"
+   },
+   {
+    "doi": "10.1093/rfs/hhm046"
+   },
+   {
+    "doi": "10.1007/bf02551274"
+   },
+   {
+    "doi": "10.1016/0169-7439(93)85002-x"
+   },
+   {
+    "doi": "10.1080/07350015.2014.983236"
+   },
+   {
+    "author": "Diebold,",
+    "year": "1995",
+    "article_title": "Comparing Predictive Accuracy",
+    "journal_title": "Journal of Business & Economic Statistics"
+   },
+   {
+    "doi": "10.1007/3-540-45014-9_1"
+   },
+   {
+    "doi": "10.1007/bf02309007"
+   },
+   {
+    "author": "Eldan,",
+    "year": "2016",
+    "article_title": "The power of depth for feedforward neural networks",
+    "volume_title": "29th Annual Conference on Learning Theory"
+   },
+   {
+    "doi": "10.1016/0304-405x(93)90023-5"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2008.01371.x"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2014.10.010"
+   },
+   {
+    "doi": "10.1111/rssb.12166"
+   },
+   {
+    "author": "Feng,",
+    "article_title": "Taming the factor zoo: A test of new factors",
+    "journal_title": "Journal of Finance"
+   },
+   {
+    "doi": "10.1006/inco.1995.1136"
+   },
+   {
+    "doi": "10.1093/rfs/hhz123"
+   },
+   {
+    "author": "Friedman,",
+    "year": "2001",
+    "article_title": "Greedy function approximation: A gradient boosting machine",
+    "journal_title": "Annals of Statistics"
+   },
+   {
+    "doi": "10.1214/aos/1016218223"
+   },
+   {
+    "author": "Giglio,",
+    "year": "2016",
+    "volume_title": "Asset Pricing with Omitted Factors"
+   },
+   {
+    "author": "Glorot,",
+    "year": "2011",
+    "article_title": "Deep Sparse Rectifier Neural Networks",
+    "volume_title": "Proceedings of the Fourteenth International Conference on Artificial Intelligence and Statistics"
+   },
+   {
+    "author": "Goodfellow,",
+    "year": "2016",
+    "volume_title": "Deep learning"
+   },
+   {
+    "doi": "10.1007/s11142-013-9231-1"
+   },
+   {
+    "doi": "10.1093/rfs/hhx019"
+   },
+   {
+    "author": "Gu,",
+    "year": "2019",
+    "volume_title": "Autoencoder asset pricing models"
+   },
+   {
+    "doi": "10.1109/34.58871"
+   },
+   {
+    "doi": "10.1111/0022-1082.00148"
+   },
+   {
+    "author": "Harvey,",
+    "year": "2016",
+    "volume_title": "Lucky factors"
+   },
+   {
+    "doi": "10.1093/rfs/hhv059"
+   },
+   {
+    "doi": "10.1007/978-0-387-84858-7"
+   },
+   {
+    "doi": "10.1109/cvpr.2016.90"
+   },
+   {
+    "author": "Heaton,",
+    "year": "2016",
+    "journal_title": "Deep learning in finance"
+   },
+   {
+    "doi": "10.1162/neco.2006.18.7.1527"
+   },
+   {
+    "doi": "10.1016/0893-6080(89)90020-8"
+   },
+   {
+    "doi": "10.1214/aoms/1177703732"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1994.tb00081.x"
+   },
+   {
+    "author": "Ioffe,",
+    "year": "2015",
+    "article_title": "Batch normalization: Accelerating deep network training by reducing internal covariate shift",
+    "volume_title": "Proceedings of the 32nd International Conference on International Conference on Machine Learning"
+   },
+   {
+    "author": "Jaggi,",
+    "year": "2013",
+    "article_title": "An equivalence between the lasso and support vector machines",
+    "volume_title": "Regularization, optimization, kernels, and support vector machines"
+   },
+   {
+    "doi": "10.1109/iccv.2009.5459469"
+   },
+   {
+    "doi": "10.1111/jofi.12060"
+   },
+   {
+    "doi": "10.1016/j.jeconom.2015.02.011"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2019.05.001"
+   },
+   {
+    "doi": "10.1016/j.jbankfin.2010.06.001"
+   },
+   {
+    "author": "Kingma,",
+    "year": "2014",
+    "journal_title": "Adam: A method for stochastic optimization"
+   },
+   {
+    "doi": "10.1146/annurev-financial-102710-144905"
+   },
+   {
+    "doi": "10.2139/ssrn.3307895"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2019.06.008"
+   },
+   {
+    "doi": "10.1561/104.00000024"
+   },
+   {
+    "doi": "10.1093/rfs/3.3.431"
+   },
+   {
+    "author": "Masters,",
+    "year": "1993",
+    "volume_title": "Practical neural network recipes in C++"
+   },
+   {
+    "author": "Moritz,",
+    "year": "2016",
+    "volume_title": "Tree-based conditional portfolio sorts: The relation between past and future stock returns"
+   },
+   {
+    "author": "Nair,",
+    "year": "2010",
+    "article_title": "Rectified linear units improve restricted boltzmann machines",
+    "volume_title": "Proceedings of the 27th International Conference on Machine Learning (ICML-10)"
+   },
+   {
+    "author": "Rapach,",
+    "year": "2013",
+    "article_title": "Forecasting stock returns",
+    "volume_title": "Handbook of economic forecasting"
+   },
+   {
+    "doi": "10.1111/jofi.12041"
+   },
+   {
+    "doi": "10.2307/2330104"
+   },
+   {
+    "doi": "10.1007/bf00116037"
+   },
+   {
+    "author": "Sirignano,",
+    "year": "2016",
+    "volume_title": "Deep Learning for Mortgage Risk"
+   },
+   {
+    "author": "Tukey,",
+    "year": "1960",
+    "article_title": "A survey of sampling from contaminated distributions",
+    "volume_title": "Contributions to probability and statistics"
+   },
+   {
+    "doi": "10.1093/rfs/hhm014"
+   },
+   {
+    "doi": "10.2307/2526245"
+   },
+   {
+    "doi": "10.1016/s0893-6080(03)00138-2"
+   },
+   {
+    "doi": "10.1016/s0305-0483(99)00066-3"
+   }
+  ]
+ },
+ "10.1016/j.jeconom.2020.07.009": {
+  "title": "Autoencoder asset pricing models",
+  "abstract": "",
+  "journal": "Journal of Econometrics",
+  "year": "2021",
+  "ref_dois": [
+   "10.1007/bf00332918",
+   "10.1016/0022-0531(76)90046-6",
+   "10.1016/0304-405x(86)90027-9",
+   "10.1016/0304-405x(93)90023-5",
+   "10.1016/0893-6080(89)90014-2",
+   "10.1016/j.jeconom.2015.02.011",
+   "10.1016/j.jeconom.2017.08.015",
+   "10.1016/j.jfineco.2019.05.001",
+   "10.1016/j.spl.2010.08.005",
+   "10.1086/250059",
+   "10.1093/rfs/hhaa009",
+   "10.1111/1468-0262.00273",
+   "10.1111/1468-0262.00392",
+   "10.1111/j.1540-6261.2004.00670.x",
+   "10.1111/jofi.12612",
+   "10.1111/jofi.12615",
+   "10.1126/science.1127647",
+   "10.1162/rest_a_00043",
+   "10.1198/016214506000001275",
+   "10.1198/073500102317351921",
+   "10.1198/073500106000000585",
+   "10.1198/jbes.2009.07239",
+   "10.1214/15-aos1364",
+   "10.1257/aer.103.2.732",
+   "10.2139/ssrn.3307895",
+   "10.2307/1912275",
+   "10.3982/ecta11069",
+   "10.3982/ecta7432",
+   "10.3982/ecta8968"
+  ],
+  "references": [
+   {
+    "doi": "10.3982/ecta8968"
+   },
+   {
+    "doi": "10.1016/j.jeconom.2017.08.015"
+   },
+   {
+    "doi": "10.1016/j.spl.2010.08.005"
+   },
+   {
+    "doi": "10.1198/073500106000000585"
+   },
+   {
+    "doi": "10.1111/1468-0262.00392"
+   },
+   {
+    "doi": "10.1111/1468-0262.00273"
+   },
+   {
+    "author": "Bai",
+    "year": "2017",
+    "series_title": "Principal Components and Regularized Estimation of Factor Models"
+   },
+   {
+    "doi": "10.1016/0893-6080(89)90014-2"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2004.00670.x"
+   },
+   {
+    "doi": "10.1007/bf00332918"
+   },
+   {
+    "doi": "10.1086/250059"
+   },
+   {
+    "doi": "10.2307/1912275"
+   },
+   {
+    "doi": "10.3982/ecta7432"
+   },
+   {
+    "doi": "10.1016/0304-405x(86)90027-9"
+   },
+   {
+    "doi": "10.1016/0304-405x(93)90023-5"
+   },
+   {
+    "doi": "10.1214/15-aos1364"
+   },
+   {
+    "author": "Feng",
+    "year": "2019",
+    "article_title": "Taming the factor zoo: A test of new factors",
+    "journal_title": "J. Finance"
+   },
+   {
+    "author": "Feng",
+    "year": "2019",
+    "series_title": "Deep Learning in Asset Pricing"
+   },
+   {
+    "author": "Freyberger",
+    "year": "2017",
+    "series_title": "Dissecting Characteristics Nonparametrically"
+   },
+   {
+    "doi": "10.3982/ecta11069"
+   },
+   {
+    "author": "Gallinari",
+    "year": "1987",
+    "article_title": "Memoires associatives distribuees",
+    "journal_title": "Proc. COGNITIVA"
+   },
+   {
+    "author": "Giglio",
+    "year": "2018",
+    "series_title": "Asset Pricing with Omitted Factors"
+   },
+   {
+    "author": "Goodfellow",
+    "year": "2016",
+    "series_title": "Deep Learning"
+   },
+   {
+    "doi": "10.1093/rfs/hhaa009"
+   },
+   {
+    "doi": "10.1198/016214506000001275"
+   },
+   {
+    "doi": "10.1257/aer.103.2.732"
+   },
+   {
+    "doi": "10.1126/science.1127647"
+   },
+   {
+    "author": "Hinton",
+    "year": "1994",
+    "article_title": "Autoencoders, minimum description length and Helmholtz free energy",
+    "series_title": "Advances in Neural Information Processing Systems"
+   },
+   {
+    "author": "Ioffe",
+    "year": "2015",
+    "article_title": "Batch normalization: Accelerating deep network training by reducing internal covariate shift",
+    "journal_title": "Int. Conf. Mach. Learn."
+   },
+   {
+    "doi": "10.1198/jbes.2009.07239"
+   },
+   {
+    "doi": "10.1016/j.jeconom.2015.02.011"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2019.05.001"
+   },
+   {
+    "author": "Kingma",
+    "year": "2014",
+    "series_title": "Adam: A method for stochastic optimization"
+   },
+   {
+    "doi": "10.2139/ssrn.3307895"
+   },
+   {
+    "author": "Kozak",
+    "year": "2017",
+    "series_title": "Shrinking the Cross Section"
+   },
+   {
+    "doi": "10.1111/jofi.12612"
+   },
+   {
+    "author": "Moon",
+    "year": "2018",
+    "series_title": "Nuclear Norm Regularized Estimation of Panel Regression Models"
+   },
+   {
+    "doi": "10.1162/rest_a_00043"
+   },
+   {
+    "doi": "10.1111/jofi.12615"
+   },
+   {
+    "doi": "10.1016/0022-0531(76)90046-6"
+   },
+   {
+    "author": "Santos",
+    "year": "2004",
+    "series_title": "Conditional Betas"
+   },
+   {
+    "doi": "10.1198/073500102317351921"
+   }
+  ]
+ },
+ "10.1111/mafi.12382": {
+  "title": "Recent advances in reinforcement learning in finance",
+  "abstract": "The rapid changes in the finance industry due to the increasing amount of data have revolutionized the techniques on data processing and data analysis and brought new theoretical and computational challenges. In contrast to classical stochastic control theory and other analytical approaches for solving financial decision‐making problems that heavily reply on model assumptions, new developments from reinforcement learning (RL) are able to make full use of the large amount of financial data with fewer model assumptions and to improve decisions in complex financial environments. This survey paper aims to review the recent developments and use of RL approaches in finance. We give an introduction to Markov decision processes, which is the setting for many of the commonly used RL approaches. Various algorithms are then introduced with a focus on value‐ and policy‐based methods that do not require any model assumptions. Connections are made with neural networks to extend the framework to encompass deep RL algorithms. We then discuss in detail the application of these RL algorithms in a variety of decision‐making problems in finance, including optimal execution, portfolio optimization, option pricing and hedging, market making, smart order routing, and robo‐advising. Our survey concludes by pointing out a few possible future directions for research.",
+  "journal": "Mathematical Finance",
+  "year": "2023",
+  "ref_dois": [
+   "10.1002/(sici)1099-131x(1998090)17:5/6<441::aid-for707>3.0.co;2-#",
+   "10.1002/asmb.501",
+   "10.1007/11564096_32",
+   "10.1007/978-3-030-41068-1",
+   "10.1007/978-3-030-59410-7_42",
+   "10.1007/978-3-540-72927-3_23",
+   "10.1007/978-3-642-34106-9_26",
+   "10.1007/978-88-470-1766-5_5",
+   "10.1007/978-94-015-3711-7",
+   "10.1007/978-981-13-8285-7_10",
+   "10.1007/bf00114723",
+   "10.1007/bf00992696",
+   "10.1007/bf00992698",
+   "10.1007/bf00992699",
+   "10.1007/s002450010003",
+   "10.1007/s10614-021-10119-4",
+   "10.1007/s10994-013-5368-1",
+   "10.1007/s11579-010-0027-9",
+   "10.1007/s11579-012-0087-0",
+   "10.1007/s11579-016-0174-8",
+   "10.1016/0304-405x(74)90009-9",
+   "10.1016/0304-405x(79)90015-1",
+   "10.1016/b978-0-12-780850-5.50044-7",
+   "10.1016/b978-0-444-52936-7.50016-1",
+   "10.1016/j.engappai.2020.103919",
+   "10.1016/j.eswa.2018.02.032",
+   "10.1016/j.eswa.2018.09.036",
+   "10.1016/j.eswa.2020.113573",
+   "10.1016/j.finmar.2012.09.001",
+   "10.1016/j.neucom.2007.11.026",
+   "10.1016/j.sysconle.2010.08.013",
+   "10.1016/j.sysconle.2012.08.014",
+   "10.1023/a:1017940631555",
+   "10.1023/a:1017984413808",
+   "10.1038/nature14236",
+   "10.1038/s41586-019-1724-z",
+   "10.1080/03610926.2019.1636999",
+   "10.1080/1350486x.2020.1714455",
+   "10.1080/14697680701381228",
+   "10.1080/14697688.2010.539248",
+   "10.1080/14697688.2012.708779",
+   "10.1080/14697688.2016.1190030",
+   "10.1080/14697688.2019.1571683",
+   "10.1080/14697688.2019.1622302",
+   "10.1080/14697688.2020.1730426",
+   "10.1080/14697688.2020.1806343",
+   "10.1080/14697688.2021.2001032",
+   "10.1080/713665670",
+   "10.1086/260062",
+   "10.1086/294846",
+   "10.1086/295078",
+   "10.1090/s0002-9904-1952-09620-8",
+   "10.1093/jjfinec/nbz040",
+   "10.1093/rfs/14.1.113",
+   "10.1093/rfs/6.2.327",
+   "10.1093/rfs/hhq028",
+   "10.1109/acc.2009.5160611",
+   "10.1109/access.2021.3074782",
+   "10.1109/cifer.2014.6924100",
+   "10.1109/cifer.2014.6924109",
+   "10.1109/icmla52953.2021.00063",
+   "10.1109/tkde.2009.191",
+   "10.1109/tnnls.2016.2522401",
+   "10.1109/trustcom/bigdatase.2018.00253",
+   "10.1111/1467-9965.00100",
+   "10.1111/j.1467-9965.2007.00317.x",
+   "10.1111/j.1540-6261.1952.tb01525.x",
+   "10.1111/j.1540-6261.1971.tb00924.x",
+   "10.1111/j.1540-6261.1985.tb02383.x",
+   "10.1111/j.1540-6261.1989.tb02654.x",
+   "10.1111/mafi.12281",
+   "10.1137/110850475",
+   "10.1137/19m1288012",
+   "10.1137/20m1382386",
+   "10.1137/21m144640x",
+   "10.1137/s0036144500376650",
+   "10.1142/10739",
+   "10.1145/1102351.1102459",
+   "10.1145/1143844.1143929",
+   "10.1145/1735223.1735247",
+   "10.1145/3383455.3422519",
+   "10.1145/3383455.3422570",
+   "10.1145/3490354.3494366",
+   "10.1145/3490354.3494398",
+   "10.1162/153244303765208377",
+   "10.1162/jmlr.2003.4.6.1107",
+   "10.1162/neco_a_00600",
+   "10.1214/20-sts783",
+   "10.1287/mnsc.1040.0275",
+   "10.1287/mnsc.2015.2316",
+   "10.1287/mnsc.2021.4014",
+   "10.1287/moor.2021.1193",
+   "10.1515/9781400830213",
+   "10.1561/2200000071",
+   "10.1609/aaai.v30i1.10295",
+   "10.1609/aaai.v32i1.12079",
+   "10.1609/aaai.v34i04.6021",
+   "10.1609/aaai.v35i12.17252",
+   "10.1609/aaai.v35i12.17300",
+   "10.1613/jair.1.11478",
+   "10.1613/jair.3912",
+   "10.21314/jor.2001.041",
+   "10.2139/ssrn.1694759",
+   "10.2139/ssrn.2684523",
+   "10.2139/ssrn.2695382",
+   "10.2139/ssrn.3261050",
+   "10.2139/ssrn.3428125",
+   "10.2139/ssrn.3543852",
+   "10.2139/ssrn.3646753",
+   "10.2139/ssrn.3756587",
+   "10.2139/ssrn.3812473",
+   "10.2139/ssrn.3847272",
+   "10.2139/ssrn.3848428",
+   "10.2139/ssrn.3969101",
+   "10.2139/ssrn.4253139",
+   "10.2307/2295722",
+   "10.2307/2332286",
+   "10.2307/3003143",
+   "10.24963/ijcai.2020/627",
+   "10.24963/ijcai.2020/633",
+   "10.3390/data4030110",
+   "10.3390/math8101640",
+   "10.3905/jfds.2019.1.1.159",
+   "10.3905/jfds.2020.1.030",
+   "10.3905/jfds.2020.1.045",
+   "10.3905/jfds.2020.1.052",
+   "10.3905/jod.2020.1.108",
+   "10.3905/joi.3.3.59",
+   "10.3905/jpm.1988.409150",
+   "10.4018/978-1-60566-766-9.ch011"
+  ],
+  "references": [
+   {
+    "unstructured": "Abbasi‐Yadkori Y. Bartlett P. Bhatia K. Lazic N. Szepesvari C. &Weisz G.(2019).Politex: Regret bounds for policy iteration using expert prediction. InInternational conference on machine learning(pp. 3692–3702). PMLR."
+   },
+   {
+    "unstructured": "Abernethy J. D. &Kale S.(2013).Adaptive market making via online learning. InNIPS(pp. 2058–2066). Citeseer."
+   },
+   {
+    "doi": "10.1080/14697688.2021.2001032"
+   },
+   {
+    "unstructured": "Achiam J. Held D. Tamar A. &Abbeel P.(2017).Constrained policy optimization. InInternational conference on machine learning(pp. 22–31). PMLR."
+   },
+   {
+    "unstructured": "Agarwal A. Bartlett P. &Dama M.(2010).Optimal allocation strategies for the dark pool problem. InProceedings of the thirteenth international conference on artificial intelligence and statistics(pp. 9–16). JMLR Workshop and Conference Proceedings."
+   },
+   {
+    "unstructured": "Agarwal A. Kakade S. &Yang L. F.(2020).Model‐based reinforcement learning with a generative model is minimax optimal. InConference on learning theory(pp. 67–83). PMLR."
+   },
+   {
+    "author": "Agarwal A.",
+    "year": "2021",
+    "article_title": "On the theory of policy gradient methods: Optimality, approximation, and distribution shift",
+    "journal_title": "Journal of Machine Learning Research"
+   },
+   {
+    "doi": "10.21314/jor.2001.041"
+   },
+   {
+    "doi": "10.1093/jjfinec/nbz040"
+   },
+   {
+    "unstructured": "Asadi K. &Littman M. L.(2017).An alternative softmax operator for reinforcement learning. InInternational conference on machine learning(pp. 243–252). PMLR."
+   },
+   {
+    "doi": "10.1080/14697680701381228"
+   },
+   {
+    "unstructured": "Azar M. G. Munos R. &Kappen B.(2012).On the sample complexity of reinforcement learning with a generative model.arXiv preprint arXiv:1206.6461 1707–1714."
+   },
+   {
+    "doi": "10.1007/s10994-013-5368-1"
+   },
+   {
+    "unstructured": "Azar M. G. Osband I. &Munos R.(2017).Minimax regret bounds for reinforcement learning. InInternational conference on machine learning(pp. 263–272). PMLR."
+   },
+   {
+    "unstructured": "Baldacci B. &Manziuk I.(2020).Adaptive trading strategies across liquidity pools.arXiv preprint arXiv:2008.07807."
+   },
+   {
+    "unstructured": "Baldacci B. Manziuk I. Mastrolia T. &Rosenbaum M.(2019).Market making and incentives design in the presence of a dark pool: A deep reinforcement learning approach.arXiv preprint arXiv:1912.01129."
+   },
+   {
+    "unstructured": "Bao W. &Liu X.‐y.(2019).Multi‐agent deep reinforcement learning for liquidation strategy analysis.arXiv preprint arXiv:1906.11046."
+   },
+   {
+    "doi": "10.1093/rfs/hhq028"
+   },
+   {
+    "doi": "10.2139/ssrn.3848428"
+   },
+   {
+    "doi": "10.1016/j.sysconle.2012.08.014"
+   },
+   {
+    "doi": "10.1613/jair.3912"
+   },
+   {
+    "doi": "10.1007/978-94-015-3711-7"
+   },
+   {
+    "unstructured": "Bhandari J. &Russo D.(2019).Global optimality guarantees for policy gradient methods.arXiv preprint arXiv:1906.01786."
+   },
+   {
+    "unstructured": "Bhandari J. Russo D. &Singal R.(2018).A finite time analysis of temporal difference learning with linear function approximation. InConference on learning theory(pp. 1691–1692). PMLR."
+   },
+   {
+    "doi": "10.1016/j.sysconle.2010.08.013"
+   },
+   {
+    "doi": "10.2139/ssrn.1694759"
+   },
+   {
+    "doi": "10.1086/260062"
+   },
+   {
+    "doi": "10.1007/bf00114723"
+   },
+   {
+    "doi": "10.1162/153244303765208377"
+   },
+   {
+    "doi": "10.1287/mnsc.1040.0275"
+   },
+   {
+    "doi": "10.1080/14697688.2019.1571683"
+   },
+   {
+    "unstructured": "Cai Q. Yang Z. Lee J. &Wang Z.(2019).Neural temporal‐difference learning converges to global optima. InAdvances in neural information processing systems."
+   },
+   {
+    "doi": "10.1515/9781400830213"
+   },
+   {
+    "unstructured": "Cannelli L. Nuti G. Sala M. &Szehr O.(2020).Hedging using reinforcement learning: Contextualk‐armed bandit versus Q‐learning.arXiv preprint arXiv:2007.01623."
+   },
+   {
+    "doi": "10.3905/jfds.2020.1.052"
+   },
+   {
+    "doi": "10.1287/mnsc.2021.4014"
+   },
+   {
+    "doi": "10.1080/14697688.2020.1806343"
+   },
+   {
+    "author": "Cartea Á.",
+    "year": "2015",
+    "volume_title": "Algorithmic and high‐frequency trading"
+   },
+   {
+    "doi": "10.2139/ssrn.3812473"
+   },
+   {
+    "unstructured": "Cayci S. Satpathi S. He N. &Srikant R.(2021). Sample complexity and overparameterization bounds for projection‐free neural TD learning.arXiv preprint arXiv:2103.01391."
+   },
+   {
+    "unstructured": "Cen S. Cheng C. Chen Y. Wei Y. &Chi Y.(2020).Fast global convergence of natural policy gradient methods with entropy regularization.arXiv preprint arXiv:2007.06558."
+   },
+   {
+    "doi": "10.1080/14697688.2010.539248"
+   },
+   {
+    "author": "Chan N. T.",
+    "year": "2001",
+    "volume_title": "An electronic market‐maker"
+   },
+   {
+    "doi": "10.1007/s10614-021-10119-4"
+   },
+   {
+    "unstructured": "Chen J. &Jiang N.(2019).Information‐theoretic considerations in batch reinforcement learning. InInternational conference on machine learning(pp. 1042–1051). PMLR."
+   },
+   {
+    "doi": "10.2139/ssrn.3261050"
+   },
+   {
+    "unstructured": "Cheung W. C. Simchi‐Levi D. &Zhu R.(2020).Reinforcement learning for non‐stationary Markov decision processes: The blessing of (more) optimism. InInternational conference on machine learning(pp. 1843–1854). PMLR."
+   },
+   {
+    "author": "Chow Y.",
+    "year": "2017",
+    "article_title": "Risk‐constrained reinforcement learning with percentile risk criteria",
+    "journal_title": "The Journal of Machine Learning Research"
+   },
+   {
+    "unstructured": "Chow Y. Tamar A. Mannor S. &Pavone M.(2015).Risk‐sensitive and robust decision‐making: A CVaR optimization approach. InNIPS'15(pp. 1522–1530). MIT Press."
+   },
+   {
+    "unstructured": "Coache A. &Jaimungal S.(2021).Reinforcement learning with dynamic convex risk measures.arXiv preprint arXiv:2112.13414."
+   },
+   {
+    "unstructured": "Cong L. W. Tang K. Wang J. &Zhang Y.(2021).Alphaportfolio: Direct construction through deep reinforcement learning and interpretable ai.SSRN Electronic Journal.https://doi.org/10.2139/ssrn"
+   },
+   {
+    "doi": "10.1080/713665670"
+   },
+   {
+    "doi": "10.1080/14697688.2016.1190030"
+   },
+   {
+    "doi": "10.1016/0304-405x(79)90015-1"
+   },
+   {
+    "unstructured": "Dabérius K. Granat E. &Karlsson P.(2019).Deep execution‐value and policy based reinforcement learning for trading and beating market benchmarks.Available at SSRN 3374766."
+   },
+   {
+    "unstructured": "Dabney W. Ostrovski G. &Barreto A.(2020).Temporally‐extended ε‐greedy exploration.arXiv preprint arXiv:2006.01782."
+   },
+   {
+    "unstructured": "Dai B. Shaw A. Li L. Xiao L. He N. Liu Z. Chen J. &Song L.(2018).SBEED: Convergent reinforcement learning with nonlinear function approximation. InInternational conference on machine learning(pp. 1125–1134). PMLR."
+   },
+   {
+    "doi": "10.1609/aaai.v32i1.12079"
+   },
+   {
+    "unstructured": "Dann C. &Brunskill E.(2015).Sample complexity of episodic fixed‐horizon reinforcement learning. InNIPS'15(pp. 2818–2826). MIT Press."
+   },
+   {
+    "unstructured": "Dann C. Lattimore T. &Brunskill E.(2017).Unifying PAC and regret: Uniform PAC bounds for episodic reinforcement learning. InProceedings of the 31st international conference on neural information processing systems NIPS'17 (pp. 5717–5727)."
+   },
+   {
+    "unstructured": "Dann C. Mansour Y. Mohri M. Sekhari A. &Sridharan K.(2022).Guarantees for epsilon‐Greedy reinforcement learning with function approximation. InInternational conference on machine learning(pp. 4666–4689). PMLR."
+   },
+   {
+    "doi": "10.1109/tnnls.2016.2522401"
+   },
+   {
+    "unstructured": "Ding D. Wei X. Yang Z. Wang Z. &Jovanovic M.(2021).Provably efficient safe exploration via primal‐dual policy optimization. InInternational conference on artificial intelligence and statistics(pp. 3304–3312). PMLR."
+   },
+   {
+    "doi": "10.2139/ssrn.3543852"
+   },
+   {
+    "doi": "10.1007/978-3-030-41068-1"
+   },
+   {
+    "doi": "10.3905/jfds.2020.1.045"
+   },
+   {
+    "author": "Du X.",
+    "year": "2016",
+    "article_title": "Algorithm trading using Q‐learning and recurrent reinforcement learning",
+    "journal_title": "Positions"
+   },
+   {
+    "doi": "10.2139/ssrn.2684523"
+   },
+   {
+    "unstructured": "Eriksson H. &Dimitrakakis C.(2019).Epistemic risk‐sensitive reinforcement learning.arXiv preprint arXiv:1906.06273."
+   },
+   {
+    "author": "Even‐Dar E.",
+    "year": "2003",
+    "article_title": "Learning rates for Q‐learning",
+    "journal_title": "Journal of Machine Learning Research"
+   },
+   {
+    "doi": "10.1214/20-sts783"
+   },
+   {
+    "unstructured": "Fan J. Wang Z. Xie Y. &Yang Z.(2020).A theoretical analysis of deep Q‐learning. InLearning for dynamics and control(pp. 486–489). PMLR."
+   },
+   {
+    "unstructured": "Farahmand A. M. Ghavamzadeh M. Szepesvàri C. &Mannor S.(2008).Regularized policy iteration. InAdvances in neural information processing systems 21 ‐ Proceedings of the 2008 conference(pp. 441–448)."
+   },
+   {
+    "unstructured": "Fazel M. Ge R. Kakade S. M. &Mesbahi M.(2018).Global convergence of policy gradient methods for the linear quadratic regulator. InInternational conference on machine learning(pp. 1467–1476). PMLR."
+   },
+   {
+    "unstructured": "Fei Y. Yang Z. Chen Y. Wang Z. &Xie Q.(2020).Risk‐sensitive reinforcement learning: Near‐optimal risk‐sample tradeoff in regret. InNeurIPS."
+   },
+   {
+    "doi": "10.2139/ssrn.2695382"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1989.tb02654.x"
+   },
+   {
+    "author": "Fischer T. G.",
+    "year": "2018",
+    "volume_title": "Reinforcement learning in financial markets—a survey"
+   },
+   {
+    "doi": "10.1561/2200000071"
+   },
+   {
+    "doi": "10.1613/jair.1.11478"
+   },
+   {
+    "unstructured": "Fu Z. Yang Z. &Wang Z.(2021).Single‐timescale actor‐critic provably finds globally optimal policy. InInternational conference on learning representations."
+   },
+   {
+    "unstructured": "Gajane P. Ortner R. &Auer P.(2018).A sliding‐window algorithm for Markov decision processes with arbitrarily changing rewards and transitions.arXiv preprint arXiv:1805.10066."
+   },
+   {
+    "doi": "10.1145/1735223.1735247"
+   },
+   {
+    "unstructured": "Ganesh S. Vadori N. Xu M. Zheng H. Reddy P. &Veloso M.(2019).Reinforcement learning for market making in a multi‐agent dealer market.arXiv preprint arXiv:1911.05892."
+   },
+   {
+    "unstructured": "Gao X. Xu Z. Q. &Zhou X. Y.(2020).State‐dependent temperature control for langevin diffusions.arXiv preprint arXiv:2011.07456."
+   },
+   {
+    "unstructured": "Gao Z. Han Y. Ren Z. &Zhou Z.(2019).Batched multi‐armed bandits problem. InAdvances in Neural Information Processing Systems(Vol. 32)."
+   },
+   {
+    "unstructured": "Garcelon E. Ghavamzadeh M. Lazaric A. &Pirotta M.(2020).Conservative exploration in reinforcement learning. InInternational conference on artificial intelligence and statistics(pp. 1431–1441). PMLR."
+   },
+   {
+    "doi": "10.1109/access.2021.3074782"
+   },
+   {
+    "unstructured": "Geist M. Scherrer B. &Pietquin O.(2019).A theory of regularized Markov decision processes. InInternational conference on machine learning(pp. 2160–2169). PMLR."
+   },
+   {
+    "doi": "10.2139/ssrn.3847272"
+   },
+   {
+    "author": "Goodfellow I.",
+    "year": "2016",
+    "volume_title": "Deep learning"
+   },
+   {
+    "unstructured": "Goodfellow I. Pouget‐Abadie J. Mirza M. Xu B. Warde‐Farley D. Ozair S. Courville A. &Bengio Y.(2014).Generative adversarial nets.Advances in Neural Information Processing Systems(Vol. 27)."
+   },
+   {
+    "unstructured": "Goodfellow I. Warde‐Farley D. Mirza M. Courville A. &Bengio Y.(2013).Maxout networks. InInternational conference on machine learning(pp. 1319–1327). PMLR."
+   },
+   {
+    "unstructured": "Gopalan A. &Mannor S.(2015).Thompson sampling for learning parameterized Markov decision processes. InConference on learning theory(pp. 861–898). PMLR."
+   },
+   {
+    "unstructured": "Gordon G. J.(1996).Stable fitted reinforcement learning. InAdvances in neural information processing systems(pp. 1052–1058)."
+   },
+   {
+    "unstructured": "Grau‐Moya J. Leibfried F. &Vrancx P.(2018).Soft Q‐learning with mutual‐information regularization. InInternational conference on learning representations."
+   },
+   {
+    "author": "Grinold R. C.",
+    "year": "2000",
+    "volume_title": "Active portfolio management"
+   },
+   {
+    "unstructured": "Gu S. Lillicrap T. Sutskever I. &Levine S.(2016).Continuous deep Q‐learning with model‐based acceleration. InInternational conference on machine learning(pp. 2829–2838). PMLR."
+   },
+   {
+    "doi": "10.1137/110850475"
+   },
+   {
+    "doi": "10.1007/s11579-012-0087-0"
+   },
+   {
+    "doi": "10.1080/1350486x.2020.1714455"
+   },
+   {
+    "doi": "10.1080/14697688.2012.708779"
+   },
+   {
+    "unstructured": "Guo X. Hu A. &Zhang Y.(2021).Reinforcement learning for linear‐convex models with jumps via stability analysis of feedback controls.arXiv preprint arXiv:2104.09311."
+   },
+   {
+    "unstructured": "Haarnoja T. Tang H. Abbeel P. &Levine S.(2017).Reinforcement learning with deep energy‐based policies. InInternational conference on machine learning(pp. 1352–1361). PMLR."
+   },
+   {
+    "unstructured": "Haarnoja T. Zhou A. Abbeel P. &Levine S.(2018).Soft actor‐critic: Off‐policy maximum entropy deep reinforcement learning with a stochastic actor. InInternational conference on machine learning(pp. 1861–1870). PMLR."
+   },
+   {
+    "unstructured": "Haarnoja T. Zhou A. Hartikainen K. Tucker G. Ha S. Tan J. Kumar V. Zhu H. Gupta A. Abbeel P. &Levine S.(2018).Soft actor‐critic algorithms and applications.arXiv preprint arXiv:1812.05905."
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1971.tb00924.x"
+   },
+   {
+    "doi": "10.1080/14697688.2019.1622302"
+   },
+   {
+    "doi": "10.3905/jod.2020.1.108"
+   },
+   {
+    "doi": "10.1137/20m1382386"
+   },
+   {
+    "unstructured": "Hasselt H.(2010).Double Q‐learning. InAdvances in Neural Information Processing Systems(Vol. 23 pp. 2613–2621."
+   },
+   {
+    "doi": "10.1109/cifer.2014.6924109"
+   },
+   {
+    "author": "Henrotte P.",
+    "year": "1993",
+    "volume_title": "Transaction costs and duplication strategies"
+   },
+   {
+    "doi": "10.1093/rfs/6.2.327"
+   },
+   {
+    "doi": "10.1002/asmb.501"
+   },
+   {
+    "unstructured": "Ian O. Benjamin V. R. &Daniel R.(2013).(More) Efficient reinforcement learning via posterior sampling. InProceedings of the 26th international conference on neural information processing systems NIPS'13 (Vol. 2 pp. 3003–3011)."
+   },
+   {
+    "doi": "10.1137/21m144640x"
+   },
+   {
+    "doi": "10.1016/j.eswa.2018.09.036"
+   },
+   {
+    "doi": "10.2139/ssrn.3969101"
+   },
+   {
+    "author": "Jia Y.",
+    "year": "2022",
+    "article_title": "Policy evaluation and temporal‐difference learning in continuous time and space: A martingale approach",
+    "journal_title": "Journal of Machine Learning Research"
+   },
+   {
+    "doi": "10.2139/ssrn.3756587"
+   },
+   {
+    "unstructured": "Jiang Z. Xu D. &Liang J.(2017).A deep reinforcement learning framework for the financial portfolio management problem.arXiv preprint arXiv:1706.10059."
+   },
+   {
+    "unstructured": "Jin C. Allen‐Zhu Z. Bubeck S. &Jordan M. I.(2018).Is Q‐learning provably efficient?InAdvances in neural information processing systems(Vol. 31)."
+   },
+   {
+    "unstructured": "Jin C. Yang Z. Wang Z. &Jordan M. I.(2020).Provably efficient reinforcement learning with linear function approximation. InConference on learning theory(pp. 2137–2143). PMLR."
+   },
+   {
+    "unstructured": "Kakade S. M.(2001).A natural policy gradient. InAdvances in neural information processing systems(Vol. 14)."
+   },
+   {
+    "doi": "10.1145/3383455.3422570"
+   },
+   {
+    "doi": "10.1287/mnsc.2015.2316"
+   },
+   {
+    "doi": "10.1023/a:1017984413808"
+   },
+   {
+    "unstructured": "Kingma D. P. &Ba J.(2015).Adam: A method for stochastic optimization. InProceedings of the 3rd international conference on learning representations (ICLR)."
+   },
+   {
+    "doi": "10.1111/j.1467-9965.2007.00317.x"
+   },
+   {
+    "unstructured": "Koenig S. &Simmons R. G.(1993).Complexity analysis of real‐time reinforcement learning. InAAAI(pp. 99–107)."
+   },
+   {
+    "doi": "10.3905/jfds.2019.1.1.159"
+   },
+   {
+    "author": "Kolm P. N.",
+    "year": "2020",
+    "article_title": "Modern perspectives on reinforcement learning in finance",
+    "journal_title": "The Journal of Machine Learning in Finance"
+   },
+   {
+    "author": "Konda V.",
+    "year": "2002",
+    "volume_title": "Actor‐critic algorithms"
+   },
+   {
+    "unstructured": "Konda V. R. &Tsitsiklis J. N.(2000).Actor‐critic algorithms. InAdvances in neural information processing systems(pp. 1008–1014)."
+   },
+   {
+    "doi": "10.1007/s11579-010-0027-9"
+   },
+   {
+    "unstructured": "Kumar H. Koppel A. &Ribeiro A.(2019).On the sample complexity of actor‐critic method for reinforcement learning with function approximation.arXiv preprint arXiv:1910.08412."
+   },
+   {
+    "doi": "10.1162/jmlr.2003.4.6.1107"
+   },
+   {
+    "unstructured": "Lakshminarayanan C. &Szepesvari C.(2018).Linear stochastic approximation: How far does constant step‐size and iterate averaging go?InInternational conference on artificial intelligence and statistics(pp. 1347–1355). PMLR."
+   },
+   {
+    "doi": "10.1007/978-3-642-34106-9_26"
+   },
+   {
+    "unstructured": "Lattimore T. Szepesvari C. &Weisz G.(2020).Learning with good feature representations in bandits and in RL with a generative model. InInternational conference on machine learning(pp. 5662–5670). PMLR."
+   },
+   {
+    "unstructured": "Leal L. Laurière M. &Lehalle C.‐A.(2020).Learning a functional control for high‐frequency finance.arXiv preprint arXiv:2006.09611."
+   },
+   {
+    "unstructured": "LeCun Y. &Bengio Y.(1995).Convolutional networks for images speech and time series. InThe handbook of brain theory and neural networks(Vol. 3361). MIT Press."
+   },
+   {
+    "doi": "10.1142/10739"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1985.tb02383.x"
+   },
+   {
+    "doi": "10.1111/1467-9965.00100"
+   },
+   {
+    "author": "Li L.",
+    "year": "2009",
+    "volume_title": "A unifying framework for computational reinforcement learning theory"
+   },
+   {
+    "unstructured": "Li Y. Szepesvari C. &Schuurmans D.(2009).Learning exercise policies for American options. InArtificial intelligence and statistics(pp. 352–359). PMLR."
+   },
+   {
+    "unstructured": "Liang Z. Chen H. Zhu J. Jiang K. &Li Y.(2018).Adversarial deep reinforcement learning in portfolio management.arXiv preprint arXiv:1808.09940."
+   },
+   {
+    "unstructured": "Lillicrap T. P. Hunt J. J. Pritzel A. Heess N. Erez T. Tassa Y. Silver D. &Wierstra D.(2016).Continuous control with deep reinforcement learning. In4th international conference on learning representations (ICLR)."
+   },
+   {
+    "doi": "10.1007/bf00992699"
+   },
+   {
+    "doi": "10.24963/ijcai.2020/627"
+   },
+   {
+    "unstructured": "Liu B. Cai Q. Yang Z. &Wang Z.(2019).Neural trust region/proximal policy optimization attains globally optimal policy. InAdvances in neural information processing systems(Vol. 32)."
+   },
+   {
+    "doi": "10.2139/ssrn.4253139"
+   },
+   {
+    "doi": "10.1145/3490354.3494366"
+   },
+   {
+    "unstructured": "Liu Y. Zhang K. Basar T. &Yin W.(2020).An improved analysis of (variance‐reduced) policy gradient and natural policy gradient methods. InNeurIPS."
+   },
+   {
+    "doi": "10.1093/rfs/14.1.113"
+   },
+   {
+    "unstructured": "Mao W. Zhang K. Zhu R. Simchi‐Levi D. &Başar T.(2020).Model‐free non‐stationary RL: Near‐optimal regret and applications in multi‐agent RL and inventory control.arXiv preprint arXiv:2010.03161."
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1952.tb01525.x"
+   },
+   {
+    "doi": "10.1109/acc.2009.5160611"
+   },
+   {
+    "unstructured": "Mei J. Xiao C. Szepesvari C. &Schuurmans D.(2020).On the global convergence rates of softmax policy gradient methods. InInternational conference on machine learning(pp. 6820–6829). PMLR."
+   },
+   {
+    "doi": "10.1007/978-3-540-72927-3_23"
+   },
+   {
+    "doi": "10.3390/data4030110"
+   },
+   {
+    "doi": "10.2307/3003143"
+   },
+   {
+    "doi": "10.1016/0304-405x(74)90009-9"
+   },
+   {
+    "doi": "10.1023/a:1017940631555"
+   },
+   {
+    "unstructured": "Mnih V. Badia A. P. Mirza M. Graves A. Lillicrap T. Harley T. Silver D. &Kavukcuoglu K.(2016).Asynchronous methods for deep reinforcement learning. InInternational conference on machine learning(pp. 1928–1937). PMLR."
+   },
+   {
+    "unstructured": "Mnih V. Kavukcuoglu K. Silver D. Graves A. Antonoglou I. Wierstra D. &Riedmiller M.(2013).Playing Atari with deep reinforcement learning.arXiv preprint arXiv:1312.5602."
+   },
+   {
+    "doi": "10.1038/nature14236"
+   },
+   {
+    "doi": "10.1002/(sici)1099-131x(1998090)17:5/6<441::aid-for707>3.0.co;2-#"
+   },
+   {
+    "doi": "10.3390/math8101640"
+   },
+   {
+    "doi": "10.1086/295078"
+   },
+   {
+    "author": "Nesterov Y. E.",
+    "year": "1983",
+    "article_title": "A method for solving the convex programming problem with convergence rate o (1/k 2)",
+    "journal_title": "Dokl. Akad. Nauk SSSR"
+   },
+   {
+    "doi": "10.1145/1143844.1143929"
+   },
+   {
+    "unstructured": "Ning B. Ling F. H. T. &Jaimungal S.(2018).Double deep Q‐learning for optimal execution.arXiv preprint arXiv:1812.06600."
+   },
+   {
+    "doi": "10.1016/j.finmar.2012.09.001"
+   },
+   {
+    "unstructured": "Ouyang Y. Gagrani M. Nayyar A. &Jain R.(2017).Learning unknown Markov decision processes: A Thompson sampling approach. InAdvances in neural information processing systems(Vol. 30)."
+   },
+   {
+    "doi": "10.1109/tkde.2009.191"
+   },
+   {
+    "unstructured": "Papini M. Binaghi D. Canonaco G. Pirotta M. &Restelli M.(2018).Stochastic variance‐reduced policy gradient. InInternational conference on machine learning(pp. 4026–4035). PMLR."
+   },
+   {
+    "doi": "10.1016/j.eswa.2020.113573"
+   },
+   {
+    "unstructured": "Patel Y.(2018).Optimizing market making using multi‐agent reinforcement learning.arXiv preprint arXiv:1812.10252."
+   },
+   {
+    "doi": "10.1007/s11579-016-0174-8"
+   },
+   {
+    "doi": "10.1016/j.eswa.2018.02.032"
+   },
+   {
+    "doi": "10.3905/jpm.1988.409150"
+   },
+   {
+    "doi": "10.1016/j.neucom.2007.11.026"
+   },
+   {
+    "unstructured": "Pomatto L. Strack P. &Tamuz O.(2018).The cost of information.arXiv preprint arXiv:1812.04211."
+   },
+   {
+    "author": "Powell W. B.",
+    "year": "2021",
+    "volume_title": "Reinforcement learning and stochastic optimization"
+   },
+   {
+    "doi": "10.1007/978-88-470-1766-5_5"
+   },
+   {
+    "author": "Puterman M. L.",
+    "year": "2014",
+    "volume_title": "Markov decision processes: Discrete stochastic dynamic programming"
+   },
+   {
+    "author": "Radford A.",
+    "year": "2019",
+    "article_title": "Language models are unsupervised multitask learners",
+    "journal_title": "OpenAI Blog"
+   },
+   {
+    "unstructured": "Ren Z. &Zhou Z.(2020).Dynamic batch learning in high‐dimensional sparse linear contextual bandits.arXiv preprint arXiv:2008.11918."
+   },
+   {
+    "doi": "10.1007/11564096_32"
+   },
+   {
+    "doi": "10.1090/s0002-9904-1952-09620-8"
+   },
+   {
+    "doi": "10.1016/b978-0-12-780850-5.50044-7"
+   },
+   {
+    "unstructured": "Sato Y.(2019).Model‐free reinforcement learning for financial portfolios: A brief survey.arXiv preprint arXiv:1904.04973."
+   },
+   {
+    "unstructured": "Schulman J. Levine S. Abbeel P. Jordan M. &Moritz P.(2015).Trust region policy optimization. InInternational conference on machine learning(pp. 1889–1897). PMLR."
+   },
+   {
+    "unstructured": "Schulman J. Wolski F. Dhariwal P. Radford A. &Klimov O.(2017).Proximal policy optimization algorithms.arXiv preprint arXiv:1707.06347."
+   },
+   {
+    "doi": "10.1007/978-981-13-8285-7_10"
+   },
+   {
+    "doi": "10.1609/aaai.v34i04.6021"
+   },
+   {
+    "doi": "10.1086/294846"
+   },
+   {
+    "doi": "10.1109/cifer.2014.6924100"
+   },
+   {
+    "doi": "10.1162/neco_a_00600"
+   },
+   {
+    "unstructured": "Shen Z. Ribeiro A. Hassani H. Qian H. &Mi C.(2019).Hessian aided policy gradient. InInternational conference on machine learning(pp. 5729–5738). PMLR."
+   },
+   {
+    "unstructured": "Silver D. Hubert T. Schrittwieser J. Antonoglou I. Lai M. Guez A. Lanctot M. Sifre L. Kumaran D. Graepel T. Lillicrap T. Simonyan K. &Hassabis D.(2017).Mastering chess and shogi by self‐play with a general reinforcement learning algorithm.arXiv preprint arXiv:1712.01815."
+   },
+   {
+    "unstructured": "Silver D. Lever G. Heess N. Degris T. Wierstra D. &Riedmiller M.(2014).Deterministic policy gradient algorithms. InInternational conference on machine learning(pp. 387–395). PMLR."
+   },
+   {
+    "doi": "10.1287/moor.2021.1193"
+   },
+   {
+    "doi": "10.3905/joi.3.3.59"
+   },
+   {
+    "unstructured": "Spooner T. Fearnley J. Savani R. &Koukorinis A.(2018).Market making via reinforcement learning. InInternational foundation for autonomous agents and multiagent systems AAMAS'18 (pp. 434–442)."
+   },
+   {
+    "doi": "10.24963/ijcai.2020/633"
+   },
+   {
+    "doi": "10.1137/s0036144500376650"
+   },
+   {
+    "author": "Strehl A. L.",
+    "year": "2009",
+    "article_title": "Reinforcement learning in finite MDPs: PAC analysis",
+    "journal_title": "Journal of Machine Learning Research"
+   },
+   {
+    "doi": "10.1145/1102351.1102459"
+   },
+   {
+    "doi": "10.2307/2295722"
+   },
+   {
+    "unstructured": "Sutskever I. Martens J. &Hinton G. E.(2011).Generating text with recurrent neural networks. InICML."
+   },
+   {
+    "author": "Sutton R. S.",
+    "year": "2018",
+    "volume_title": "Reinforcement learning: An introduction"
+   },
+   {
+    "unstructured": "Sutton R. S. McAllester D. A. Singh S. P. &Mansour Y.(2000).Policy gradient methods for reinforcement learning with function approximation. InAdvances in neural information processing systems(pp. 1057–1063)."
+   },
+   {
+    "unstructured": "Szita I. &Szepesvári C.(2010).Model‐based reinforcement learning with nearly tight exploration complexity bounds. InICML(pp. 1031–1038)."
+   },
+   {
+    "unstructured": "Tamar A. Chow Y. Ghavamzadeh M. &Mannor S.(2015).Policy gradient for coherent risk measures. InAdvances in neural information processing systems(Vol. 28)."
+   },
+   {
+    "unstructured": "Tang W. Zhang P. Y. &Zhou X. Y.(2021).Exploratory HJB equations and their convergence.arXiv preprint arXiv:2109.10269."
+   },
+   {
+    "doi": "10.2307/2332286"
+   },
+   {
+    "author": "Tieleman T.",
+    "year": "2012",
+    "article_title": "Lecture 6.5‐rmsprop: Divide the gradient by a running average of its recent magnitude",
+    "journal_title": "COURSERA: Neural Networks for Machine Learning"
+   },
+   {
+    "doi": "10.4018/978-1-60566-766-9.ch011"
+   },
+   {
+    "unstructured": "Touati A. &Vincent P.(2020).Efficient learning in non‐stationary linear Markov decision processes.arXiv preprint arXiv:2010.12870."
+   },
+   {
+    "doi": "10.1145/3383455.3422519"
+   },
+   {
+    "doi": "10.1609/aaai.v30i1.10295"
+   },
+   {
+    "unstructured": "Vigna E.(2016).On time consistency for mean‐variance portfolio selection.Collegio Carlo Alberto Notebook 476."
+   },
+   {
+    "doi": "10.1038/s41586-019-1724-z"
+   },
+   {
+    "doi": "10.1016/b978-0-444-52936-7.50016-1"
+   },
+   {
+    "doi": "10.2139/ssrn.3428125"
+   },
+   {
+    "doi": "10.1109/icmla52953.2021.00063"
+   },
+   {
+    "author": "Wang H.",
+    "year": "2020",
+    "article_title": "Exploration versus exploitation in reinforcement learning: A stochastic control approach",
+    "journal_title": "Journal of Machine Learning Research"
+   },
+   {
+    "doi": "10.1111/mafi.12281"
+   },
+   {
+    "unstructured": "Wang L. Cai Q. Yang Z. &Wang Z.(2020).Neural policy gradient methods: Global optimality and rates of convergence. InInternational conference on learning representations."
+   },
+   {
+    "unstructured": "Wang Y. Dong K. Chen X. &Wang L.(2020).Q‐learning with UCB exploration is sample efficient for infinite‐horizon MDP. InInternational conference on learning representations."
+   },
+   {
+    "unstructured": "Wang Z. Bapst V. Heess N. Mnih V. Munos R. Kavukcuoglu K. &Freitas N.(2017).Sample efficient actor‐critic with experience replay. InInternational conference on learning representations (ICLR)(pp. 1–13)."
+   },
+   {
+    "doi": "10.1007/bf00992698"
+   },
+   {
+    "unstructured": "Wei C.‐Y. Jahromi M. J. Luo H. Sharma H. &Jain R.(2020).Model‐free reinforcement learning in infinite‐horizon average‐reward Markov decision processes. InInternational conference on machine learning(pp. 10170–10180). PMLR."
+   },
+   {
+    "unstructured": "Wei C.‐Y. &Luo H.(2021).Non‐stationary reinforcement learning without prior knowledge: An optimal black‐box approach. InConference on learning theory(pp. 4300–4354). PMLR."
+   },
+   {
+    "unstructured": "Wei H. Wang Y. Mangu L. &Decker K.(2019).Model‐based reinforcement learning for predictions and control for limit order books.arXiv preprint arXiv:1910.03743."
+   },
+   {
+    "doi": "10.1080/14697688.2020.1730426"
+   },
+   {
+    "doi": "10.1007/bf00992696"
+   },
+   {
+    "unstructured": "Wu Y. Shariff R. Lattimore T. &Szepesvári C.(2016).Conservative bandits. InInternational conference on machine learning(pp. 1254–1262). PMLR."
+   },
+   {
+    "doi": "10.1080/03610926.2019.1636999"
+   },
+   {
+    "doi": "10.1609/aaai.v35i12.17252"
+   },
+   {
+    "unstructured": "Xiong H. Zhao L. Liang Y. &Zhang W.(2020).Finite‐time analysis for double Q‐learning. InAdvances in neural information processing systems(Vol. 33)."
+   },
+   {
+    "unstructured": "Xiong Z. Liu X.‐Y. Zhong S. Yang H. &Walid A.(2018).Practical deep reinforcement learning approach for stock trading.arXiv preprint arXiv:1811.07522."
+   },
+   {
+    "unstructured": "Xu P. Gao F. &Gu Q.(2020a).An improved convergence analysis of stochastic variance‐reduced policy gradient. InUncertainty in artificial intelligence(pp. 541–551). PMLR."
+   },
+   {
+    "unstructured": "Xu P. Gao F. &Gu Q.(2020b).Sample efficient policy gradient methods with recursive variance reduction. InInternational conference on learning representations."
+   },
+   {
+    "unstructured": "Xu P. &Gu Q.(2020).A finite‐time analysis of Q‐learning with neural network function approximation. InInternational conference on machine learning(pp. 10555–10565). PMLR."
+   },
+   {
+    "unstructured": "Xu T. Wang Z. &Liang Y.(2020a).Improving sample complexity bounds for (natural) actor‐critic algorithms. InAdvances in neural information processing systems(Vol. 33 pp. 4358–4369)."
+   },
+   {
+    "unstructured": "Xu T. Wang Z. &Liang Y.(2020b).Non‐asymptotic convergence analysis of two time‐scale (natural) actor‐critic algorithms.arXiv preprint arXiv:2005.03557."
+   },
+   {
+    "unstructured": "Xu T. Yang Z. Wang Z. &Liang Y.(2021).Doubly robust off‐policy actor‐critic: Convergence and optimality.arXiv preprint arXiv:2102.11866."
+   },
+   {
+    "doi": "10.1109/trustcom/bigdatase.2018.00253"
+   },
+   {
+    "unstructured": "Yang L. &Wang M.(2019).Sample‐optimal parametric Q‐learning using linearly additive features. InInternational conference on machine learning(pp. 6995–7004). PMLR."
+   },
+   {
+    "unstructured": "Yang L. &Wang M.(2020).Reinforcement learning in feature space: Matrix bandit kernels and regret bound. InInternational conference on machine learning(pp. 10746–10756). PMLR."
+   },
+   {
+    "unstructured": "Yang R. Sun X. &Narasimhan K.(2019).A generalized algorithm for multi‐objective reinforcement learning and policy adaptation. InAdvances in neural information processing systems(Vol. 32)."
+   },
+   {
+    "doi": "10.1007/978-3-030-59410-7_42"
+   },
+   {
+    "doi": "10.1016/j.engappai.2020.103919"
+   },
+   {
+    "unstructured": "Yu P. Lee J. S. Kulyatin I. Shi Z. &Dasgupta S.(2019).Model‐based deep reinforcement learning for dynamic portfolio optimization.arXiv preprint arXiv:1901.08740."
+   },
+   {
+    "unstructured": "Yu S. Wang H. &Dong C.(2020).Learning risk preferences from investment portfolios using inverse optimization.arXiv preprint arXiv:2010.01687."
+   },
+   {
+    "doi": "10.2139/ssrn.3646753"
+   },
+   {
+    "doi": "10.1609/aaai.v35i12.17300"
+   },
+   {
+    "doi": "10.1137/19m1288012"
+   },
+   {
+    "doi": "10.3905/jfds.2020.1.030"
+   },
+   {
+    "doi": "10.1145/3490354.3494398"
+   },
+   {
+    "unstructured": "Zheng L. &Ratliff L.(2020).Constrained upper confidence reinforcement learning. InLearning for dynamics and control(pp. 620–629). PMLR."
+   },
+   {
+    "unstructured": "Zhou D. Chen J. &Gu Q.(2020).Provable multi‐objective reinforcement learning with generative models.arXiv preprint arXiv:2011.10134."
+   },
+   {
+    "doi": "10.1007/s002450010003"
+   },
+   {
+    "author": "Zivot E.",
+    "year": "2017",
+    "volume_title": "Introduction to computational finance and financial econometrics"
+   },
+   {
+    "unstructured": "Zou S. Xu T. &Liang Y.(2019).Finite‐sample analysis for SARSA with linear function approximation. InAdvances in neural information processing systems(Vol. 32 pp. 8668–8678)."
+   }
+  ]
+ },
+ "10.1093/rfs/hhv059": {
+  "title": "… and the Cross-Section of Expected Returns",
+  "abstract": "",
+  "journal": "Review of Financial Studies",
+  "year": "2015",
+  "ref_dois": [
+   "10.1002/9780470316672",
+   "10.1002/gepi.1124",
+   "10.1002/sim.4780090710",
+   "10.1007/978-0-387-49317-6",
+   "10.1007/bf02595811",
+   "10.1007/s11142-005-1526-4",
+   "10.1007/s11142-005-1528-2",
+   "10.1007/s11142-007-9063-y",
+   "10.1007/s11142-010-9124-5",
+   "10.1007/s11142-011-9157-4",
+   "10.1007/s11142-011-9168-1",
+   "10.1007/s11142-013-9231-1",
+   "10.1016/0022-0531(74)90024-6",
+   "10.1016/0165-4101(89)90017-7",
+   "10.1016/0165-4101(92)90025-w",
+   "10.1016/0165-4101(95)00410-6",
+   "10.1016/0304-405x(74)90019-1",
+   "10.1016/0304-405x(79)90012-6",
+   "10.1016/0304-405x(79)90016-3",
+   "10.1016/0304-405x(81)90005-2",
+   "10.1016/0304-405x(81)90018-0",
+   "10.1016/0304-405x(83)90031-4",
+   "10.1016/0304-405x(85)90008-x",
+   "10.1016/0304-405x(86)90065-6",
+   "10.1016/0304-405x(92)90005-i",
+   "10.1016/0304-405x(93)90023-5",
+   "10.1016/0304-405x(94)00817-k",
+   "10.1016/0304-405x(95)00870-k",
+   "10.1016/0304-4076(90)90095-b",
+   "10.1016/0378-4266(93)00020-p",
+   "10.1016/b978-0-444-53265-7.50015-9",
+   "10.1016/j.finmar.2010.09.001",
+   "10.1016/j.jacceco.2004.10.002",
+   "10.1016/j.jacceco.2006.03.004",
+   "10.1016/j.jacceco.2013.01.006",
+   "10.1016/j.jacceco.2014.06.001",
+   "10.1016/j.jbankfin.2011.10.013",
+   "10.1016/j.jbankfin.2011.12.014",
+   "10.1016/j.jeconom.2006.03.010",
+   "10.1016/j.jeconom.2009.11.010",
+   "10.1016/j.jempfin.2004.02.004",
+   "10.1016/j.jempfin.2009.01.001",
+   "10.1016/j.jfineco.2003.05.008",
+   "10.1016/j.jfineco.2003.10.003",
+   "10.1016/j.jfineco.2004.06.007",
+   "10.1016/j.jfineco.2004.08.008",
+   "10.1016/j.jfineco.2005.01.001",
+   "10.1016/j.jfineco.2005.04.005",
+   "10.1016/j.jfineco.2005.05.005",
+   "10.1016/j.jfineco.2005.09.009",
+   "10.1016/j.jfineco.2005.10.001",
+   "10.1016/j.jfineco.2005.12.009",
+   "10.1016/j.jfineco.2006.09.004",
+   "10.1016/j.jfineco.2006.12.003",
+   "10.1016/j.jfineco.2008.02.003",
+   "10.1016/j.jfineco.2008.02.005",
+   "10.1016/j.jfineco.2008.12.008",
+   "10.1016/j.jfineco.2009.09.001",
+   "10.1016/j.jfineco.2009.11.003",
+   "10.1016/j.jfineco.2010.06.006",
+   "10.1016/j.jfineco.2010.08.011",
+   "10.1016/j.jfineco.2010.08.014",
+   "10.1016/j.jfineco.2011.02.019",
+   "10.1016/j.jfineco.2011.03.021",
+   "10.1016/j.jfineco.2011.05.004",
+   "10.1016/j.jfineco.2011.08.006",
+   "10.1016/j.jfineco.2011.11.003",
+   "10.1016/j.jfineco.2011.12.009",
+   "10.1016/j.jfineco.2012.03.008",
+   "10.1016/j.jfineco.2012.04.002",
+   "10.1016/j.jfineco.2012.04.006",
+   "10.1016/j.jfineco.2012.05.007",
+   "10.1016/j.jfineco.2012.05.008",
+   "10.1016/j.jfineco.2012.06.001",
+   "10.1016/j.jfineco.2012.06.007",
+   "10.1016/j.jfineco.2012.09.011",
+   "10.1016/j.jfineco.2013.01.003",
+   "10.1016/j.jfineco.2013.03.009",
+   "10.1016/j.jfineco.2014.02.002",
+   "10.1016/j.jspi.2005.08.031",
+   "10.1016/j.neuroimage.2013.08.024",
+   "10.1016/j.physletb.2012.08.020",
+   "10.1016/j.physletb.2012.08.021",
+   "10.1016/j.qref.2007.03.008",
+   "10.1016/s0165-4101(98)00026-3",
+   "10.1016/s0278-4254(97)00023-9",
+   "10.1016/s0304-405x(00)00080-5",
+   "10.1016/s0304-405x(02)00223-4",
+   "10.1016/s0304-405x(02)00224-6",
+   "10.1016/s0304-405x(02)00248-9",
+   "10.1016/s0304-405x(03)00116-8",
+   "10.1016/s0304-405x(98)00028-2",
+   "10.1016/s0304-405x(99)00031-8",
+   "10.1016/s0304-4076(01)00077-x",
+   "10.1016/s0378-3758(99)00040-3",
+   "10.1016/s0378-3758(99)00041-5",
+   "10.1016/s0378-3758(99)00145-7",
+   "10.1016/s0895-4356(99)00161-4",
+   "10.1016/s1386-4181(01)00024-6",
+   "10.1016/s1386-4181(97)00004-9",
+   "10.1017/s0022109000003173",
+   "10.1017/s0022109009090012",
+   "10.1017/s0022109010000074",
+   "10.1017/s0022109010000220",
+   "10.1017/s0022109010000645",
+   "10.1017/s0266466608080171",
+   "10.1023/a:1024472210359",
+   "10.1023/a:1027364031775",
+   "10.1037//0033-2909.86.3.638",
+   "10.1080/02664760600994745",
+   "10.1086/260061",
+   "10.1086/261410",
+   "10.1086/261755",
+   "10.1086/262026",
+   "10.1086/262034",
+   "10.1086/295472",
+   "10.1086/296163",
+   "10.1086/296344",
+   "10.1086/323282",
+   "10.1086/374184",
+   "10.1086/426042",
+   "10.1086/499143",
+   "10.1086/500676",
+   "10.1086/500687",
+   "10.1086/522036",
+   "10.1093/acprof:oso/9780195328318.003.0013",
+   "10.1093/bioinformatics/bti053",
+   "10.1093/bioinformatics/btp476",
+   "10.1093/bioinformatics/btq085",
+   "10.1093/biomet/69.3.493",
+   "10.1093/biomet/73.3.751",
+   "10.1093/biomet/75.2.383",
+   "10.1093/biomet/75.4.800",
+   "10.1093/biomet/asn007",
+   "10.1093/rfs/10.2.275",
+   "10.1093/rfs/14.2.313",
+   "10.1093/rfs/14.2.529",
+   "10.1093/rfs/3.3.431",
+   "10.1093/rfs/5.3.527",
+   "10.1093/rfs/6.1.1",
+   "10.1093/rfs/hhg026",
+   "10.1093/rfs/hhi023",
+   "10.1093/rfs/hhi026",
+   "10.1093/rfs/hhj012",
+   "10.1093/rfs/hhj030",
+   "10.1093/rfs/hhj035",
+   "10.1093/rfs/hhj040",
+   "10.1093/rfs/hhl044",
+   "10.1093/rfs/hhm014",
+   "10.1093/rfs/hhm019",
+   "10.1093/rfs/hhm051",
+   "10.1093/rfs/hhn016",
+   "10.1093/rfs/hhn032",
+   "10.1093/rfs/hhn035",
+   "10.1093/rfs/hhn043",
+   "10.1093/rfs/hhn049",
+   "10.1093/rfs/hhn074",
+   "10.1093/rfs/hhn097",
+   "10.1093/rfs/hhn121",
+   "10.1093/rfs/hhp041",
+   "10.1093/rfs/hhq006",
+   "10.1093/rfs/hhq063",
+   "10.1093/rfs/hhr013",
+   "10.1093/rfs/hhr043",
+   "10.1093/rfs/hhs084",
+   "10.1093/rfs/hhs183",
+   "10.1108/14757701011094599",
+   "10.1111/0022-1082.00046",
+   "10.1111/0022-1082.00146",
+   "10.1111/0022-1082.00148",
+   "10.1111/0022-1082.00163",
+   "10.1111/0022-1082.00244",
+   "10.1111/0022-1082.00247",
+   "10.1111/0022-1082.00280",
+   "10.1111/0022-1082.00322",
+   "10.1111/0022-1082.00336",
+   "10.1111/0022-1082.00490",
+   "10.1111/1468-0262.00152",
+   "10.1111/1540-6261.00425",
+   "10.1111/1540-6261.00493",
+   "10.1111/1540-6261.00497",
+   "10.1111/1540-6261.00594",
+   "10.1111/j.1467-9280.2006.01757.x",
+   "10.1111/j.1467-9868.2008.00694.x",
+   "10.1111/j.1468-036x.2009.00520.x",
+   "10.1111/j.1475-679x.2006.00218.x",
+   "10.1111/j.1475-679x.2011.00409.x",
+   "10.1111/j.1475-6803.1997.tb00248.x",
+   "10.1111/j.1540-6261.1972.tb00618.x",
+   "10.1111/j.1540-6261.1975.tb01826.x",
+   "10.1111/j.1540-6261.1981.tb00446.x",
+   "10.1111/j.1540-6261.1994.tb02457.x",
+   "10.1111/j.1540-6261.1996.tb05212.x",
+   "10.1111/j.1540-6261.2004.00644.x",
+   "10.1111/j.1540-6261.2004.00650.x",
+   "10.1111/j.1540-6261.2004.00657.x",
+   "10.1111/j.1540-6261.2004.00670.x",
+   "10.1111/j.1540-6261.2004.00678.x",
+   "10.1111/j.1540-6261.2004.00695.x",
+   "10.1111/j.1540-6261.2004.00697.x",
+   "10.1111/j.1540-6261.2005.00759.x",
+   "10.1111/j.1540-6261.2005.00776.x",
+   "10.1111/j.1540-6261.2005.00819.x",
+   "10.1111/j.1540-6261.2006.00833.x",
+   "10.1111/j.1540-6261.2006.00836.x",
+   "10.1111/j.1540-6261.2006.00848.x",
+   "10.1111/j.1540-6261.2006.00859.x",
+   "10.1111/j.1540-6261.2006.00884.x",
+   "10.1111/j.1540-6261.2006.00885.x",
+   "10.1111/j.1540-6261.2006.00893.x",
+   "10.1111/j.1540-6261.2006.01005.x",
+   "10.1111/j.1540-6261.2006.01015.x",
+   "10.1111/j.1540-6261.2006.01063.x",
+   "10.1111/j.1540-6261.2007.01226.x",
+   "10.1111/j.1540-6261.2007.01253.x",
+   "10.1111/j.1540-6261.2007.01282.x",
+   "10.1111/j.1540-6261.2008.01335.x",
+   "10.1111/j.1540-6261.2008.01370.x",
+   "10.1111/j.1540-6261.2008.01379.x",
+   "10.1111/j.1540-6261.2008.01416.x",
+   "10.1111/j.1540-6261.2008.01419.x",
+   "10.1111/j.1540-6261.2009.01452.x",
+   "10.1111/j.1540-6261.2009.01453.x",
+   "10.1111/j.1540-6261.2009.01481.x",
+   "10.1111/j.1540-6261.2009.01493.x",
+   "10.1111/j.1540-6261.2009.01507.x",
+   "10.1111/j.1540-6261.2009.01527.x",
+   "10.1111/j.1540-6261.2009.01548.x",
+   "10.1111/j.1540-6261.2010.01578.x",
+   "10.1111/j.1540-6261.2010.01598.x",
+   "10.1111/j.1540-6261.2010.01629.x",
+   "10.1111/j.1540-6261.2011.01652.x",
+   "10.1111/j.1540-6261.2011.01671.x",
+   "10.1111/j.1540-6261.2012.01740.x",
+   "10.1111/j.1540-6261.2012.01794.x",
+   "10.1111/j.1540-6261.2012.01795.x",
+   "10.1111/j.1755-053x.2006.tb00149.x",
+   "10.1111/j.1755-053x.2009.01026.x",
+   "10.1111/j.1755-053x.2010.01109.x",
+   "10.1111/j.1911-3846.2011.01154.x",
+   "10.1111/j.2517-6161.1995.tb02031.x",
+   "10.1111/jofi.12021",
+   "10.1111/jofi.12365",
+   "10.1146/annurev.ps.46.020195.003021",
+   "10.1162/003355301556392",
+   "10.1162/00335530360535162",
+   "10.1162/003355397555163",
+   "10.1177/0148558x0502000405",
+   "10.1177/0148558x1002500201",
+   "10.1177/0962280206079046",
+   "10.1198/016214501753382129",
+   "10.1198/016214504000000089",
+   "10.1207/s15427579jpfm0404_2",
+   "10.1214/009053605000000084",
+   "10.1214/07-ss026",
+   "10.1214/07-sts236",
+   "10.1214/08-aos617",
+   "10.1214/10-aos792",
+   "10.1214/aos/1013699998",
+   "10.1214/aos/1015362192",
+   "10.1214/aos/1074290335",
+   "10.1214/aos/1176344552",
+   "10.1257/0002828043052240",
+   "10.1287/mnsc.1090.1063",
+   "10.1371/journal.pgen.1000456",
+   "10.1506/7xmh-qq74-l6gg-cjrx",
+   "10.1561/104.00000003",
+   "10.2139/ssrn.1100785",
+   "10.2139/ssrn.1102231",
+   "10.2139/ssrn.1104546",
+   "10.2139/ssrn.1107637",
+   "10.2139/ssrn.1328973",
+   "10.2139/ssrn.1334162",
+   "10.2139/ssrn.1340605",
+   "10.2139/ssrn.1413780",
+   "10.2139/ssrn.1418117",
+   "10.2139/ssrn.1466343",
+   "10.2139/ssrn.1477066",
+   "10.2139/ssrn.1551025",
+   "10.2139/ssrn.1565586",
+   "10.2139/ssrn.1569945",
+   "10.2139/ssrn.1570566",
+   "10.2139/ssrn.1571481",
+   "10.2139/ssrn.1571821",
+   "10.2139/ssrn.1689067",
+   "10.2139/ssrn.1714657",
+   "10.2139/ssrn.1735162",
+   "10.2139/ssrn.1740044",
+   "10.2139/ssrn.1770264",
+   "10.2139/ssrn.1782081",
+   "10.2139/ssrn.1784566",
+   "10.2139/ssrn.1785728",
+   "10.2139/ssrn.1786608",
+   "10.2139/ssrn.1833628",
+   "10.2139/ssrn.1868703",
+   "10.2139/ssrn.1883101",
+   "10.2139/ssrn.1908982",
+   "10.2139/ssrn.1916471",
+   "10.2139/ssrn.1975947",
+   "10.2139/ssrn.1998387",
+   "10.2139/ssrn.2008902",
+   "10.2139/ssrn.2018320",
+   "10.2139/ssrn.2020604",
+   "10.2139/ssrn.2022485",
+   "10.2139/ssrn.2023066",
+   "10.2139/ssrn.2024755",
+   "10.2139/ssrn.2024782",
+   "10.2139/ssrn.213872",
+   "10.2139/ssrn.2182667",
+   "10.2139/ssrn.2199723",
+   "10.2139/ssrn.2200889",
+   "10.2139/ssrn.2262374",
+   "10.2139/ssrn.2358214",
+   "10.2139/ssrn.2431498",
+   "10.2139/ssrn.2506683",
+   "10.2139/ssrn.2517944",
+   "10.2139/ssrn.318967",
+   "10.2139/ssrn.802724",
+   "10.2139/ssrn.909563",
+   "10.2139/ssrn.963405",
+   "10.2139/ssrn.993467",
+   "10.2307/1910098",
+   "10.2307/1911241",
+   "10.2307/1912352",
+   "10.2307/1913210",
+   "10.2307/1913811",
+   "10.2307/1913837",
+   "10.2307/2326275",
+   "10.2307/2326304",
+   "10.2307/2327014",
+   "10.2307/2327088",
+   "10.2307/2327520",
+   "10.2307/2327804",
+   "10.2307/2328091",
+   "10.2307/2328183",
+   "10.2307/2328353",
+   "10.2307/2328443",
+   "10.2307/2328473",
+   "10.2307/2328565",
+   "10.2307/2328589",
+   "10.2307/2328600",
+   "10.2307/2328694",
+   "10.2307/2328797",
+   "10.2307/2328882",
+   "10.2307/2329037",
+   "10.2307/2329112",
+   "10.2307/2329238",
+   "10.2307/2329301",
+   "10.2307/2329305",
+   "10.2307/2329350",
+   "10.2307/2329420",
+   "10.2307/2329440",
+   "10.2307/2329464",
+   "10.2307/2329491",
+   "10.2307/2329535",
+   "10.2307/2329554",
+   "10.2307/2329556",
+   "10.2307/2329748",
+   "10.2307/2330366",
+   "10.2307/2531814",
+   "10.2307/2672906",
+   "10.2307/2684163",
+   "10.2307/2977249",
+   "10.2307/2977928",
+   "10.2307/2982993",
+   "10.2307/4615733",
+   "10.2308/accr-10131",
+   "10.2308/accr-10198",
+   "10.2308/accr.00000006",
+   "10.2308/accr.00000011",
+   "10.2308/accr.00000014",
+   "10.2308/accr.2001.76.4.613",
+   "10.2308/accr.2003.78.1.353",
+   "10.2308/accr.2008.83.3.823",
+   "10.2469/faj.v39.n3.57",
+   "10.2469/faj.v40.n1.34",
+   "10.2469/faj.v40.n5.24",
+   "10.2469/faj.v44.n4.79",
+   "10.3386/w18411",
+   "10.3386/w19325",
+   "10.35152/snusjb.2007.13.2.005",
+   "10.3905/jpm.1994.409494",
+   "10.3905/jpm.1996.409554",
+   "10.3905/jpm.2008.35.1.82",
+   "10.3905/jpm.2014.40.5.094",
+   "10.3905/jpm.2014.40.5.108"
+  ],
+  "references": [
+   {
+    "author": "Abarbanell",
+    "year": "1998",
+    "article_title": "Abnormal returns to a fundamental analysis strategy",
+    "journal_title": "Accounting Review"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2004.06.007"
+   },
+   {
+    "doi": "10.1111/j.1475-6803.1997.tb00248.x"
+   },
+   {
+    "doi": "10.2307/2328091"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2008.01419.x"
+   },
+   {
+    "author": "Adrian",
+    "year": "2012",
+    "article_title": "Financial intermediaries and the cross-section of asset returns",
+    "journal_title": "Journal of Finance"
+   },
+   {
+    "doi": "10.2139/ssrn.1784566"
+   },
+   {
+    "unstructured": "Akbas, F., W. J. Armstrong, and R. Petkova. 2011. The volatility of liquidity and expected stock returns. Working Paper."
+   },
+   {
+    "doi": "10.2139/ssrn.2022485"
+   },
+   {
+    "doi": "10.1016/s0304-405x(03)00116-8"
+   },
+   {
+    "doi": "10.1093/rfs/hhm019"
+   },
+   {
+    "doi": "10.2139/ssrn.2024782"
+   },
+   {
+    "doi": "10.1016/s1386-4181(01)00024-6"
+   },
+   {
+    "doi": "10.1016/0304-405x(86)90065-6"
+   },
+   {
+    "doi": "10.2307/2328600"
+   },
+   {
+    "doi": "10.1177/0148558x1002500201"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2006.00833.x"
+   },
+   {
+    "doi": "10.1093/rfs/hhi026"
+   },
+   {
+    "doi": "10.2139/ssrn.2008902"
+   },
+   {
+    "doi": "10.1093/rfs/hhj035"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2006.00836.x"
+   },
+   {
+    "doi": "10.2469/faj.v39.n3.57"
+   },
+   {
+    "unstructured": "Armstrong, C., S. Banerjee, and C. Corona. 2010. Information quality and the cross-section of expected returns. Working Paper."
+   },
+   {
+    "doi": "10.2139/ssrn.213872"
+   },
+   {
+    "doi": "10.1111/jofi.12021"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2005.01.001"
+   },
+   {
+    "doi": "10.1016/j.physletb.2012.08.020"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2007.01282.x"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2008.02.005"
+   },
+   {
+    "doi": "10.35152/snusjb.2007.13.2.005"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2012.06.001"
+   },
+   {
+    "unstructured": "Bajgrowicz, P., O. Scaillet, and A. Treccani. 2013. Jumps in high-frequency data: Spurious detections, dynamics, and news. Working Paper."
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2006.00885.x"
+   },
+   {
+    "doi": "10.3905/jpm.2014.40.5.094"
+   },
+   {
+    "doi": "10.1007/s11142-011-9168-1"
+   },
+   {
+    "doi": "10.1287/mnsc.1090.1063"
+   },
+   {
+    "doi": "10.2139/ssrn.2020604"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2010.08.014"
+   },
+   {
+    "doi": "10.2139/ssrn.2023066"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2006.09.004"
+   },
+   {
+    "unstructured": "Bandyopadhyay, S. P., A. G. Huang, and T. S. Wirjanto. 2010. The accrual volatility anomaly. Working Paper."
+   },
+   {
+    "doi": "10.2307/2329037"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2004.00670.x"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2005.00776.x"
+   },
+   {
+    "doi": "10.1016/0304-405x(81)90018-0"
+   },
+   {
+    "doi": "10.1111/0022-1082.00336"
+   },
+   {
+    "doi": "10.1093/rfs/hhn035"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2009.01527.x"
+   },
+   {
+    "doi": "10.2307/2326304"
+   },
+   {
+    "doi": "10.1016/0304-405x(83)90031-4"
+   },
+   {
+    "doi": "10.2469/faj.v44.n4.79"
+   },
+   {
+    "unstructured": "Bazdresch, S., F. Belo and X. Lin. 2012. Labor hiring, investment, and stock return predictability in the cross section. Working Paper."
+   },
+   {
+    "doi": "10.2307/2982993"
+   },
+   {
+    "doi": "10.1016/s0278-4254(97)00023-9"
+   },
+   {
+    "doi": "10.2139/ssrn.1998387"
+   },
+   {
+    "doi": "10.1111/j.2517-6161.1995.tb02031.x"
+   },
+   {
+    "doi": "10.1016/s0378-3758(99)00040-3"
+   },
+   {
+    "doi": "10.1214/aos/1013699998"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2011.02.019"
+   },
+   {
+    "doi": "10.2307/2328473"
+   },
+   {
+    "doi": "10.1086/295472"
+   },
+   {
+    "author": "Black",
+    "year": "1972",
+    "article_title": "The capital asset pricing model: Some empirical tests",
+    "volume_title": "Studies in the theory of capital markets"
+   },
+   {
+    "author": "Boguth",
+    "year": "2012",
+    "article_title": "Consumption volatility risk",
+    "journal_title": "Journal of Finance"
+   },
+   {
+    "doi": "10.2139/ssrn.1785728"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1994.tb02457.x"
+   },
+   {
+    "author": "Botosan",
+    "year": "1997",
+    "article_title": "Disclosure level and the cost of equity capital",
+    "journal_title": "Accounting Review"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2007.01226.x"
+   },
+   {
+    "doi": "10.1093/rfs/hhp041"
+   },
+   {
+    "doi": "10.1016/j.jacceco.2006.03.004"
+   },
+   {
+    "doi": "10.1111/j.1755-053x.2006.tb00149.x"
+   },
+   {
+    "doi": "10.2139/ssrn.909563"
+   },
+   {
+    "doi": "10.1016/0304-405x(79)90016-3"
+   },
+   {
+    "doi": "10.2307/2328589"
+   },
+   {
+    "doi": "10.1016/s0304-405x(98)00028-2"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2012.04.006"
+   },
+   {
+    "doi": "10.2139/ssrn.2199723"
+   },
+   {
+    "doi": "10.2139/ssrn.1104546"
+   },
+   {
+    "doi": "10.1016/0304-405x(95)00870-k"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2004.00678.x"
+   },
+   {
+    "doi": "10.1016/j.neuroimage.2013.08.024"
+   },
+   {
+    "doi": "10.2139/ssrn.993467"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2012.03.008"
+   },
+   {
+    "doi": "10.1111/j.1911-3846.2011.01154.x"
+   },
+   {
+    "doi": "10.2139/ssrn.1975947"
+   },
+   {
+    "doi": "10.1086/262026"
+   },
+   {
+    "doi": "10.3386/w18411"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2008.01416.x"
+   },
+   {
+    "doi": "10.1257/0002828043052240"
+   },
+   {
+    "doi": "10.2139/ssrn.1569945"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2013.03.009"
+   },
+   {
+    "doi": "10.2307/2329556"
+   },
+   {
+    "unstructured": "Cen, L., K. C. J. Wei, and J. Zhang. 2006. Forecasted earnings per share and the cross section of expected stock returns. Working Paper."
+   },
+   {
+    "doi": "10.1016/0304-405x(85)90008-x"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1996.tb05212.x"
+   },
+   {
+    "doi": "10.2139/ssrn.1334162"
+   },
+   {
+    "author": "Chang",
+    "year": "2012",
+    "article_title": "Market skewness risk and the cross section of stock returns",
+    "journal_title": "Journal of Financial Economics"
+   },
+   {
+    "doi": "10.2307/2329440"
+   },
+   {
+    "doi": "10.2139/ssrn.1340605"
+   },
+   {
+    "doi": "10.1016/s0304-405x(02)00223-4"
+   },
+   {
+    "doi": "10.1017/s0022109010000645"
+   },
+   {
+    "doi": "10.2139/ssrn.1418117"
+   },
+   {
+    "doi": "10.1093/rfs/hhs084"
+   },
+   {
+    "doi": "10.1086/296344"
+   },
+   {
+    "doi": "10.2139/ssrn.2018320"
+   },
+   {
+    "doi": "10.1016/0304-405x(92)90005-i"
+   },
+   {
+    "doi": "10.1093/rfs/hhn121"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2005.05.005"
+   },
+   {
+    "doi": "10.1016/s0304-405x(00)00080-5"
+   },
+   {
+    "doi": "10.1016/j.jacceco.2014.06.001"
+   },
+   {
+    "doi": "10.1086/499143"
+   },
+   {
+    "doi": "10.1016/j.physletb.2012.08.021"
+   },
+   {
+    "doi": "10.2307/2328694"
+   },
+   {
+    "doi": "10.1086/262034"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2011.01671.x"
+   },
+   {
+    "doi": "10.1093/rfs/hhs183"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2008.01379.x"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2011.08.006"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2012.01740.x"
+   },
+   {
+    "doi": "10.2139/ssrn.1571821"
+   },
+   {
+    "doi": "10.1086/522036"
+   },
+   {
+    "doi": "10.1111/1540-6261.00594"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2012.01795.x"
+   },
+   {
+    "doi": "10.1086/296163"
+   },
+   {
+    "doi": "10.1086/261410"
+   },
+   {
+    "doi": "10.1086/500676"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2009.01548.x"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2008.01370.x"
+   },
+   {
+    "doi": "10.2307/1911241"
+   },
+   {
+    "doi": "10.2139/ssrn.1565586"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2005.00819.x"
+   },
+   {
+    "doi": "10.1093/rfs/hhn032"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2009.01453.x"
+   },
+   {
+    "doi": "10.2139/ssrn.1551025"
+   },
+   {
+    "doi": "10.1016/j.finmar.2010.09.001"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2008.12.008"
+   },
+   {
+    "doi": "10.2139/ssrn.1107637"
+   },
+   {
+    "doi": "10.2307/2329554"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2006.00884.x"
+   },
+   {
+    "doi": "10.1561/104.00000003"
+   },
+   {
+    "doi": "10.1016/s1386-4181(97)00004-9"
+   },
+   {
+    "doi": "10.2307/2327804"
+   },
+   {
+    "doi": "10.1111/0022-1082.00046"
+   },
+   {
+    "doi": "10.1111/0022-1082.00322"
+   },
+   {
+    "doi": "10.1111/0022-1082.00490"
+   },
+   {
+    "doi": "10.1111/1540-6261.00425"
+   },
+   {
+    "unstructured": "Donangelo, A. 2012. Labor mobility: Implications for Asset Pricing. Working Paper."
+   },
+   {
+    "doi": "10.2139/ssrn.2200889"
+   },
+   {
+    "author": "Douglas",
+    "year": "1967",
+    "article_title": "Risk in the equity markets: An empirical appraisal of market efficiency",
+    "journal_title": "Yale Economic Essays"
+   },
+   {
+    "doi": "10.2139/ssrn.963405"
+   },
+   {
+    "doi": "10.1023/a:1024472210359"
+   },
+   {
+    "doi": "10.2308/accr.00000006"
+   },
+   {
+    "doi": "10.1007/978-0-387-49317-6"
+   },
+   {
+    "doi": "10.1111/1540-6261.00493"
+   },
+   {
+    "doi": "10.1017/s0022109010000074"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2004.00644.x"
+   },
+   {
+    "doi": "10.2139/ssrn.2506683"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2011.03.021"
+   },
+   {
+    "doi": "10.1214/aos/1176344552"
+   },
+   {
+    "doi": "10.1198/016214504000000089"
+   },
+   {
+    "doi": "10.1214/07-sts236"
+   },
+   {
+    "doi": "10.1002/gepi.1124"
+   },
+   {
+    "doi": "10.1198/016214501753382129"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2012.01794.x"
+   },
+   {
+    "unstructured": "Eisfeldt, A. L., and D. Papanikolaou. 2011. Organization capital and the cross-section of expected returns. Working Paper."
+   },
+   {
+    "doi": "10.2308/accr.2001.76.4.613"
+   },
+   {
+    "doi": "10.2307/2329350"
+   },
+   {
+    "doi": "10.1093/rfs/6.1.1"
+   },
+   {
+    "doi": "10.3905/jpm.1996.409554"
+   },
+   {
+    "doi": "10.3905/jpm.2008.35.1.82"
+   },
+   {
+    "doi": "10.2308/accr.2003.78.1.353"
+   },
+   {
+    "doi": "10.2307/2328565"
+   },
+   {
+    "doi": "10.2307/2329112"
+   },
+   {
+    "doi": "10.1016/0304-405x(93)90023-5"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2005.09.009"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2010.01598.x"
+   },
+   {
+    "doi": "10.1086/260061"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2009.01493.x"
+   },
+   {
+    "doi": "10.1177/0962280206079046"
+   },
+   {
+    "unstructured": "Ferson, W. E., and Y. Chen. 2013. How many good and bad fund managers are there, really? Working Paper."
+   },
+   {
+    "doi": "10.1086/261755"
+   },
+   {
+    "doi": "10.1093/rfs/5.3.527"
+   },
+   {
+    "doi": "10.1016/0378-4266(93)00020-p"
+   },
+   {
+    "doi": "10.1111/0022-1082.00148"
+   },
+   {
+    "author": "Ferson",
+    "year": "2012",
+    "article_title": "The “out-of-sample” performance of long run risk models",
+    "journal_title": "Journal of Financial Economics"
+   },
+   {
+    "doi": "10.2307/2330366"
+   },
+   {
+    "doi": "10.2307/2327014"
+   },
+   {
+    "doi": "10.2307/2329491"
+   },
+   {
+    "doi": "10.1111/j.1755-053x.2009.01026.x"
+   },
+   {
+    "doi": "10.1016/s0165-4101(98)00026-3"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2006.00859.x"
+   },
+   {
+    "unstructured": "Frazzini, A., and L. H. Pedersen. 2013. Betting against beta. Working Paper."
+   },
+   {
+    "doi": "10.2139/ssrn.1883101"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2008.02.003"
+   },
+   {
+    "doi": "10.1093/rfs/10.2.275"
+   },
+   {
+    "doi": "10.1093/rfs/14.2.313"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2012.06.007"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2011.01652.x"
+   },
+   {
+    "doi": "10.1093/rfs/hhl044"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2012.04.002"
+   },
+   {
+    "doi": "10.1007/bf02595811"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2004.00695.x"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2009.11.003"
+   },
+   {
+    "doi": "10.2139/ssrn.802724"
+   },
+   {
+    "doi": "10.1093/acprof:oso/9780195328318.003.0013"
+   },
+   {
+    "doi": "10.2139/ssrn.1477066"
+   },
+   {
+    "doi": "10.1093/rfs/hhj040"
+   },
+   {
+    "doi": "10.2139/ssrn.1102231"
+   },
+   {
+    "doi": "10.1162/003355301556392"
+   },
+   {
+    "doi": "10.1162/00335530360535162"
+   },
+   {
+    "unstructured": "Gourio, F. 2007. Labor leverage, firms' heterogeneous sensitivities to the business cycle, and the cross-section of expected returns. Working Paper."
+   },
+   {
+    "unstructured": "Gow, I. D., and D. J. Taylor. 2009. Earnings volatility and the cross-section of returns. Working Paper."
+   },
+   {
+    "doi": "10.1007/s11142-013-9231-1"
+   },
+   {
+    "doi": "10.2139/ssrn.2262374"
+   },
+   {
+    "author": "Greene",
+    "year": "2008",
+    "volume_title": "Econometric analysis"
+   },
+   {
+    "doi": "10.1111/1540-6261.00497"
+   },
+   {
+    "doi": "10.1177/0148558x0502000405"
+   },
+   {
+    "doi": "10.2308/accr-10131"
+   },
+   {
+    "unstructured": "Gu, L., Z. Wang, and J. Ye. 2008. Information in order backlog: Change versus level. Working Paper."
+   },
+   {
+    "doi": "10.1093/rfs/hhn043"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1975.tb01826.x"
+   },
+   {
+    "doi": "10.2308/accr.00000011"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2009.01452.x"
+   },
+   {
+    "doi": "10.2139/ssrn.1570566"
+   },
+   {
+    "doi": "10.2139/ssrn.1735162"
+   },
+   {
+    "doi": "10.1371/journal.pgen.1000456"
+   },
+   {
+    "doi": "10.2139/ssrn.2182667"
+   },
+   {
+    "doi": "10.1111/0022-1082.00247"
+   },
+   {
+    "doi": "10.2139/ssrn.2358214"
+   },
+   {
+    "doi": "10.3905/jpm.2014.40.5.108"
+   },
+   {
+    "unstructured": "Harvey, C. R., and Y. Liu. 2014c. Lucky factors. Working Paper."
+   },
+   {
+    "doi": "10.2469/faj.v40.n5.24"
+   },
+   {
+    "doi": "10.1016/j.qref.2007.03.008"
+   },
+   {
+    "doi": "10.1111/0022-1082.00244"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1972.tb00618.x"
+   },
+   {
+    "doi": "10.2307/1912352"
+   },
+   {
+    "doi": "10.2139/ssrn.1786608"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2012.09.011"
+   },
+   {
+    "doi": "10.1093/rfs/hhq063"
+   },
+   {
+    "doi": "10.1016/j.jacceco.2004.10.002"
+   },
+   {
+    "doi": "10.1093/biomet/75.4.800"
+   },
+   {
+    "doi": "10.1002/sim.4780090710"
+   },
+   {
+    "doi": "10.1002/9780470316672"
+   },
+   {
+    "doi": "10.2139/ssrn.1466343"
+   },
+   {
+    "doi": "10.2307/4615733"
+   },
+   {
+    "doi": "10.1016/0165-4101(92)90025-w"
+   },
+   {
+    "doi": "10.1093/biomet/75.2.383"
+   },
+   {
+    "doi": "10.1093/rfs/hhr013"
+   },
+   {
+    "doi": "10.1093/rfs/hhi023"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2006.00893.x"
+   },
+   {
+    "author": "Hou",
+    "year": "2014",
+    "article_title": "Digesting anomalies: An investment approach",
+    "journal_title": "Review of Financial Studies"
+   },
+   {
+    "doi": "10.2139/ssrn.1689067"
+   },
+   {
+    "doi": "10.1016/j.jempfin.2009.01.001"
+   },
+   {
+    "doi": "10.1016/j.jbankfin.2011.12.014"
+   },
+   {
+    "doi": "10.1093/rfs/hhn049"
+   },
+   {
+    "doi": "10.2139/ssrn.1770264"
+   },
+   {
+    "author": "Ioannidis",
+    "year": "2005",
+    "article_title": "Why most published research findings are false?",
+    "journal_title": "PLoS Medicine"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2004.00697.x"
+   },
+   {
+    "doi": "10.2307/2329301"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2007.01253.x"
+   },
+   {
+    "doi": "10.2307/2327088"
+   },
+   {
+    "author": "Jefferys",
+    "year": "1992",
+    "article_title": "Ockham's razor and Bayesian analysis",
+    "journal_title": "American Scientist"
+   },
+   {
+    "doi": "10.2307/2328797"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2004.00657.x"
+   },
+   {
+    "doi": "10.2307/2328882"
+   },
+   {
+    "doi": "10.1007/s11142-005-1528-2"
+   },
+   {
+    "doi": "10.2139/ssrn.1908982"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2012.05.008"
+   },
+   {
+    "doi": "10.1016/s0304-405x(02)00224-6"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2011.05.004"
+   },
+   {
+    "doi": "10.1162/003355397555163"
+   },
+   {
+    "doi": "10.1016/j.jempfin.2004.02.004"
+   },
+   {
+    "doi": "10.2139/ssrn.1868703"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2012.05.007"
+   },
+   {
+    "doi": "10.3386/w19325"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2006.12.003"
+   },
+   {
+    "doi": "10.1093/rfs/hhn074"
+   },
+   {
+    "doi": "10.2139/ssrn.1328973"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2005.12.009"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2006.01015.x"
+   },
+   {
+    "doi": "10.1016/b978-0-444-53265-7.50015-9"
+   },
+   {
+    "doi": "10.2307/2326275"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2006.01063.x"
+   },
+   {
+    "doi": "10.1093/rfs/hhn016"
+   },
+   {
+    "doi": "10.2307/1913210"
+   },
+   {
+    "doi": "10.1093/rfs/14.2.529"
+   },
+   {
+    "doi": "10.2308/accr.00000014"
+   },
+   {
+    "doi": "10.2307/2329535"
+   },
+   {
+    "doi": "10.1016/j.jacceco.2013.01.006"
+   },
+   {
+    "author": "Leamer",
+    "year": "1978",
+    "volume_title": "Specification searches: Ad hoc inference with nonexperimental data"
+   },
+   {
+    "doi": "10.1111/0022-1082.00280"
+   },
+   {
+    "doi": "10.1007/s11142-007-9063-y"
+   },
+   {
+    "doi": "10.1214/009053605000000084"
+   },
+   {
+    "doi": "10.1086/323282"
+   },
+   {
+    "unstructured": "Lev, B., D. Nissim, and J. Thomas. 2005. On the informational usefulness of R&D capitalization and amortization. Working Paper."
+   },
+   {
+    "doi": "10.1506/7xmh-qq74-l6gg-cjrx"
+   },
+   {
+    "doi": "10.1016/0165-4101(95)00410-6"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2009.09.001"
+   },
+   {
+    "doi": "10.1214/07-ss026"
+   },
+   {
+    "doi": "10.1093/rfs/hhr043"
+   },
+   {
+    "doi": "10.1007/s11142-011-9157-4"
+   },
+   {
+    "doi": "10.1086/500687"
+   },
+   {
+    "unstructured": "Li, S. Z. 2012. Continuous beta, discontinuous beta, and the cross-section of expected stock returns. Working Paper."
+   },
+   {
+    "doi": "10.2139/ssrn.1740044"
+   },
+   {
+    "doi": "10.1093/bioinformatics/bti053"
+   },
+   {
+    "doi": "10.2307/2977249"
+   },
+   {
+    "doi": "10.2139/ssrn.1571481"
+   },
+   {
+    "doi": "10.1016/0304-405x(79)90012-6"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2005.10.001"
+   },
+   {
+    "doi": "10.2139/ssrn.2431498"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2009.01481.x"
+   },
+   {
+    "doi": "10.1093/rfs/3.3.431"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2006.01005.x"
+   },
+   {
+    "doi": "10.2307/2329238"
+   },
+   {
+    "doi": "10.2307/2329464"
+   },
+   {
+    "doi": "10.2307/1913837"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2005.00759.x"
+   },
+   {
+    "unstructured": "Lynch, A., and T. Vital-Ahuja. 2012. Can subsample evidence alleviate the data-snooping problem?: A comparison to the maximal R 2 cutoff test. Working Paper."
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2009.01507.x"
+   },
+   {
+    "doi": "10.3905/jpm.1994.409494"
+   },
+   {
+    "doi": "10.2307/2327520"
+   },
+   {
+    "doi": "10.2469/faj.v40.n1.34"
+   },
+   {
+    "doi": "10.1111/jofi.12365"
+   },
+   {
+    "doi": "10.1093/biomet/asn007"
+   },
+   {
+    "doi": "10.2307/2531814"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2010.01578.x"
+   },
+   {
+    "doi": "10.2307/1913811"
+   },
+   {
+    "doi": "10.2307/2329420"
+   },
+   {
+    "doi": "10.1007/s11142-005-1526-4"
+   },
+   {
+    "doi": "10.1111/0022-1082.00146"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2011.11.003"
+   },
+   {
+    "doi": "10.2307/1910098"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2004.08.008"
+   },
+   {
+    "doi": "10.1111/j.1475-679x.2006.00218.x"
+   },
+   {
+    "doi": "10.1017/s0022109009090012"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2013.01.003"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2014.02.002"
+   },
+   {
+    "doi": "10.2139/ssrn.1833628"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2003.05.008"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1981.tb00446.x"
+   },
+   {
+    "doi": "10.2139/ssrn.1413780"
+   },
+   {
+    "doi": "10.1016/0165-4101(89)90017-7"
+   },
+   {
+    "doi": "10.1093/rfs/hhn097"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2011.12.009"
+   },
+   {
+    "doi": "10.1108/14757701011094599"
+   },
+   {
+    "doi": "10.1086/426042"
+   },
+   {
+    "doi": "10.1086/374184"
+   },
+   {
+    "doi": "10.2308/accr-10198"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2010.06.006"
+   },
+   {
+    "doi": "10.2139/ssrn.318967"
+   },
+   {
+    "doi": "10.1016/j.jeconom.2006.03.010"
+   },
+   {
+    "doi": "10.2307/2672906"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2008.01335.x"
+   },
+   {
+    "author": "Prakash",
+    "year": "2012",
+    "article_title": "Deferred revenues and the matching of revenues and expenses",
+    "journal_title": "Contemporary Accounting Research"
+   },
+   {
+    "doi": "10.1016/j.jbankfin.2011.10.013"
+   },
+   {
+    "doi": "10.2139/ssrn.2517944"
+   },
+   {
+    "doi": "10.1023/a:1027364031775"
+   },
+   {
+    "doi": "10.2307/2328183"
+   },
+   {
+    "doi": "10.1017/s0266466608080171"
+   },
+   {
+    "doi": "10.1037//0033-2909.86.3.638"
+   },
+   {
+    "unstructured": "Ross, S. A. 1989. Regression to the max. Working Paper."
+   },
+   {
+    "doi": "10.2307/2329748"
+   },
+   {
+    "doi": "10.1016/0304-405x(74)90019-1"
+   },
+   {
+    "doi": "10.1214/aos/1015362192"
+   },
+   {
+    "doi": "10.1214/08-aos617"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2005.04.005"
+   },
+   {
+    "doi": "10.2307/2684163"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2010.01629.x"
+   },
+   {
+    "author": "Scheffé",
+    "year": "1959",
+    "volume_title": "The analysis of variance"
+   },
+   {
+    "doi": "10.1093/biomet/69.3.493"
+   },
+   {
+    "author": "Schwert",
+    "year": "2003",
+    "article_title": "Anomalies and market efficiency",
+    "volume_title": "Handbook of the economics of finance"
+   },
+   {
+    "unstructured": "Scott, J. G. 2009. Bayesian adjustment for multiplicity. Working Paper."
+   },
+   {
+    "doi": "10.1016/j.jspi.2005.08.031"
+   },
+   {
+    "doi": "10.1214/10-aos792"
+   },
+   {
+    "doi": "10.1146/annurev.ps.46.020195.003021"
+   },
+   {
+    "doi": "10.1016/0304-4076(90)90095-b"
+   },
+   {
+    "doi": "10.2307/2977928"
+   },
+   {
+    "doi": "10.2139/ssrn.1100785"
+   },
+   {
+    "doi": "10.1093/biomet/73.3.751"
+   },
+   {
+    "doi": "10.1111/j.1755-053x.2010.01109.x"
+   },
+   {
+    "author": "Sloan",
+    "year": "1996",
+    "article_title": "Do stock prices fully reflect information in accruals and cash flows about future earnings?",
+    "journal_title": "Accounting Review"
+   },
+   {
+    "doi": "10.2139/ssrn.1714657"
+   },
+   {
+    "doi": "10.2308/accr.2008.83.3.823"
+   },
+   {
+    "doi": "10.1016/0022-0531(74)90024-6"
+   },
+   {
+    "doi": "10.1016/0304-405x(94)00817-k"
+   },
+   {
+    "doi": "10.1016/s0304-405x(99)00031-8"
+   },
+   {
+    "doi": "10.1214/aos/1074290335"
+   },
+   {
+    "doi": "10.1016/0304-405x(81)90005-2"
+   },
+   {
+    "doi": "10.2307/2328353"
+   },
+   {
+    "doi": "10.1111/0022-1082.00163"
+   },
+   {
+    "doi": "10.1016/s0304-4076(01)00077-x"
+   },
+   {
+    "doi": "10.1111/j.1468-036x.2009.00520.x"
+   },
+   {
+    "doi": "10.1111/j.1467-9868.2008.00694.x"
+   },
+   {
+    "doi": "10.2307/2328443"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2003.10.003"
+   },
+   {
+    "doi": "10.1111/j.1475-679x.2011.00409.x"
+   },
+   {
+    "doi": "10.1016/s0895-4356(99)00161-4"
+   },
+   {
+    "doi": "10.1017/s0022109000003173"
+   },
+   {
+    "doi": "10.1016/s0378-3758(99)00145-7"
+   },
+   {
+    "doi": "10.1016/j.jeconom.2009.11.010"
+   },
+   {
+    "author": "Tukey",
+    "year": "1951",
+    "article_title": "Reminder sheets for “Discussion of paper on multiple comparisons by Henry Scheffe.”",
+    "volume_title": "The Collected Works of John W. Tukey VIII. Multiple Comparisons: 1948-1983"
+   },
+   {
+    "author": "Tukey",
+    "year": "1953",
+    "article_title": "The problem of multiple comparisons. Unpublished manuscript",
+    "volume_title": "The Collected Works of John W. Tukey VIII. Multiple Comparisons: 1948-1983"
+   },
+   {
+    "doi": "10.1093/rfs/hhq006"
+   },
+   {
+    "unstructured": "Valta, P. 2013. Strategic default, debt structure, and stock returns. Working Paper."
+   },
+   {
+    "unstructured": "van Binsbergen, J. H. 2012. Good-specific habit formation and the cross-section of expected returns. Working Paper."
+   },
+   {
+    "doi": "10.1093/rfs/hhg026"
+   },
+   {
+    "doi": "10.1093/rfs/hhj030"
+   },
+   {
+    "doi": "10.1016/s0304-405x(02)00248-9"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2004.00650.x"
+   },
+   {
+    "doi": "10.2139/ssrn.1782081"
+   },
+   {
+    "doi": "10.1111/j.1467-9280.2006.01757.x"
+   },
+   {
+    "doi": "10.1007/s11142-010-9124-5"
+   },
+   {
+    "doi": "10.2139/ssrn.2024755"
+   },
+   {
+    "doi": "10.1207/s15427579jpfm0404_2"
+   },
+   {
+    "doi": "10.1093/bioinformatics/btp476"
+   },
+   {
+    "author": "Westfall",
+    "year": "1993",
+    "volume_title": "Resampling-based multiple testing"
+   },
+   {
+    "doi": "10.1093/rfs/hhm014"
+   },
+   {
+    "doi": "10.1111/1468-0262.00152"
+   },
+   {
+    "doi": "10.1093/rfs/hhj012"
+   },
+   {
+    "doi": "10.1080/02664760600994745"
+   },
+   {
+    "doi": "10.2307/2329305"
+   },
+   {
+    "doi": "10.1093/rfs/hhm051"
+   },
+   {
+    "doi": "10.1017/s0022109010000220"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2010.08.011"
+   },
+   {
+    "doi": "10.1016/s0378-3758(99)00041-5"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2006.00848.x"
+   },
+   {
+    "doi": "10.1093/bioinformatics/btq085"
+   },
+   {
+    "doi": "10.2139/ssrn.1916471"
+   }
+  ]
+ },
+ "10.2139/ssrn.4187217": {
+  "title": "Machine Learning and the Implementable Efficient Frontier",
+  "abstract": "<div> We propose that investment strategies should be evaluated based on their net-oftrading-&nbsp;<span>cost return for each level of risk, which we term the “implementable efficient&nbsp;</span><span>frontier.” While numerous studies use machine learning return forecasts to generate&nbsp;</span><span>portfolios, their agnosticism toward trading costs leads to excessive reliance on fleeting&nbsp;</span><span>small-scale characteristics, resulting in poor net returns. We develop a framework that&nbsp;</span><span>produces a superior frontier by integrating trading-cost-aware portfolio optimization&nbsp;</span><span>with machine learning. The superior net-of-cost performance is achieved by learning&nbsp;</span><span>directly about portfolio weights using an economic objective. Further, our model gives&nbsp;</span><span>rise to a new measure of “economic feature importance.”</span> </div>",
+  "journal": "",
+  "year": "2022",
+  "ref_dois": [
+   "10.1016/0304-405x(93)90023-5",
+   "10.1016/j.acha.2021.12.003",
+   "10.1016/j.automatica.2021.109896",
+   "10.1016/j.jeconom.2020.07.009",
+   "10.1016/j.jet.2016.06.001",
+   "10.1016/j.jfineco.2007.02.003",
+   "10.1016/j.jfineco.2019.05.001",
+   "10.1016/j.jfineco.2019.09.011",
+   "10.1016/j.jfineco.2021.08.017",
+   "10.1016/s0304-405x(99)00004-5",
+   "10.1023/a:1010933404324",
+   "10.1086/261410",
+   "10.1086/261749",
+   "10.1086/701683",
+   "10.1093/rfs/hhaa009",
+   "10.1093/rfs/hhm075",
+   "10.1093/rfs/hhp003",
+   "10.1093/rfs/hhz085",
+   "10.1093/rfs/hhz123",
+   "10.1111/0022-1082.00287",
+   "10.1111/jofi.12080",
+   "10.1111/jofi.12771",
+   "10.1111/jofi.13249",
+   "10.1137/22m1499819",
+   "10.1287/mnsc.2022.4449",
+   "10.1287/moor.15.4.676",
+   "10.3386/w30217"
+  ],
+  "references": [
+   {
+    "doi": "10.1287/mnsc.2022.4449"
+   },
+   {
+    "doi": "10.1016/s0304-405x(99)00004-5"
+   },
+   {
+    "author": "T G Bali",
+    "year": "2021",
+    "journal_title": "Option return predictability with machine learning and big data"
+   },
+   {
+    "author": "T G Bali",
+    "year": "2022",
+    "article_title": "Predicting corporate bond returns: Merton meets machine learning",
+    "journal_title": "Georgetown McDonough School of Business Research Paper"
+   },
+   {
+    "doi": "10.1137/22m1499819"
+   },
+   {
+    "doi": "10.1093/rfs/hhp003"
+   },
+   {
+    "doi": "10.1023/a:1010933404324"
+   },
+   {
+    "author": "N Cakici",
+    "year": "2022",
+    "journal_title": "Empirical asset pricing via machine learning: The global edition"
+   },
+   {
+    "author": "A Y Chen",
+    "year": "2021",
+    "journal_title": "Zeroing in on the expected returns of anomalies. Working paper"
+   },
+   {
+    "author": "L Chen",
+    "year": "2023",
+    "article_title": "Deep learning in asset pricing",
+    "journal_title": "Management Science"
+   },
+   {
+    "author": "D Choi",
+    "year": "2021",
+    "journal_title": "Alpha go everywhere: Machine learning and international stock returns"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2019.09.011"
+   },
+   {
+    "doi": "10.1086/261410"
+   },
+   {
+    "doi": "10.1287/moor.15.4.676"
+   },
+   {
+    "doi": "10.1093/rfs/hhm075"
+   },
+   {
+    "doi": "10.1093/rfs/hhz085"
+   },
+   {
+    "author": "A L Detzel",
+    "year": "2021",
+    "journal_title": "Model selection with transaction costs"
+   },
+   {
+    "doi": "10.1016/0304-405x(93)90023-5"
+   },
+   {
+    "author": "A Frazzini",
+    "year": "2018"
+   },
+   {
+    "doi": "10.1093/rfs/hhz123"
+   },
+   {
+    "doi": "10.1111/jofi.12080"
+   },
+   {
+    "doi": "10.1016/j.jet.2016.06.001"
+   },
+   {
+    "doi": "10.1093/rfs/hhaa009"
+   },
+   {
+    "doi": "10.1016/j.jeconom.2020.07.009"
+   },
+   {
+    "author": "Y Han",
+    "year": "2021",
+    "journal_title": "Expected stock returns and firm characteristics: E-lasso, assessment, and implications. Assessment, and Implications"
+   },
+   {
+    "doi": "10.1086/261749"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2007.02.003"
+   },
+   {
+    "doi": "10.1111/jofi.13249"
+   },
+   {
+    "doi": "10.3386/w30217"
+   },
+   {
+    "author": "B T Kelly",
+    "year": "2022",
+    "article_title": "Modeling corporate bond returns",
+    "journal_title": "Journal of Finance"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2019.05.001"
+   },
+   {
+    "doi": "10.1086/701683"
+   },
+   {
+    "author": "M G Krein",
+    "year": "1950",
+    "article_title": "Linear operators leaving invariant a cone in a Banach space",
+    "journal_title": "Number"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2021.08.017"
+   },
+   {
+    "author": "S A Li",
+    "year": "2020",
+    "journal_title": "Which factors with price-impact costs? Victor and Martin-Utrera, Alberto"
+   },
+   {
+    "author": "F Liu",
+    "year": "2021",
+    "article_title": "Kernel regression in high dimensions: Refined analysis beyond double descent",
+    "journal_title": "International Conference on Artificial Intelligence and Statistics"
+   },
+   {
+    "doi": "10.1111/0022-1082.00287"
+   },
+   {
+    "doi": "10.1016/j.automatica.2021.109896"
+   },
+   {
+    "author": "J Manchero",
+    "year": "2011",
+    "journal_title": "The barra us equity model (use4)"
+   },
+   {
+    "author": "H M Markowitz",
+    "year": "1952",
+    "article_title": "Portfolio selection",
+    "journal_title": "The Journal of Finance"
+   },
+   {
+    "author": "H M Markowitz",
+    "year": "1959",
+    "journal_title": "Portfolio Selection: Efficient Diversification of Investments"
+   },
+   {
+    "doi": "10.1016/j.acha.2021.12.003"
+   },
+   {
+    "author": "M Mohri",
+    "year": "2018",
+    "journal_title": "Foundations of machine learning"
+   },
+   {
+    "author": "C Molnar",
+    "year": "2022",
+    "journal_title": "Interpretable Machine Learning"
+   },
+   {
+    "author": "Msci Barra",
+    "year": "2007",
+    "journal_title": "Barra Risk Model Handbook"
+   },
+   {
+    "author": "D Muravyev",
+    "year": "2022",
+    "journal_title": "Anomalies and their short-sale costs"
+   },
+   {
+    "author": "A Rahimi",
+    "year": "2007",
+    "article_title": "Random features for large-scale kernel machines",
+    "journal_title": "Advances in neural information processing systems"
+   },
+   {
+    "author": "D J Sutherland",
+    "year": "2015",
+    "journal_title": "On the error of random fourier features"
+   },
+   {
+    "doi": "10.1111/jofi.12771"
+   },
+   {
+    "journal_title": "Bd. Du Pont d'Arve"
+   }
+  ]
+ },
+ "10.1111/jofi.13298": {
+  "title": "The Virtue of Complexity in Return Prediction",
+  "abstract": "Much of the extant literature predicts market returns with “simple” models that use only a few parameters. Contrary to conventional wisdom, we theoretically prove that simple models severely understate return predictability compared to “complex” models in which the number of parameters exceeds the number of observations. We empirically document the virtue of complexity in U.S. equity market return prediction. Our findings establish the rationale for modeling expected returns through machine learning.",
+  "journal": "The Journal of Finance",
+  "year": "2023",
+  "ref_dois": [
+   "10.1002/9781119751182.ch1",
+   "10.1002/cpa.22008",
+   "10.1006/jmva.1995.1051",
+   "10.1007/s00440-010-0298-3",
+   "10.1016/0893-6080(90)90005-6",
+   "10.1016/b978-0-444-53683-9.00006-2",
+   "10.1016/j.acha.2021.12.003",
+   "10.1016/j.crma.2015.12.008",
+   "10.1016/j.jbankfin.2012.06.008",
+   "10.1016/j.jeconom.2008.09.017",
+   "10.1016/j.jfineco.2005.12.002",
+   "10.1016/j.jfineco.2011.11.003",
+   "10.1016/j.jfineco.2019.06.008",
+   "10.1016/j.jfineco.2021.10.006",
+   "10.1017/s0022109012000415",
+   "10.1070/sm1967v001n04abeh001994",
+   "10.1073/pnas.1903070116",
+   "10.1073/pnas.1907378117",
+   "10.1080/01621459.1976.10480949",
+   "10.1080/01621459.2020.1825448",
+   "10.1088/1751-8121/ab4c8b",
+   "10.1093/acrefore/9780190625979.013.777",
+   "10.1093/rfs/hhaa009",
+   "10.1093/rfs/hhm014",
+   "10.1093/rfs/hhm055",
+   "10.1093/rfs/hhp063",
+   "10.1093/rfs/hhz123",
+   "10.1109/tpami.2021.3097011",
+   "10.1111/0022-1082.00351",
+   "10.1111/j.1540-6261.2011.01671.x",
+   "10.1111/jofi.12060",
+   "10.1111/jofi.13099",
+   "10.1137/20m1336072",
+   "10.1146/annurev-financial-102710-144905",
+   "10.1214/17-aos1549",
+   "10.1214/19-aos1921",
+   "10.1214/21-aos2133",
+   "10.1287/mnsc.2023.4695",
+   "10.2139/ssrn.3929119",
+   "10.2139/ssrn.4117882",
+   "10.2307/1913601",
+   "10.3386/w31502",
+   "10.3982/ecta11069",
+   "10.3982/ecta17842"
+  ],
+  "references": [
+   {
+    "doi": "10.1017/s0022109012000415"
+   },
+   {
+    "unstructured": "Ali Alnur J. ZicoKolter andRyan J.Tibshirani 2019 A continuous‐time view of early stopping for least squares regression inKamalikaChaudhuriandMasashiSugiyama eds. Proceedings of the 22nd International Conference on Artificial Intelligence and Statistics (AISTATS) volume 89 1370–1378(Naha Okinawa Japan) PMLR."
+   },
+   {
+    "unstructured": "Allen‐Zhu Zeyuan YuanzhiLi andZhaoSong 2019 A convergence theory for deep learning via over‐parameterization inKamalikaChaudhuriandRuslanSalakhutdinov eds. Proceedings of the 36th International Conference on Machine Learning 242–252(Long Beach California) PMLR 97."
+   },
+   {
+    "author": "Bai Zhidong",
+    "year": "2008",
+    "article_title": "Large sample covariance matrices without independence structures in columns",
+    "journal_title": "Statistica Sinica"
+   },
+   {
+    "doi": "10.1073/pnas.1907378117"
+   },
+   {
+    "doi": "10.1073/pnas.1903070116"
+   },
+   {
+    "doi": "10.1137/20m1336072"
+   },
+   {
+    "unstructured": "Belkin Mikhail AlexanderRakhlin andAlexandre B.Tsybakov 2019 Does data interpolation contradict statistical optimality?InKamalikaChaudhuriandMasashiSugiyama eds. Proceedings of the 22nd International Conference on Artificial Intelligence and Statistics (AISTATS) volume 89 1611–1619(Naha Okinawa Japan) PMLR."
+   },
+   {
+    "doi": "10.1080/01621459.1976.10480949"
+   },
+   {
+    "doi": "10.1093/rfs/hhm055"
+   },
+   {
+    "doi": "10.1016/j.jbankfin.2012.06.008"
+   },
+   {
+    "doi": "10.1287/mnsc.2023.4695"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2011.01671.x"
+   },
+   {
+    "unstructured": "Da Rui StefanNagel andDachengXiu 2022 The statistical limit of arbitrage Working paper Chicago Booth."
+   },
+   {
+    "doi": "10.1214/17-aos1549"
+   },
+   {
+    "doi": "10.1111/jofi.13099"
+   },
+   {
+    "unstructured": "Du Simon JasonLee HaochuanLi LiweiWang andXiyuZhai 2019 Gradient descent finds global minima of deep neural networks inKamalikaChaudhuriandRuslanSalakhutdinov eds. Proceedings of the 36th International Conference on Machine Learning 1675–1685(Long Beach California) PMLR."
+   },
+   {
+    "unstructured": "Du Simon S. XiyuZhai BarnabasPoczos andAartiSingh 2018 Gradient descent provably optimizes over‐parameterized neural networks Working paper arXiv Cornell University."
+   },
+   {
+    "doi": "10.1016/j.jeconom.2008.09.017"
+   },
+   {
+    "doi": "10.1080/01621459.2020.1825448"
+   },
+   {
+    "doi": "10.2139/ssrn.4117882"
+   },
+   {
+    "doi": "10.1111/0022-1082.00351"
+   },
+   {
+    "doi": "10.1093/rfs/hhz123"
+   },
+   {
+    "doi": "10.3982/ecta11069"
+   },
+   {
+    "author": "Ghorbani Behrooz",
+    "year": "2020",
+    "article_title": "When do neural networks outperform kernel methods?",
+    "journal_title": "Advances in Neural Information Processing Systems"
+   },
+   {
+    "doi": "10.3982/ecta17842"
+   },
+   {
+    "doi": "10.1093/rfs/hhm014"
+   },
+   {
+    "doi": "10.2139/ssrn.3929119"
+   },
+   {
+    "doi": "10.1093/rfs/hhaa009"
+   },
+   {
+    "doi": "10.2307/1913601"
+   },
+   {
+    "doi": "10.1214/21-aos2133"
+   },
+   {
+    "doi": "10.1016/0893-6080(90)90005-6"
+   },
+   {
+    "unstructured": "Jacot Arthur FranckGabriel andClémentHongler 2018 Neural tangent kernel: Convergence and generalization in neural networks Advances in Neural Information Processing Systems31."
+   },
+   {
+    "doi": "10.1111/jofi.12060"
+   },
+   {
+    "doi": "10.3386/w31502"
+   },
+   {
+    "doi": "10.1146/annurev-financial-102710-144905"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2019.06.008"
+   },
+   {
+    "doi": "10.1007/s00440-010-0298-3"
+   },
+   {
+    "doi": "10.1214/19-aos1921"
+   },
+   {
+    "author": "Leitch Gordon",
+    "year": "1991",
+    "article_title": "Economic forecast evaluation: Profits versus the conventional error measures",
+    "journal_title": "American Economic Review"
+   },
+   {
+    "doi": "10.1109/tpami.2021.3097011"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2005.12.002"
+   },
+   {
+    "doi": "10.1070/sm1967v001n04abeh001994"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2021.10.006"
+   },
+   {
+    "doi": "10.1016/j.acha.2021.12.003"
+   },
+   {
+    "doi": "10.1002/cpa.22008"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2011.11.003"
+   },
+   {
+    "unstructured": "Rahimi Ali andBenjaminRecht 2007 Random features for large‐scale kernel machines Advances in Neural Information Processing Systems20."
+   },
+   {
+    "unstructured": "Rahimi Ali andBenjaminRecht 2008 Weighted sums of random kitchen sinks: Replacing minimization with randomization in learning Advances in Neural Information Processing Systems21."
+   },
+   {
+    "doi": "10.1016/b978-0-444-53683-9.00006-2"
+   },
+   {
+    "doi": "10.1093/acrefore/9780190625979.013.777"
+   },
+   {
+    "doi": "10.1093/rfs/hhp063"
+   },
+   {
+    "doi": "10.1002/9781119751182.ch1"
+   },
+   {
+    "unstructured": "Richards Dominic JaouadMourtada andLorenzoRosasco 2021 Asymptotics of ridge (less) regression under general source condition inArindamBanerjeeandKenjiFukumizu eds. Proceedings of the 24th International Conference on Artificial Intelligence and Statistics (AISTATS) 3889–3897(SanDiego California USA) PMLR."
+   },
+   {
+    "unstructured": "Rudi Alessandro andLorenzoRosasco 2017 Generalization properties of learning with random features Advances in Neural Information Processing Systems30."
+   },
+   {
+    "doi": "10.1006/jmva.1995.1051"
+   },
+   {
+    "doi": "10.1088/1751-8121/ab4c8b"
+   },
+   {
+    "unstructured": "Sutherland Danica J. andJeffSchneider 2015 On the error of random fourier features Proceedings of the Thirty‐First Conference on Uncertainty in Artificial Intelligence862–871."
+   },
+   {
+    "author": "Tsigler Alexander",
+    "year": "2023",
+    "article_title": "Benign overfitting in ridge regression",
+    "journal_title": "Journal of Machine Learning Research"
+   },
+   {
+    "author": "Wu Denny",
+    "year": "2020",
+    "article_title": "On the optimal weighted ℓ2 regularization in overparameterized linear regression",
+    "journal_title": "Advances in Neural Information Processing Systems"
+   },
+   {
+    "doi": "10.1016/j.crma.2015.12.008"
+   }
+  ]
+ },
+ "10.1016/j.jfineco.2019.05.001": {
+  "title": "Characteristics are covariances: A unified model of risk and return",
+  "abstract": "",
+  "journal": "Journal of Financial Economics",
+  "year": "2019",
+  "ref_dois": [
+   "10.1016/0022-0531(76)90046-6",
+   "10.1016/0304-405x(77)90009-5",
+   "10.1016/0304-405x(86)90027-9",
+   "10.1016/0304-405x(88)90062-1",
+   "10.1016/0304-405x(93)90023-5",
+   "10.1016/j.jeconom.2003.10.030",
+   "10.1016/j.jfineco.2009.09.001",
+   "10.1016/j.jfineco.2014.08.007",
+   "10.1016/j.jfineco.2014.10.010",
+   "10.1086/260061",
+   "10.1093/rfs/hhu068",
+   "10.1093/rfs/hhv063",
+   "10.1093/rfs/hhw102",
+   "10.1093/rfs/hhw107",
+   "10.1111/0022-1082.00148",
+   "10.1111/j.1540-6261.1997.tb03806.x",
+   "10.1111/j.1540-6261.1997.tb03808.x",
+   "10.1111/j.1540-6261.2011.01671.x",
+   "10.1111/jofi.12437",
+   "10.1111/jofi.12607",
+   "10.1111/jofi.12612",
+   "10.1198/016214502388618960",
+   "10.1214/15-aos1364",
+   "10.1561/104.00000003",
+   "10.1561/104.00000024",
+   "10.2139/ssrn.3233905",
+   "10.2307/1912275",
+   "10.2307/1912775",
+   "10.2307/1913601",
+   "10.2307/1913625",
+   "10.2307/2330104",
+   "10.3982/ecta12749"
+  ],
+  "references": [
+   {
+    "doi": "10.1111/jofi.12437"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2014.08.007"
+   },
+   {
+    "doi": "10.1111/jofi.12607"
+   },
+   {
+    "author": "Barra",
+    "year": "1998",
+    "series_title": "United States Equity Version 3 (e3)"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1997.tb03808.x"
+   },
+   {
+    "doi": "10.2307/1912275"
+   },
+   {
+    "author": "Chordia",
+    "year": "2015",
+    "series_title": "Cross-sectional Asset Pricing with Individual Stocks: Betas Versus Characteristics"
+   },
+   {
+    "author": "Cochrane",
+    "year": "2005",
+    "series_title": "Asset Pricing"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2011.01671.x"
+   },
+   {
+    "doi": "10.1016/0304-405x(86)90027-9"
+   },
+   {
+    "doi": "10.1016/0304-405x(88)90062-1"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1997.tb03806.x"
+   },
+   {
+    "doi": "10.1561/104.00000003"
+   },
+   {
+    "doi": "10.1016/0304-405x(93)90023-5"
+   },
+   {
+    "doi": "10.1086/260061"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2014.10.010"
+   },
+   {
+    "doi": "10.1214/15-aos1364"
+   },
+   {
+    "doi": "10.3982/ecta12749"
+   },
+   {
+    "doi": "10.1111/0022-1082.00148"
+   },
+   {
+    "author": "Freyberger",
+    "year": "2017",
+    "series_title": "Dissecting Characteristics Nonparametrically"
+   },
+   {
+    "doi": "10.2307/1913625"
+   },
+   {
+    "doi": "10.1016/j.jeconom.2003.10.030"
+   },
+   {
+    "author": "Gu",
+    "year": "2018",
+    "series_title": "Empirical Asset Pricing via Machine Learning"
+   },
+   {
+    "doi": "10.2307/1912775"
+   },
+   {
+    "doi": "10.2307/1913601"
+   },
+   {
+    "doi": "10.1093/rfs/hhu068"
+   },
+   {
+    "author": "Kelly",
+    "year": "2017",
+    "series_title": "Instrumented Principal Component Analysis"
+   },
+   {
+    "doi": "10.2139/ssrn.3233905"
+   },
+   {
+    "doi": "10.1111/jofi.12612"
+   },
+   {
+    "doi": "10.1561/104.00000024"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2009.09.001"
+   },
+   {
+    "doi": "10.1093/rfs/hhw102"
+   },
+   {
+    "doi": "10.1093/rfs/hhv063"
+   },
+   {
+    "doi": "10.1016/0304-405x(77)90009-5"
+   },
+   {
+    "doi": "10.2307/2330104"
+   },
+   {
+    "doi": "10.1016/0022-0531(76)90046-6"
+   },
+   {
+    "author": "Santos",
+    "year": "2004",
+    "series_title": "Conditional Betas"
+   },
+   {
+    "doi": "10.1093/rfs/hhw107"
+   },
+   {
+    "doi": "10.1198/016214502388618960"
+   }
+  ]
+ },
+ "10.3905/jfds.2019.1.1.159": {
+  "title": "Dynamic Replication and Hedging: A Reinforcement Learning Approach",
+  "abstract": "",
+  "journal": "The Journal of Financial Data Science",
+  "year": "2019",
+  "ref_dois": [],
+  "references": []
+ },
+ "10.1609/aaai.v38i1.27767": {
+  "title": "MASTER: Market-Guided Stock Transformer for Stock Price Forecasting",
+  "abstract": "Stock price forecasting has remained an extremely challenging problem for many decades due to the high volatility of the stock market. Recent efforts have been devoted to modeling complex stock correlations toward joint stock price forecasting. Existing works share a common neural architecture that learns temporal patterns from individual stock series and then mixes up temporal representations to establish stock correlations. However, they only consider time-aligned stock correlations stemming from all the input stock features, which suffer from two limitations. First, stock correlations often occur momentarily and in a cross-time manner. Second, the feature effectiveness is dynamic with market variation, which affects both the stock sequential patterns and their correlations. To address the limitations, this paper introduces MASTER, a MArkert-guided Stock TransformER, which models the momentary and cross-time stock correlation and leverages market information for automatic feature selection. MASTER elegantly tackles the complex stock correlation by alternatively engaging in intra-stock and inter-stock information aggregation. Experiments show the superiority of MASTER compared with previous works and visualize the captured realistic stock correlation to provide valuable insights.",
+  "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "year": "2024",
+  "ref_dois": [],
+  "references": []
+ },
+ "10.1111/jofi.12365": {
+  "title": "Does Academic Research Destroy Stock Return Predictability?",
+  "abstract": "We study the out‐of‐sample and post‐publication return predictability of 97 variables shown to predict cross‐sectional stock returns. Portfolio returns are 26% lower out‐of‐sample and 58% lower post‐publication. The out‐of‐sample decline is an upper bound estimate of data mining effects. We estimate a 32% (58%–26%) lower return from publication‐informed trading. Post‐publication declines are greater for predictors with higher in‐sample returns, and returns are higher for portfolios concentrated in stocks with high idiosyncratic risk and low liquidity. Predictor portfolios exhibit post‐publication increases in correlations with other published‐predictor portfolios. Our findings suggest that investors learn about mispricing from academic publications.",
+  "journal": "The Journal of Finance",
+  "year": "2016",
+  "ref_dois": [
+   "10.1007/s11142-013-9231-1",
+   "10.1016/0304-405x(86)90065-6",
+   "10.1016/0304-405x(95)00868-f",
+   "10.1016/j.jacceco.2006.04.002",
+   "10.1016/j.jfi.2009.06.003",
+   "10.1016/j.jfineco.2004.04.003",
+   "10.1016/j.jfineco.2008.09.009",
+   "10.1016/j.jfineco.2011.11.003",
+   "10.1016/s0304-405x(03)00064-3",
+   "10.1016/s0304-405x(03)00206-x",
+   "10.1016/s0304-4076(01)00077-x",
+   "10.1016/s1386-4181(01)00024-6",
+   "10.1017/s002210900000274x",
+   "10.1017/s0022109010000311",
+   "10.1023/b:rast.0000013629.59222.df",
+   "10.1086/260061",
+   "10.1086/261703",
+   "10.1086/295508",
+   "10.1086/ntj41792223",
+   "10.1093/rfs/14.1.29",
+   "10.1093/rfs/3.3.431",
+   "10.1093/rfs/hhm014",
+   "10.1093/rfs/hhm052",
+   "10.1093/rfs/hhp083",
+   "10.1093/rfs/hhr110",
+   "10.1093/rfs/hht066",
+   "10.1111/0022-1082.00046",
+   "10.1111/0022-1082.00080",
+   "10.1111/0022-1082.00322",
+   "10.1111/0022-1082.00342",
+   "10.1111/0022-1082.95722",
+   "10.1111/j.1540-6261.1991.tb03746.x",
+   "10.1111/j.1540-6261.1991.tb04636.x",
+   "10.1111/j.1540-6261.1992.tb04398.x",
+   "10.1111/j.1540-6261.1995.tb04796.x",
+   "10.1111/j.1540-6261.1997.tb03807.x",
+   "10.1111/j.1540-6261.2004.00656.x",
+   "10.1111/j.1540-6261.2006.00836.x",
+   "10.1111/j.1540-6261.2006.00859.x",
+   "10.1111/j.1540-6261.2012.01729.x",
+   "10.1111/jofi.12021",
+   "10.1214/ss/1177011364",
+   "10.1561/104.00000024",
+   "10.2139/ssrn.2029057",
+   "10.2139/ssrn.2431498",
+   "10.2307/1909635",
+   "10.2307/1912352",
+   "10.2307/2946710",
+   "10.2308/accr.00000006",
+   "10.2469/faj.v65.n2.3",
+   "10.3386/w20592"
+  ],
+  "references": [
+   {
+    "unstructured": "Akbas Ferhat Will J.Armstrong SorinSorescu andAanidharSubrahmanyam 2014 Time varying market efficiency in the cross‐section of expected stock returns Working paper UCLA."
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2006.00836.x"
+   },
+   {
+    "doi": "10.1016/s1386-4181(01)00024-6"
+   },
+   {
+    "doi": "10.1016/0304-405x(86)90065-6"
+   },
+   {
+    "doi": "10.1093/rfs/hhr110"
+   },
+   {
+    "doi": "10.1111/jofi.12021"
+   },
+   {
+    "doi": "10.1017/s002210900000274x"
+   },
+   {
+    "doi": "10.1016/s0304-405x(03)00064-3"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2004.04.003"
+   },
+   {
+    "doi": "10.1086/ntj41792223"
+   },
+   {
+    "doi": "10.2139/ssrn.2029057"
+   },
+   {
+    "author": "Cochrane John H.",
+    "year": "1999",
+    "article_title": "Portfolio advice for a multifactor world",
+    "journal_title": "Economic Perspectives: Federal Reserve Bank of Chicago"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2012.01729.x"
+   },
+   {
+    "doi": "10.1086/261703"
+   },
+   {
+    "doi": "10.1111/0022-1082.00046"
+   },
+   {
+    "doi": "10.1111/0022-1082.00322"
+   },
+   {
+    "doi": "10.2308/accr.00000006"
+   },
+   {
+    "doi": "10.2469/faj.v65.n2.3"
+   },
+   {
+    "doi": "10.1016/j.jfi.2009.06.003"
+   },
+   {
+    "author": "Fama Eugene F.",
+    "year": "1976",
+    "volume_title": "Foundations of Finance"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1991.tb04636.x"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1992.tb04398.x"
+   },
+   {
+    "doi": "10.1111/0022-1082.00080"
+   },
+   {
+    "doi": "10.1086/260061"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2006.00859.x"
+   },
+   {
+    "doi": "10.1093/rfs/hhp083"
+   },
+   {
+    "doi": "10.1093/rfs/hhm014"
+   },
+   {
+    "doi": "10.1007/s11142-013-9231-1"
+   },
+   {
+    "doi": "10.1093/rfs/hhm052"
+   },
+   {
+    "doi": "10.1093/rfs/14.1.29"
+   },
+   {
+    "doi": "10.1093/rfs/hht066"
+   },
+   {
+    "doi": "10.3386/w20592"
+   },
+   {
+    "doi": "10.1016/0304-405x(95)00868-f"
+   },
+   {
+    "doi": "10.2307/1912352"
+   },
+   {
+    "doi": "10.1214/ss/1177011364"
+   },
+   {
+    "doi": "10.1023/b:rast.0000013629.59222.df"
+   },
+   {
+    "doi": "10.1111/0022-1082.00342"
+   },
+   {
+    "unstructured": "Kokkonen Joni andMattiSuominen 2014 Hedge funds and stock market efficiency Working paper Aalto University."
+   },
+   {
+    "doi": "10.1111/j.1540-6261.2004.00656.x"
+   },
+   {
+    "author": "Leamer Edward E.",
+    "year": "1978",
+    "volume_title": "Specification Searches: Ad Hoc Inference with Nonexperimental Data"
+   },
+   {
+    "author": "LeBaron Blake",
+    "year": "2000",
+    "article_title": "The stability of moving average technical trading rules on the Dow Jones Index",
+    "journal_title": "Derivatives Use, Trading and Regulation"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1991.tb03746.x"
+   },
+   {
+    "doi": "10.1016/s0304-405x(03)00206-x"
+   },
+   {
+    "doi": "10.1561/104.00000024"
+   },
+   {
+    "doi": "10.2139/ssrn.2431498"
+   },
+   {
+    "doi": "10.1093/rfs/3.3.431"
+   },
+   {
+    "doi": "10.1017/s0022109010000311"
+   },
+   {
+    "doi": "10.1016/j.jfineco.2008.09.009"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1995.tb04796.x"
+   },
+   {
+    "unstructured": "Mittoo Usha andRexThompson 1990 Do capital markets learn from financial economists? Working paper Southern Methodist University."
+   },
+   {
+    "doi": "10.1016/j.jfineco.2011.11.003"
+   },
+   {
+    "doi": "10.2307/1909635"
+   },
+   {
+    "doi": "10.2307/2946710"
+   },
+   {
+    "author": "Pontiff Jeffrey",
+    "year": "1997",
+    "article_title": "Excess volatility and closed‐end funds",
+    "journal_title": "American Economic Review"
+   },
+   {
+    "doi": "10.1016/j.jacceco.2006.04.002"
+   },
+   {
+    "doi": "10.1111/0022-1082.95722"
+   },
+   {
+    "author": "Schwert G. William",
+    "year": "2003",
+    "volume_title": "Handbook of the Economics of Finance"
+   },
+   {
+    "author": "Shiller Robert",
+    "year": "1981",
+    "article_title": "Do stock prices move too much to be justified by subsequent changes in dividends",
+    "journal_title": "American Economic Review"
+   },
+   {
+    "doi": "10.1111/j.1540-6261.1997.tb03807.x"
+   },
+   {
+    "doi": "10.1016/s0304-4076(01)00077-x"
+   },
+   {
+    "doi": "10.1086/295508"
+   }
+  ]
+ },
+ "10.1109/72.935097": {
+  "title": "Learning to trade via direct reinforcement",
+  "abstract": "",
+  "journal": "IEEE Transactions on Neural Networks",
+  "year": "2001",
+  "ref_dois": [
+   "10.1002/(sici)1099-131x(1998090)17:5/6<441::aid-for707>3.0.co;2-#",
+   "10.1007/bf00992698",
+   "10.1016/0022-0531(71)90038-x",
+   "10.1016/0304-405x(79)90015-1",
+   "10.1016/1057-5219(92)90004-n",
+   "10.1016/s0165-1889(97)00031-6",
+   "10.1023/a:1022633531479",
+   "10.1023/a:1022635613229",
+   "10.1023/a:1022672621406",
+   "10.1057/9780230226203.2837",
+   "10.1080/00036849100000021",
+   "10.1086/294846",
+   "10.1093/rfs/14.1.113",
+   "10.1109/5.58337",
+   "10.1109/72.80202",
+   "10.1109/72.935083",
+   "10.1109/9.793723",
+   "10.1109/9.905687",
+   "10.1109/cdc.1998.757861",
+   "10.1109/cifer.1997.618952",
+   "10.1109/iscas.2000.856049",
+   "10.1109/tnn.1998.712192",
+   "10.1109/tsmc.1983.6313077",
+   "10.1137/1.9781611971170.ch9",
+   "10.1145/1455292.1455309",
+   "10.1145/203330.203343",
+   "10.1147/rd.116.0601",
+   "10.1147/rd.33.0210",
+   "10.1162/neco.1989.1.2.270",
+   "10.1162/neco.1994.6.2.215",
+   "10.1177/105971239300100403",
+   "10.1613/jair.301",
+   "10.21236/ad0241531",
+   "10.21236/ada164453",
+   "10.21236/ada280862",
+   "10.2307/1926560",
+   "10.2307/2326061",
+   "10.2307/3006625",
+   "10.3905/joi.1999.319365",
+   "10.3905/jpm.1991.409343",
+   "10.3905/jpm.1996.35"
+  ],
+  "references": [
+   {
+    "doi": "10.1109/cifer.1997.618952"
+   },
+   {
+    "doi": "10.1002/(sici)1099-131x(1998090)17:5/6<441::aid-for707>3.0.co;2-#"
+   },
+   {
+    "author": "Clark",
+    "year": "1954",
+    "article_title": "Simulation of self-organizing systems by digital computer",
+    "journal_title": "IRE Trans. Inform. Theory"
+   },
+   {
+    "doi": "10.1145/1455292.1455309"
+   },
+   {
+    "author": "Williams",
+    "year": "1988",
+    "article_title": "Toward a theory of reinforcement-learning connectionist systems",
+    "journal_title": "College Comput. Sci., Northeastern Univ. Boston, MA, Tech. Rep. NU-CCS-88-3"
+   },
+   {
+    "doi": "10.1023/a:1022672621406"
+   },
+   {
+    "doi": "10.1109/iscas.2000.856049"
+   },
+   {
+    "doi": "10.1137/1.9781611971170.ch9"
+   },
+   {
+    "doi": "10.1023/a:1022633531479"
+   },
+   {
+    "author": "Watkins",
+    "year": "1989",
+    "volume_title": "Learning with Delayed Rewards"
+   },
+   {
+    "doi": "10.1007/bf00992698"
+   },
+   {
+    "doi": "10.1109/tsmc.1983.6313077"
+   },
+   {
+    "author": "Barto",
+    "year": "1992",
+    "article_title": "Handbook of Intelligent Control"
+   },
+   {
+    "author": "Werbos",
+    "year": "1992",
+    "article_title": "Neurocontrol and supervised learning: An overview and evaluation"
+   },
+   {
+    "author": "Werbos",
+    "year": "1992",
+    "article_title": "Approximate dynamic programming for real-time control and neural modeling"
+   },
+   {
+    "doi": "10.1613/jair.301"
+   },
+   {
+    "author": "Bertsekas",
+    "year": "1996",
+    "article_title": "Neuro-Dynamic Programming"
+   },
+   {
+    "doi": "10.1109/tnn.1998.712192"
+   },
+   {
+    "doi": "10.1162/neco.1994.6.2.215"
+   },
+   {
+    "doi": "10.1145/203330.203343"
+   },
+   {
+    "author": "Crites",
+    "year": "1996",
+    "article_title": "Improving elevator performance using reinforcement learning",
+    "volume_title": "Advances in Neural Information Processing Systems"
+   },
+   {
+    "author": "Zhang",
+    "year": "1996",
+    "article_title": "High-performance job-shop scheduling with a time-delay TD(λ) network",
+    "volume_title": "Advances Neural Inform. Processing Syst."
+   },
+   {
+    "author": "Moody",
+    "year": "1999",
+    "article_title": "Reinforcement learning for trading"
+   },
+   {
+    "author": "Moody",
+    "year": "2000",
+    "article_title": "Minimizing downside risk via stochastic dynamic programming"
+   },
+   {
+    "doi": "10.2307/1926560"
+   },
+   {
+    "doi": "10.1016/0022-0531(71)90038-x"
+   },
+   {
+    "author": "Merton",
+    "year": "1990",
+    "article_title": "Continuous-Time Finance"
+   },
+   {
+    "doi": "10.2307/2326061"
+   },
+   {
+    "doi": "10.1057/9780230226203.2837"
+   },
+   {
+    "author": "Duffie",
+    "year": "1988",
+    "article_title": "Security Markets: Stochastic Models"
+   },
+   {
+    "author": "Duffie",
+    "year": "1996",
+    "article_title": "Dynamic Asset Pricing Theory"
+   },
+   {
+    "doi": "10.1016/0304-405x(79)90015-1"
+   },
+   {
+    "doi": "10.1016/s0165-1889(97)00031-6"
+   },
+   {
+    "doi": "10.1093/rfs/14.1.113"
+   },
+   {
+    "author": "Van Roy",
+    "year": "2001",
+    "article_title": "Temporal-difference learning and applications in finance"
+   },
+   {
+    "author": "Neuneier",
+    "year": "1996",
+    "article_title": "Optimal asset allocation using adaptive dynamic programming",
+    "volume_title": "Advances in Neural Information Processing Systems"
+   },
+   {
+    "author": "Neuneier",
+    "year": "1999",
+    "article_title": "Risk sensitive reinforcement learning",
+    "volume_title": "Advances in Neural Information Processing Systems"
+   },
+   {
+    "doi": "10.1109/9.793723"
+   },
+   {
+    "doi": "10.1109/72.935083"
+   },
+   {
+    "doi": "10.1086/294846"
+   },
+   {
+    "doi": "10.2307/3006625"
+   },
+   {
+    "doi": "10.3905/jpm.1991.409343"
+   },
+   {
+    "doi": "10.1080/00036849100000021"
+   },
+   {
+    "doi": "10.1016/1057-5219(92)90004-n"
+   },
+   {
+    "doi": "10.3905/jpm.1996.35"
+   },
+   {
+    "doi": "10.3905/joi.1999.319365"
+   },
+   {
+    "author": "White",
+    "year": "1996",
+    "journal_title": "private communication"
+   },
+   {
+    "author": "Sutton",
+    "year": "1984",
+    "volume_title": "Temporal credit assignment in reinforcement learning"
+   },
+   {
+    "doi": "10.21236/ada280862"
+   },
+   {
+    "doi": "10.21236/ada164453"
+   },
+   {
+    "doi": "10.1109/5.58337"
+   },
+   {
+    "doi": "10.21236/ad0241531"
+   },
+   {
+    "doi": "10.1162/neco.1989.1.2.270"
+   },
+   {
+    "doi": "10.1109/72.80202"
+   },
+   {
+    "doi": "10.1147/rd.33.0210"
+   },
+   {
+    "doi": "10.1147/rd.116.0601"
+   },
+   {
+    "doi": "10.1177/105971239300100403"
+   },
+   {
+    "doi": "10.1023/a:1022635613229"
+   },
+   {
+    "doi": "10.1109/cdc.1998.757861"
+   },
+   {
+    "doi": "10.1109/9.905687"
+   },
+   {
+    "author": "Sutton",
+    "year": "2000",
+    "article_title": "Policy gradient methods for reinforcement learning with function approximation"
+   },
+   {
+    "author": "Konda",
+    "year": "2000",
+    "article_title": "Actor-critic algorithms"
+   },
+   {
+    "author": "Grudic",
+    "article_title": "Localizing policy gradient estimates to action transitions",
+    "volume_title": "Proc. 17th Int. Conf. Machine Learning"
+   },
+   {
+    "author": "Baird",
+    "year": "1999",
+    "article_title": "Gradient descent for general reinforcement learning"
+   },
+   {
+    "author": "Brown",
+    "article_title": "Policy vs. value function learning with variable discount factors",
+    "volume_title": "Proc. NIPS 2000 Workshop Reinforcement Learning: Learn the Policy or Learn the Value Function?"
+   }
+  ]
+ },
+ "10.1609/aaai.v36i8.20881": {
+  "title": "TS2Vec: Towards Universal Representation of Time Series",
+  "abstract": "This paper presents TS2Vec, a universal framework for learning representations of time series in an arbitrary semantic level. Unlike existing methods, TS2Vec performs contrastive learning in a hierarchical way over augmented context views, which enables a robust contextual representation for each timestamp. Furthermore, to obtain the representation of an arbitrary sub-sequence in the time series, we can apply a simple aggregation over the representations of corresponding timestamps. We conduct extensive experiments on time series classification tasks to evaluate the quality of time series representations. As a result, TS2Vec achieves significant improvement over existing SOTAs of unsupervised time series representation on 125 UCR datasets and 29 UEA datasets. The learned timestamp-level representations also achieve superior results in time series forecasting and anomaly detection tasks. A linear regression trained on top of the learned representations outperforms previous SOTAs of time series forecasting. Furthermore, we present a simple way to apply the learned representations for unsupervised anomaly detection, which establishes SOTA results in the literature. The source code is publicly available at https://github.com/yuezhihan/ts2vec.",
+  "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "year": "2022",
+  "ref_dois": [],
+  "references": []
+ },
+ "10.3905/jfds.2020.1.042": {
+  "title": "Deep Learning for Portfolio Optimization",
+  "abstract": "",
+  "journal": "The Journal of Financial Data Science",
+  "year": "2020",
+  "ref_dois": [],
+  "references": []
+ }
+}

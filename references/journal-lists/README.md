@@ -16,6 +16,7 @@ suggestion, not as an authoritative ranking.
 | [diplomacy.csv](diplomacy.csv) | 40 | 3 |
 | [east_asian_studies.csv](east_asian_studies.csv) | 60 | 27 |
 | [economics.csv](economics.csv) | 60 | 19 |
+| [finance_quant.csv](finance_quant.csv) | 20 | 20 |
 | [international_development.csv](international_development.csv) | 50 | 8 |
 | [international_relations.csv](international_relations.csv) | 50 | 17 |
 | [mainland_china_social_science.csv](mainland_china_social_science.csv) | 50 | 0 |

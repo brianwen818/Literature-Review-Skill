@@ -1,0 +1,14 @@
+﻿keyword,ngram,main_doc_count,doc_frequency,score,flag
+portfolio,1,2,7,3.383,generic_unigram
+kelly,1,5,1,3.034,generic_unigram
+sharpe,1,2,3,2.622,generic_unigram
+tej,1,3,1,2.347,generic_unigram
+pedersen,1,3,1,2.347,generic_unigram
+xiu,1,2,1,1.86,generic_unigram
+malamud,1,2,1,1.86,generic_unigram
+zhu,1,2,1,1.86,generic_unigram
+deflated,1,1,2,1.455,generic_unigram
+beta,1,1,2,1.455,generic_unigram
+avramov,1,1,2,1.455,generic_unigram
+cheng,1,1,2,1.455,generic_unigram
+deflated sharpe,2,1,2,1.455,

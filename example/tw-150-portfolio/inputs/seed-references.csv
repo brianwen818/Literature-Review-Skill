@@ -1,0 +1,25 @@
+reference,doi,title,authors,year
+"Agrawal, A., Amos, B., Barratt, S., Boyd, S., Diamond, S., & Kolter, J. Z. (2019). Differentiable convex optimization layers. NeurIPS.",,Differentiable convex optimization layers,Agrawal; Amos; Barratt; Boyd; Diamond; Kolter,2019
+"Avramov, D., Cheng, S., & Metzker, L. (2023). Machine learning vs. economic restrictions: Evidence from stock return predictability. Management Science, 69(5).",,Machine learning vs. economic restrictions: Evidence from stock return predictability,Avramov; Cheng; Metzker,2023
+"Baker, M., Bradley, B., & Wurgler, J. (2011). Benchmarks as limits to arbitrage: Understanding the low-volatility anomaly. Financial Analysts Journal, 67(1).",,Benchmarks as limits to arbitrage: Understanding the low-volatility anomaly,Baker; Bradley; Wurgler,2011
+"Bailey, D. H., & López de Prado, M. (2014). The deflated Sharpe ratio. Journal of Portfolio Management, 40(5).",,The deflated Sharpe ratio,Bailey; López de Prado,2014
+"Buehler, H., Gonon, L., Teichmann, J., & Wood, B. (2019). Deep hedging. Quantitative Finance, 19(8).",,Deep hedging,Buehler; Gonon; Teichmann; Wood,2019
+"Chen, L., Pelger, M., & Zhu, J. (2024). Deep learning in asset pricing. Management Science, 70(2).",,Deep learning in asset pricing,Chen; Pelger; Zhu,2024
+"Elmachtoub, A. N., & Grigas, P. (2022). Smart ""predict, then optimize"". Management Science, 68(1).",,"Smart ""predict, then optimize""",Elmachtoub; Grigas,2022
+"Frazzini, A., & Pedersen, L. H. (2014). Betting against beta. Journal of Financial Economics, 111(1).",,Betting against beta,Frazzini; Pedersen,2014
+"Gârleanu, N., & Pedersen, L. H. (2013). Dynamic trading with predictable returns and transaction costs. Journal of Finance, 68(6).",,Dynamic trading with predictable returns and transaction costs,Gârleanu; Pedersen,2013
+"Gu, S., Kelly, B., & Xiu, D. (2020). Empirical asset pricing via machine learning. Review of Financial Studies, 33(5).",,Empirical asset pricing via machine learning,Gu; Kelly; Xiu,2020
+"Gu, S., Kelly, B., & Xiu, D. (2021). Autoencoder asset pricing models. Journal of Econometrics, 222(1).",,Autoencoder asset pricing models,Gu; Kelly; Xiu,2021
+"Hambly, B., Xu, R., & Yang, H. (2023). Recent advances in reinforcement learning in finance. Mathematical Finance, 33(3).",,Recent advances in reinforcement learning in finance,Hambly; Xu; Yang,2023
+"Harvey, C. R., Liu, Y., & Zhu, H. (2016). ... and the cross-section of expected returns. Review of Financial Studies, 29(1).",,… and the cross-section of expected returns,Harvey; Liu; Zhu,2016
+"Jensen, T. I., Kelly, B., Malamud, S., & Pedersen, L. H. Machine learning and the implementable efficient frontier. SSRN working paper.",,Machine learning and the implementable efficient frontier,Jensen; Kelly; Malamud; Pedersen,
+"Jiang, Z., Xu, D., & Liang, J. (2017). A deep reinforcement learning framework for the financial portfolio management problem. arXiv:1706.10059.",,A deep reinforcement learning framework for the financial portfolio management problem,Jiang; Xu; Liang,2017
+"Kelly, B., Malamud, S., & Zhou, K. (2024). The virtue of complexity in return prediction. Journal of Finance, 79(1).",,The virtue of complexity in return prediction,Kelly; Malamud; Zhou,2024
+"Kelly, B., Pruitt, S., & Su, Y. (2019). Characteristics are covariances: A unified model of risk and return. Journal of Financial Economics, 134(3).",,Characteristics are covariances: A unified model of risk and return,Kelly; Pruitt; Su,2019
+"Kolm, P. N., & Ritter, G. (2019). Dynamic replication and hedging: A reinforcement learning approach. Journal of Financial Data Science, 1(1).",,Dynamic replication and hedging: A reinforcement learning approach,Kolm; Ritter,2019
+"Li, T., et al. (2024). MASTER: Market-guided stock transformer for stock price forecasting. AAAI 2024.",,MASTER: Market-guided stock transformer for stock price forecasting,Li,2024
+"McLean, R. D., & Pontiff, J. (2016). Does academic research destroy stock return predictability? Journal of Finance, 71(1).",,Does academic research destroy stock return predictability?,McLean; Pontiff,2016
+"Moody, J., & Saffell, M. (2001). Learning to trade via direct reinforcement. IEEE Transactions on Neural Networks, 12(4).",,Learning to trade via direct reinforcement,Moody; Saffell,2001
+"Nie, Y., Nguyen, N. H., Sinthong, P., & Kalagnanam, J. (2023). A time series is worth 64 words: Long-term forecasting with transformers. ICLR 2023.",,A time series is worth 64 words: Long-term forecasting with transformers,Nie; Nguyen; Sinthong; Kalagnanam,2023
+"Yue, Z., et al. (2022). TS2Vec: Towards universal representation of time series. AAAI 2022.",,TS2Vec: Towards universal representation of time series,Yue,2022
+"Zhang, Z., Zohren, S., & Roberts, S. (2020). Deep learning for portfolio optimization. Journal of Financial Data Science, 2(4).",,Deep learning for portfolio optimization,Zhang; Zohren; Roberts,2020

@@ -1,0 +1,30 @@
+keyword,use,source,note
+machine learning asset pricing,yes,agent,A: ML return prediction in the cross-section
+machine learning stock return prediction,yes,agent,A
+cross-section of expected returns,yes,agent,A: factor zoo / anomalies
+factor exposure,yes,agent,A: what the model's score loads on
+low volatility anomaly,yes,agent,A: v1's hidden bet
+betting against beta,yes,agent,A
+characteristics and covariances,yes,agent,A: IPCA / risk vs. mispricing
+anomaly return predictability,yes,agent,A: post-publication decay
+limits to arbitrage,yes,agent,A: ML profits in hard-to-trade stocks
+transaction costs portfolio choice,yes,agent,B
+dynamic trading transaction costs,yes,agent,B: Garleanu-Pedersen style partial adjustment
+portfolio turnover,yes,agent,B
+predict then optimize,yes,agent,B: decision-focused learning
+end-to-end portfolio optimization,yes,agent,B
+differentiable optimization,yes,agent,B
+implementable efficient frontier,yes,agent,B
+deep learning portfolio,yes,agent,B/F
+autoencoder asset pricing,yes,agent,F: economic structure inside the network
+deep learning asset pricing,yes,agent,F
+self-supervised learning time series,yes,agent,F: pretraining
+transformer stock prediction,yes,agent,F
+complexity return prediction,yes,agent,F: virtue of complexity / overparameterisation
+representation learning financial time series,yes,agent,F
+reinforcement learning trading,yes,agent,G
+reinforcement learning portfolio management,yes,agent,G
+deep hedging,yes,agent,G: RL with simulator and known answer
+optimal execution,yes,agent,G: RL's strongest finance use case
+backtest overfitting,yes,agent,cross-cutting: validation (deflated Sharpe)
+deflated sharpe,no,auto,covered by backtest overfitting

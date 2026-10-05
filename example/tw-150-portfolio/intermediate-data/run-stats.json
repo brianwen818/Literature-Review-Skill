@@ -1,0 +1,130 @@
+{
+ "main_docs": 1,
+ "main_doc_reference_entries": 0,
+ "seeds_input": 24,
+ "seeds_unique": 24,
+ "seeds_resolved": 21,
+ "seeds_with_reference_list": 17,
+ "seed_status": {
+  "low_confidence": 3,
+  "resolved": 16,
+  "doi_given": 5
+ },
+ "seed_source": "seed-references.csv",
+ "journals_listed": 20,
+ "journals_usable": 20,
+ "keywords": [
+  "machine learning asset pricing",
+  "machine learning stock return prediction",
+  "cross-section of expected returns",
+  "factor exposure",
+  "low volatility anomaly",
+  "betting against beta",
+  "characteristics and covariances",
+  "anomaly return predictability",
+  "limits to arbitrage",
+  "transaction costs portfolio choice",
+  "dynamic trading transaction costs",
+  "portfolio turnover",
+  "predict then optimize",
+  "end-to-end portfolio optimization",
+  "differentiable optimization",
+  "implementable efficient frontier",
+  "deep learning portfolio",
+  "autoencoder asset pricing",
+  "deep learning asset pricing",
+  "self-supervised learning time series",
+  "transformer stock prediction",
+  "complexity return prediction",
+  "representation learning financial time series",
+  "reinforcement learning trading",
+  "reinforcement learning portfolio management",
+  "deep hedging",
+  "optimal execution",
+  "backtest overfitting"
+ ],
+ "n_keywords": 28,
+ "n_journals": 20,
+ "queries_total": 560,
+ "queries_run": 2,
+ "queries_failed": 0,
+ "queries_skipped_done": 558,
+ "raw_hits": 9157,
+ "unique_articles": 5785,
+ "excluded_seed": 17,
+ "excluded_correction": 19,
+ "excluded_duplicate_title": 35,
+ "excluded_editorial": 3,
+ "excluded_front_matter": 7,
+ "candidates_for_scoring": 5721,
+ "scored": 5704,
+ "pool": 1131,
+ "sent_to_agent": 180,
+ "scoring": {
+  "scored": 5721,
+  "signals_used": [
+   "coupling",
+   "tfidf",
+   "specter"
+  ],
+  "abstract_coverage": 0.343,
+  "reference_coverage": 0.906,
+  "cites_a_seed": 515,
+  "level_counts": {
+   "Normal": 3430,
+   "Low": 858,
+   "High": 855,
+   "Very Low": 285,
+   "Very High": 276
+  },
+  "signal_correlation": {
+   "coupling": {
+    "coupling": 1.0,
+    "tfidf": 0.204,
+    "specter": 0.442
+   },
+   "tfidf": {
+    "coupling": 0.204,
+    "tfidf": 1.0,
+    "specter": 0.224
+   },
+   "specter": {
+    "coupling": 0.442,
+    "tfidf": 0.224,
+    "specter": 1.0
+   }
+  },
+  "seeds_found_by_search": 17,
+  "seeds_median_composite_pct": 0.983,
+  "seeds_in_pool_share": 0.824,
+  "specter_used": true
+ },
+ "judged_search": 180,
+ "judged_search_by_relevance": {
+  "1": 25,
+  "2": 59,
+  "3": 45,
+  "4": 40,
+  "5": 11
+ },
+ "snowball_sources": 72,
+ "snowball_cited_dois": 1737,
+ "snowball_cited_no_doi": 517,
+ "snowball_candidates": 328,
+ "snowball_without_doi": 32,
+ "snowball_sent_to_agent": 60,
+ "snowball_dois_unknown_to_crossref": 4,
+ "judged_snowball": 60,
+ "judged_snowball_by_relevance": {
+  "1": 2,
+  "2": 13,
+  "3": 22,
+  "4": 22,
+  "5": 1
+ },
+ "all_relevant": 1131,
+ "shortlist": 60,
+ "snowball_listed": 30,
+ "marked_yes": 78,
+ "uploaded_to_zotero": 0
+}

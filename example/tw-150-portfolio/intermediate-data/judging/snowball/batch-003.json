@@ -1,0 +1,122 @@
+[
+ {
+  "item_id": "10.1016/0304-405x(88)90020-7",
+  "title": "Dividend yields and expected stock returns",
+  "authors": "Fama, Eugene F.; French, Kenneth R.",
+  "year": "1988",
+  "container": "Journal of Financial Economics",
+  "type": "journal-article",
+  "abstract": "",
+  "n_citing_sources": 6,
+  "cited_by": "Babiak (2026); Blomvall (2026); CEDERBURG (2016); Carrasco (2023); Karolyi (2020); Zhao (2022)",
+  "raw_reference": ""
+ },
+ {
+  "item_id": "10.1093/rfs/hhm055",
+  "title": "Predicting Excess Stock Returns Out of Sample: Can Anything Beat the Historical Average?",
+  "authors": "Campbell, John Y.; Thompson, Samuel B.",
+  "year": "2007",
+  "container": "Review of Financial Studies",
+  "type": "journal-article",
+  "abstract": "",
+  "n_citing_sources": 6,
+  "cited_by": "Babiak (2026); Han (2024); Jo (2026); Zhao (2022); seed: Empirical Asset Pricing via Machine Lear; seed: The Virtue of Complexity in Return Predi",
+  "raw_reference": ""
+ },
+ {
+  "item_id": "10.1093/rfs/hhw107",
+  "title": "Mispricing Factors",
+  "authors": "Stambaugh, Robert F.; Yuan, Yu",
+  "year": "2016",
+  "container": "The Review of Financial Studies",
+  "type": "journal-article",
+  "abstract": "",
+  "n_citing_sources": 6,
+  "cited_by": "Barroso (2025); Han (2024); Kim (2020); Soebhag (2024); seed: Characteristics are covariances: A unifi; seed: Machine Learning vs. Economic Restrictio",
+  "raw_reference": ""
+ },
+ {
+  "item_id": "10.1111/j.1540-6261.1996.tb05202.x",
+  "title": "Multifactor Explanations of Asset Pricing Anomalies",
+  "authors": "FAMA, EUGENE F.; FRENCH, KENNETH R.",
+  "year": "1996",
+  "container": "The Journal of Finance",
+  "type": "journal-article",
+  "abstract": "Previous work shows that average returns on common stocks are related to firm characteristics like size, earnings/price, cash flow/price, book‐to‐market equity, past sales growth, long‐term past return, and short‐term past return. Because these patterns in average returns apparently are not explained by the CAPM, they are called anomalies. We find that, except for the continuation of short‐term returns, the anomalies largely disappear in a three‐factor model. Our results are consistent with rational ICAPM or APT asset pricing, but we also consider irrational pricing and data problems as possible explanations.",
+  "n_citing_sources": 6,
+  "cited_by": "Barroso (2025); Daniel (2020); Linnainmaa (2018); Moallemi (2017); Yan (2017); seed: Betting against beta",
+  "raw_reference": ""
+ },
+ {
+  "item_id": "10.1016/j.jacceco.2004.10.002",
+  "title": "Do investors overvalue firms with bloated balance sheets?",
+  "authors": "Hirshleifer, David; Kewei Hou; Teoh, Siew Hong; Yinglei Zhang",
+  "year": "2004",
+  "container": "Journal of Accounting and Economics",
+  "type": "journal-article",
+  "abstract": "",
+  "n_citing_sources": 6,
+  "cited_by": "BOWLES (2024); Bali (2017); Barroso (2025); Linnainmaa (2018); Yan (2017); seed: … and the Cross-Section of Expected Retu",
+  "raw_reference": ""
+ },
+ {
+  "item_id": "10.1093/rfs/3.3.431",
+  "title": "Data-Snooping Biases in Tests of Financial Asset Pricing Models",
+  "authors": "Lo, Andrew W.; MacKinlay, A. Craig",
+  "year": "1990",
+  "container": "Review of Financial Studies",
+  "type": "journal-article",
+  "abstract": "",
+  "n_citing_sources": 6,
+  "cited_by": "Drobetz (2024); Linnainmaa (2018); Yan (2017); seed: Does Academic Research Destroy Stock Ret; seed: Empirical Asset Pricing via Machine Lear; seed: … and the Cross-Section of Expected Retu",
+  "raw_reference": ""
+ },
+ {
+  "item_id": "10.1111/j.1540-6261.2004.00634.x",
+  "title": "Optimal Consumption and Investment with Transaction Costs and Multiple Risky Assets",
+  "authors": "Liu, Hong",
+  "year": "2004",
+  "container": "The Journal of Finance",
+  "type": "journal-article",
+  "abstract": "We consider the optimal intertemporal consumption and investment policy of a constant absolute risk aversion (CARA) investor who faces fixed and proportional transaction costs when trading multiple risky assets. We show that when asset returns are uncorrelated, the optimal investment policy is to keep the dollar amount invested in each risky asset between two constant levels and upon reaching either of these thresholds, to trade to the corresponding optimal targets. An extensive analysis suggests that transaction cost is an important factor in affecting trading volume and that it can significantly diminish the importance of stock return predictability as reported in the literature.",
+  "n_citing_sources": 6,
+  "cited_by": "Blomvall (2026); Carrasco (2023); Mei (2018); Moallemi (2017); de Roon (2012); seed: Dynamic Trading with Predictable Returns",
+  "raw_reference": ""
+ },
+ {
+  "item_id": "10.1016/0304-405x(95)00868-f",
+  "title": "Commonality in the determinants of expected stock returns",
+  "authors": "Haugen, Robert A.; Baker, Nardin L.",
+  "year": "1996",
+  "container": "Journal of Financial Economics",
+  "type": "journal-article",
+  "abstract": "",
+  "n_citing_sources": 5,
+  "cited_by": "Fama (2015); Han (2024); Linnainmaa (2018); Novy-Marx (2015); seed: Does Academic Research Destroy Stock Ret",
+  "raw_reference": ""
+ },
+ {
+  "item_id": "10.1093/rfs/1.3.195",
+  "title": "The Dividend-Price Ratio and Expectations of Future Dividends and Discount Factors",
+  "authors": "Campbell, John Y.; Shiller, Robert J.",
+  "year": "1988",
+  "container": "Review of Financial Studies",
+  "type": "journal-article",
+  "abstract": "",
+  "n_citing_sources": 5,
+  "cited_by": "Babiak (2026); Barroso (2025); Fama (2015); Karolyi (2020); Zhao (2022)",
+  "raw_reference": ""
+ },
+ {
+  "item_id": "10.1111/j.1540-6261.1990.tb05110.x",
+  "title": "Evidence of Predictable Behavior of Security Returns",
+  "authors": "JEGADEESH, NARASIMHAN",
+  "year": "1990",
+  "container": "The Journal of Finance",
+  "type": "journal-article",
+  "abstract": "This paper presents new empirical evidence of predictability of individual stock returns. The negative first‐order serial correlation in monthly stock returns is highly significant. Furthermore, significant positive serial correlation is found at longer lags, and the twelve‐month serial correlation is particularly strong. Using the observed systematic behavior of stock returns, one‐step‐ahead return forecasts are made and ten portfolios are formed from the forecasts. The difference between the abnormal returns on the extreme decile portfolios over the period 1934–1987 is 2.49 percent per month .",
+  "n_citing_sources": 5,
+  "cited_by": "Bali (2017); Bradrania (2023); Cao (2016); Han (2024); Yan (2017)",
+  "raw_reference": ""
+ }
+]

@@ -1,0 +1,4 @@
+# Large raw caches (about 50 MB); re-running steps 6, 8 and 10 rebuilds them
+intermediate-data/search/items.jsonl
+intermediate-data/candidate-references.jsonl
+intermediate-data/specter-cache.npz

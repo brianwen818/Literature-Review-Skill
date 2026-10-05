@@ -55,7 +55,7 @@ Agent 建立專案後，資料放在 `projects/<專案名>/inputs/`：
 | `config.yaml` | 篇數 n、短名單模式、年份範圍、圖書館連結等設定 | 有預設值 |
 | `zotero-info/.env` | Zotero 金鑰，設定方式見同資料夾的 `README.md` | 只有要上傳 Zotero 時 |
 
-[references/journal-lists/](references/journal-lists/) 有 15 個領域的期刊清單可以當起點。
+[references/journal-lists/](references/journal-lists/) 有 16 個領域的期刊清單可以當起點。
 
 ### 常用設定
 
@@ -91,6 +91,52 @@ python codes/scripts/07_check_specter.py
 
 它會檢查是否有可用的顯示卡、是否已下載過模型（有的話會直接重用），並給出建議。要啟用時執行 `pip install -r requirements-specter.txt`，並把 `config.yaml` 的 `use_specter` 設為 `on` 或 `auto`。
 
+## 範例：tw-150-portfolio
+
+[example/](example/) 是一次完整執行的紀錄。研究主題是一個台股價量機器學習選股專案（[研究報告](example/project_report.md)），目標是為它的[四個研究所研究方向](example/tw-150-portfolio_改善目標與研究所研究方向.md)蒐集文獻：
+
+- **A 因子曝險**：模型學到的是新東西，還是已知因子？
+- **B 成本感知學習**：把交易成本放進學習目標。
+- **F 表示學習**：預訓練為什麼沒用？
+- **G 強化學習**：換股的時機和幅度能不能用學的？
+
+> 這次執行從建立專案到匯出 RIS，**所有步驟與原本需要真人做的決定**（確認關鍵詞與期刊、接受種子文獻比對、在短名單勾選 yes／no）都由 **Claude Opus 5.5（medium effort）** 在 Claude Code 中代為完成，沒有人工介入。逐篇閱讀分給 4 個（期刊檢索）與 3 個（引文回溯）平行的子 agent。
+>
+> **完整流程總時間：11 分 24 秒**（2026-10-05 17:53:01 – 18:04:25，含 Crossref 檢索、SPECTER 計算、240 篇的閱讀評分與總結撰寫）。
+
+### 代為做的決定
+
+| 項目 | 決定 |
+|---|---|
+| 主要文件 | 研究方向文件（中文）。研究報告只供 agent 理解背景，不放進相似度計算，以免拉向 v1 的實作細節 |
+| 種子文獻 | 研究方向文件列出的 24 篇；21 篇解析出 DOI，3 篇是會議論文或比對到別篇，保持未解析 |
+| 期刊 | 20 本財務、計量、作業研究與機器學習期刊，另存為 [finance_quant.csv](references/journal-lists/finance_quant.csv) |
+| 關鍵詞 | 自動抽取只得到 1 個（文件是中文），改由 agent 依四個方向寫了 28 個英文片語 |
+| 設定 | n = 60、`global`、2005–2026 年、`use_specter: on`（RTX 4070，py312 環境） |
+| 短名單勾選 | 相關度 4–5 一律 yes；3 分只在補足 F、G 與驗證這些薄弱主題時 yes |
+| 最後一步 | 不上傳 Zotero，只匯出 RIS |
+
+### 結果
+
+| 階段 | 數量 |
+|---|---|
+| 查詢（28 關鍵詞 × 20 期刊） | 560 |
+| 檢索命中 → 不重複文章 → 進入評分 | 9,157 → 5,785 → 5,704 |
+| 過門檻（all-relevant-articles） | 1,131 |
+| agent 細讀（期刊檢索／引文回溯） | 180 ／ 60 |
+| 短名單／引文回溯列出 | 60 ／ 30 |
+| 勾選 yes，匯出 RIS | 78 |
+
+短名單的主題分布：A 方向 33 篇、B 方向 20 篇、F 與 G 合計 5 篇、驗證 2 篇。F 與 G 偏少，是因為這兩個方向的主要文獻發表在機器學習會議，Crossref 收錄很少；[summary.md](example/tw-150-portfolio/outputs/summary.md) 的分析一節列出了補救的檢索建議。
+
+產出檔案：
+
+- [summary.md](example/tw-150-portfolio/outputs/summary.md)：數量漏斗、各期刊結果、最相關文章與理由，以及 agent 的分析
+- [shortlist.xlsx](example/tw-150-portfolio/outputs/shortlist.xlsx)、[all-relevant-articles.xlsx](example/tw-150-portfolio/outputs/all-relevant-articles.xlsx)
+- [zotero-added.xlsx](example/tw-150-portfolio/outputs/zotero-added.xlsx)、[zotero-import.ris](example/tw-150-portfolio/outputs/zotero-import.ris)
+
+`intermediate-data/` 保留了關鍵詞、種子比對、每批的閱讀判斷（`judging/*/judged-*.json`）與評分結果；三個體積較大的原始快取（約 50 MB）沒有提交，重跑步驟 6、8、10 會重新產生。
+
 ## 已知限制
 
 - **中文文獻**：Crossref 幾乎不收錄中文期刊，中文文獻需要另外檢索。
@@ -109,6 +155,7 @@ codes/scripts/                       各階段的執行腳本（01–12）
 codes/tests/                         單元測試
 templates/                           新專案的模板
 references/journal-lists/            各領域期刊清單
+example/                             一次完整執行的範例（見上方「範例」）
 projects/<專案名>/                    你的資料與結果（不會進版本控制）
     inputs/  intermediate-data/  outputs/
 ```

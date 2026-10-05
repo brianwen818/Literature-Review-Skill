@@ -1,0 +1,1356 @@
+TY  - JOUR
+AU  - Jensen, Theis Ingerslev
+AU  - Kelly, Bryan
+AU  - Malamud, Semyon
+AU  - Pedersen, Lasse Heje
+A2  - Goldstein, Itay
+TI  - Machine Learning and the Implementable Efficient Frontier
+JO  - The Review of Financial Studies
+PY  - 2026
+VL  - 39
+IS  - 10
+SP  - 3035
+EP  - 3078
+DO  - 10.1093/rfs/hhag022
+UR  - https://doi.org/10.1093/rfs/hhag022
+AB  - We propose that investment strategies should be evaluated based on their net-of-trading-cost return for each level of risk, which we term the “implementable efficient frontier.” While numerous studies use machine learning return forecasts to generate portfolios, their agnosticism toward trading costs leads to excessive reliance on fleeting small-scale characteristics, resulting in poor net returns. We develop a framework that produces a superior frontier by integrating trading-cost-aware portfolio optimization with machine learning. The superior net-of-cost performance is achieved by learning directly about portfolio weights using an economic objective. Further, our model gives rise to a new measure of “economic feature importance.”
+KW  - lit-review-automation
+KW  - B 交易成本與換手
+N1  - 直接以經濟目標學習投組權重並納入交易成本，提出可實行效率前緣與經濟特徵重要性，正是方向B解釋v1扣成本後失效、用成本感知學習取代手寫緩衝規則的核心文獻。
+ER  - 
+
+TY  - JOUR
+AU  - Simon, Frederik
+AU  - Weibels, Sebastian
+AU  - Zimmermann, Tom
+TI  - Deep Parametric Portfolio Policies
+JO  - Management Science
+PY  - 2026
+DO  - 10.1287/mnsc.2025.00721
+UR  - https://doi.org/10.1287/mnsc.2025.00721
+AB  - We consider parametric portfolio policies of any complexity using deep neural networks to optimize investor utility. Risk aversion acts as an economic regularization mechanism, with higher risk aversion constraining model complexity. Empirically, Deep Parametric Portfolio Policies generate 43-102 basis points higher monthly certainty equivalent returns compared with linear policies. Looking beyond expected returns, nonlinear portfolio policies better capture the complex relationship between investor preferences and firm characteristics but the benefits of using complex models vary with investor preferences. Results hold across different utility functions and remain robust to transaction costs and short-selling restrictions. Overall, economic regularization constrains model complexity much like statistical regularization but emerges endogenously from investor preferences. This paper was accepted by Kay Giesecke, finance. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2025.00721 .
+KW  - lit-review-automation
+KW  - B 決策導向與端到端學習
+N1  - 以深度神經網路直接最佳化投資人效用的參數化投組政策，並檢驗交易成本與放空限制下的穩健性，是方向B以經濟目標取代報酬預測、端到端訓練選股模型的核心文獻。
+ER  - 
+
+TY  - JOUR
+AU  - Li, Silu
+AU  - Mulvey, John M.
+AU  - Fabozzi, Frank J.
+TI  - Smart Trading Rule: A Modular Machine Learning Framework for Portfolio Optimization with Transaction Costs
+JO  - The Journal of Financial Data Science
+PY  - 2026
+VL  - 8
+IS  - 2
+SP  - 145
+EP  - 175
+DO  - 10.3905/jfds.2026.1.217
+UR  - https://doi.org/10.3905/jfds.2026.1.217
+KW  - lit-review-automation
+KW  - B 交易成本與換手
+N1  - 提出含交易成本的模組化機器學習交易規則以學習何時與如何調整持股，正對應方向B以學習取代「前20買、跌出前30賣」手寫緩衝規則的研究目標。
+ER  - 
+
+TY  - JOUR
+AU  - Costa, Giorgio
+AU  - Iyengar, Garud N.
+TI  - Distributionally robust end-to-end portfolio construction
+JO  - Quantitative Finance
+PY  - 2023
+VL  - 23
+IS  - 10
+SP  - 1465
+EP  - 1482
+DO  - 10.1080/14697688.2023.2236148
+UR  - https://doi.org/10.1080/14697688.2023.2236148
+KW  - lit-review-automation
+KW  - B 決策導向與端到端學習
+N1  - 提出分配穩健的端到端投組建構，將預測與最適化一起訓練，正是方向B把決策目標放進學習過程的核心文獻。
+ER  - 
+
+TY  - JOUR
+AU  - Butler, Andrew
+AU  - Kwon, Roy H.
+TI  - Integrating prediction in mean-variance portfolio optimization
+JO  - Quantitative Finance
+PY  - 2023
+VL  - 23
+IS  - 3
+SP  - 429
+EP  - 452
+DO  - 10.1080/14697688.2022.2162432
+UR  - https://doi.org/10.1080/14697688.2022.2162432
+KW  - lit-review-automation
+KW  - B 決策導向與端到端學習
+N1  - 將預測模型整合進均值變異數最適化並以決策損失訓練（Butler-Kwon），是方向B predict-then-optimize與端到端學習的核心文獻。
+ER  - 
+
+TY  - JOUR
+AU  - Grinold, Richard
+TI  - Linear Trading Rules for Portfolio Management
+JO  - The Journal of Portfolio Management
+PY  - 2018
+VL  - 44
+IS  - 6
+SP  - 109
+EP  - 119
+DO  - 10.3905/jpm.2018.44.6.109
+UR  - https://doi.org/10.3905/jpm.2018.44.6.109
+KW  - lit-review-automation
+KW  - B 交易成本與換手
+N1  - Grinold的線性交易規則以部分調整方式在成本下逐步趨近目標投組，正是方向B中將v1手寫緩衝規則理論化的核心文獻。
+ER  - 
+
+TY  - JOUR
+AU  - Guijarro-Ordonez, Jorge
+AU  - Pelger, Markus
+AU  - Zanotti, Greg
+TI  - Deep Learning Statistical Arbitrage
+JO  - Management Science
+PY  - 2026
+VL  - 72
+IS  - 9
+SP  - 7502
+EP  - 7549
+DO  - 10.1287/mnsc.2022.03132
+UR  - https://doi.org/10.1287/mnsc.2022.03132
+AB  - Statistical arbitrage exploits temporal price differences between similar assets. We develop a comprehensive conceptual framework for statistical arbitrage and a novel data-driven solution. First, we construct arbitrage portfolios of similar assets as residual portfolios from conditional latent asset pricing factors. Second, we extract their time-series signals with a powerful machine learning time-series solution, a convolutional transformer. Lastly, we use these signals to form an optimal trading policy, which maximizes risk-adjusted returns under constraints. Our comprehensive empirical study on daily U.S. equities shows a high compensation for arbitrageurs to enforce the law of one price. Our arbitrage strategies obtain considerable out-of-sample mean returns and Sharpe ratios, and outperform all benchmark approaches. This paper was accepted by Agostino Capponi, finance. Funding: The authors thank MSCI for generous research support.
+KW  - lit-review-automation
+KW  - F 時間序列表示學習
+N1  - 以條件潛在因子殘差組合加上卷積Transformer萃取時間序列訊號並直接學習受限制的最適交易策略，是F方向時間序列表示學習與端到端交易結合的核心範例，可對照v1預訓練失敗的原因。
+ER  - 
+
+TY  - JOUR
+AU  - Novy-Marx, Robert
+AU  - Velikov, Mihail
+TI  - A Taxonomy of Anomalies and Their Trading Costs
+JO  - Review of Financial Studies
+PY  - 2015
+VL  - 29
+IS  - 1
+SP  - 104
+EP  - 147
+DO  - 10.1093/rfs/hhv063
+UR  - https://doi.org/10.1093/rfs/hhv063
+KW  - lit-review-automation
+KW  - B 交易成本與換手
+N1  - 系統性估算各類異象的交易成本並檢驗緩衝區等降換手策略，正是B方向「訊號扣除成本後還剩多少」與v1買前20賣出前30緩衝規則的核心文獻。
+ER  - 
+
+TY  - JOUR
+AU  - Olivares-Nadal, Alba V.
+AU  - DeMiguel, Victor
+TI  - Technical Note—A Robust Perspective on Transaction Costs in Portfolio Optimization
+JO  - Operations Research
+PY  - 2018
+VL  - 66
+IS  - 3
+SP  - 733
+EP  - 739
+DO  - 10.1287/opre.2017.1699
+UR  - https://doi.org/10.1287/opre.2017.1699
+AB  - We prove that the portfolio problem with transaction costs is equivalent to three different problems designed to alleviate the impact of estimation error: a robust portfolio optimization problem, a regularized regression problem, and a Bayesian portfolio problem. Motivated by these results, we propose a data-driven approach to portfolio optimization that tackles transaction costs and estimation error simultaneously by treating the transaction costs as a regularization term to be calibrated. Our empirical results demonstrate that the data-driven portfolios perform favorably because they strike an optimal trade-off between rebalancing the portfolio to capture the information in recent historical return data and avoiding the large transaction costs and impact of estimation error associated with excessive trading. The online companion is available at https://doi.org/10.1287/opre.2017.1699 .
+KW  - lit-review-automation
+KW  - B 交易成本與換手
+N1  - 證明交易成本等價於正則化並提出以資料校準成本懲罰項的投資組合方法，是B方向將換手懲罰納入學習目標的核心文獻。
+ER  - 
+
+TY  - JOUR
+AU  - Muhle-Karbe, Johannes
+AU  - Sefton, James
+AU  - Shi, Xiaofei
+TI  - Dynamic Portfolio Choice with Intertemporal Hedging and Transaction Costs
+JO  - Management Science
+PY  - 2026
+VL  - 72
+IS  - 9
+SP  - 7684
+EP  - 7701
+DO  - 10.1287/mnsc.2024.05913
+UR  - https://doi.org/10.1287/mnsc.2024.05913
+AB  - When returns are partially predictable and trading is costly, utility-maximizing investors track a target portfolio at a constant trading speed. The target portfolio is optimal for a frictionless market, where asset returns are scaled back to account for trading costs and volatilities are adjusted to proxy the “execution risk” of holding assets that are costly to trade and exposed to volatile states. The trading speed solves an optimal execution problem, which describes how the legacy portfolio inherited from the past is traded toward the target portfolio in an optimal manner. Unlike for period-by-period mean-variance preferences, the target portfolio hedges changes in investment opportunities, and both it and the trading speed are linked and depend on execution risk. We set the problem out first in an “absolute” framework—price shocks independent of the price level, and investors have CARA preferences—and then in a “relative” framework, with price shocks scaled by price levels and CRRA preferences. We illustrate the practical implications of these results in a model where market return predictions are based on a short-term momentum and a long-term value signal. This paper was accepted by Kay Giesecke, finance. Funding: X. Shi acknowledges support from the Natural Sciences and Engineering Research Council of Canada (NSERC) through Discovery [Grant RGPIN-2024-04569] and Discovery Launch Supplement [DGECR-2024-00444]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.05913 .
+KW  - lit-review-automation
+KW  - B 交易成本與換手
+N1  - 推廣Garleanu-Pedersen部分調整框架，說明在可預測報酬與交易成本下以固定速度追蹤目標組合，是B方向設計成本感知調倉規則的核心理論。
+ER  - 
+
+TY  - JOUR
+AU  - CEDERBURG, SCOTT
+AU  - O'DOHERTY, MICHAEL S.
+TI  - Does It Pay to Bet Against Beta? On the Conditional Performance of the Beta Anomaly
+JO  - The Journal of Finance
+PY  - 2016
+VL  - 71
+IS  - 2
+SP  - 737
+EP  - 774
+DO  - 10.1111/jofi.12383
+UR  - https://doi.org/10.1111/jofi.12383
+AB  - Prior studies find that a strategy that buys high‐beta stocks and sells low‐beta stocks has a significantly negative unconditional capital asset pricing model (CAPM) alpha, such that it appears to pay to “bet against beta.” We show, however, that the conditional beta for the high‐minus‐low beta portfolio covaries negatively with the equity premium and positively with market volatility. As a result, the unconditional alpha is a downward‐biased estimate of the true alpha. We model the conditional market risk for beta‐sorted portfolios using instrumental variables methods and find that the conditional CAPM resolves the beta anomaly.
+KW  - lit-review-automation
+KW  - A 低波動與低beta異象
+N1  - 指出 BAB 策略的條件 beta 隨市場波動變化、條件 CAPM 可解釋 beta 異象，直接有助於方向 A 理解 v1 在 2025 年因低波動傾斜失效的時變風險來源。
+ER  - 
+
+TY  - JOUR
+AU  - Karolyi, G Andrew
+AU  - Van Nieuwerburgh, Stijn
+TI  - New Methods for the Cross-Section of Returns
+JO  - The Review of Financial Studies
+PY  - 2020
+VL  - 33
+IS  - 5
+SP  - 1879
+EP  - 1890
+DO  - 10.1093/rfs/hhaa019
+UR  - https://doi.org/10.1093/rfs/hhaa019
+AB  - The cross-section and time series of stock returns contains a wealth of information about the stochastic discount factor (SDF), the object that links cash flows to prices. A large empirical literature has uncovered many candidate factors—many more than seem plausible—to summarize the SDF. This special volume of the Review of Financial Studies presents recent advances in extracting information from both the cross-section and the time series, in dealing with issues of replication and false discoveries, and in applying innovative machine-learning techniques to identify the most relevant asset pricing factors. Our editorial summarizes what we learn and offers a few suggestions to guide future work in this exciting new era of big data and empirical asset pricing.
+KW  - lit-review-automation
+KW  - A 異象、套利限制與因子動物園
+N1  - RFS特刊導論綜述因子動物園、錯誤發現與機器學習萃取SDF的新方法，可作為方向A檢驗ML訊號是否只是已知因子及多重檢定問題的總覽入口。
+ER  - 
+
+TY  - JOUR
+AU  - Jo, Yonghwan
+AU  - Kim, Yong Hwi
+TI  - Rethinking Variable Importance in Machine Learning: An Economic Perspective on Empirical Asset Pricing
+JO  - Financial Analysts Journal
+PY  - 2026
+VL  - 82
+IS  - 2
+SP  - 92
+EP  - 135
+DO  - 10.1080/0015198x.2026.2621646
+UR  - https://doi.org/10.1080/0015198x.2026.2621646
+KW  - lit-review-automation
+KW  - A 機器學習與已知因子
+N1  - 從經濟角度重新定義機器學習資產定價模型的變數重要性，可直接用於方向A拆解v1模型究竟學到哪些特徵（如波動度、動能）而非僅看統計重要性。
+ER  - 
+
+TY  - JOUR
+AU  - Lee, Yongjae
+AU  - Kim, Jang Ho
+AU  - Kim, Woo Chang
+AU  - Fabozzi, Frank J.
+TI  - An Overview of Machine Learning for Portfolio Optimization
+JO  - The Journal of Portfolio Management
+PY  - 2024
+VL  - 51
+IS  - 2
+SP  - 131
+EP  - 148
+DO  - 10.3905/jpm.2024.1.639
+UR  - https://doi.org/10.3905/jpm.2024.1.639
+KW  - lit-review-automation
+KW  - B 決策導向與端到端學習
+N1  - 綜述機器學習在投組最佳化的應用（含端到端與強化學習），可作為方向B與方向G文獻地圖的直接入口。
+ER  - 
+
+TY  - JOUR
+AU  - Han, Yufeng
+AU  - He, Ai
+AU  - Rapach, David E
+AU  - Zhou, Guofu
+TI  - Cross-sectional expected returns: new Fama–MacBeth regressions in the era of machine learning
+JO  - Review of Finance
+PY  - 2024
+VL  - 28
+IS  - 6
+SP  - 1807
+EP  - 1831
+DO  - 10.1093/rof/rfae027
+UR  - https://doi.org/10.1093/rof/rfae027
+AB  - We extend the Fama–MacBeth regression framework for cross-sectional return prediction to incorporate big data and machine learning. Our extension involves a three-step procedure for generating return forecasts based on Fama–MacBeth regressions with regularization and predictor selection as well as forecast combination and encompassing. As a by-product, it provides estimates of characteristic payoffs. We also develop three performance measures for assessing cross-sectional return forecasts, including a generalization of the popular time-series out-of-sample R2 statistic to the cross section. Applying our extension to over 200 firm characteristics, our cross-sectional return forecasts significantly improve out-of-sample predictive accuracy and provide substantial economic value to investors. Overall, our results suggest that a relatively large number of characteristics matter for determining cross-sectional expected returns. Our new method is straightforward to implement and interpret, and it performs well in our application.
+KW  - lit-review-automation
+KW  - A 機器學習與已知因子
+N1  - 將Fama-MacBeth迴歸結合正則化與預測組合來做橫斷面報酬預測並提供特徵報酬估計，可在方向A作為可解釋的基準模型，用以比較v1的ML訊號是否超越線性已知特徵。
+ER  - 
+
+TY  - JOUR
+AU  - Yan, Xuemin (Sterling)
+AU  - Zheng, Lingling
+TI  - Fundamental Analysis and the Cross-Section of Stock Returns: A Data-Mining Approach
+JO  - The Review of Financial Studies
+PY  - 2017
+VL  - 30
+IS  - 4
+SP  - 1382
+EP  - 1423
+DO  - 10.1093/rfs/hhx001
+UR  - https://doi.org/10.1093/rfs/hhx001
+KW  - lit-review-automation
+KW  - 驗證與回測過度配適
+N1  - 以資料探勘與bootstrap檢驗大量基本面訊號是否為運氣，可直接借用於驗證v1訊號在多重檢定下是否仍顯著。
+ER  - 
+
+TY  - JOUR
+AU  - Babiak, Mykola
+AU  - Baruník, Jozef
+TI  - Deep learning, predictability, and optimal portfolio returns
+JO  - Journal of Empirical Finance
+PY  - 2026
+VL  - 87
+SP  - 101705
+DO  - 10.1016/j.jempfin.2026.101705
+UR  - https://doi.org/10.1016/j.jempfin.2026.101705
+KW  - lit-review-automation
+KW  - B 決策導向與端到端學習
+N1  - 以深度學習的報酬可預測性直接連結到最適投組報酬，可支援方向B評估預測轉換為投組時的經濟價值並與端到端方法比較。
+ER  - 
+
+TY  - JOUR
+AU  - Oderda, Gianluca
+AU  - Berrada, Tony
+AU  - Messikh, Reda Jurg
+AU  - Pictet, Olivier
+TI  - Beta-arbitrage strategies: when do they work, and why?
+JO  - Quantitative Finance
+PY  - 2015
+VL  - 15
+IS  - 2
+SP  - 185
+EP  - 203
+DO  - 10.1080/14697688.2014.938446
+UR  - https://doi.org/10.1080/14697688.2014.938446
+KW  - lit-review-automation
+KW  - A 低波動與低beta異象
+N1  - 分析beta套利策略何時有效及其原因，可直接用來解釋v1隱含的低beta／低波動傾斜在2025年為何失效。
+ER  - 
+
+TY  - JOUR
+AU  - Lettau, Martin
+AU  - Pelger, Markus
+A2  - Van Nieuwerburgh, Stijn
+TI  - Factors That Fit the Time Series and Cross-Section of Stock Returns
+JO  - The Review of Financial Studies
+PY  - 2020
+VL  - 33
+IS  - 5
+SP  - 2274
+EP  - 2325
+DO  - 10.1093/rfs/hhaa020
+UR  - https://doi.org/10.1093/rfs/hhaa020
+AB  - We propose a new method for estimating latent asset pricing factors that fit the time series and cross-section of expected returns. Our estimator generalizes principal component analysis (PCA) by including a penalty on the pricing error in expected returns. Our approach finds weak factors with high Sharpe ratios that PCA cannot detect. We discover five factors with economic meaning that explain well the cross-section and time series of characteristic-sorted portfolio returns. The out-of-sample maximum Sharpe ratio of our factors is twice as large as with PCA with substantially smaller pricing errors. Our factors imply that a significant amount of characteristic information is redundant. Authors have furnished an Internet Appendix, which is available on the Oxford University Press Web site next to the link to the final published paper online.
+KW  - lit-review-automation
+KW  - A 機器學習與已知因子
+N1  - 提出RP-PCA以同時配適時間序列與橫斷面的潛在因子，可在方向A作為檢驗ML訊號是否已被少數潛在因子涵蓋的基準，也連結方向F的表示學習。
+ER  - 
+
+TY  - JOUR
+AU  - Brogaard, Jonathan
+AU  - Zareei, Abalfazl
+TI  - Machine Learning and the Stock Market
+JO  - Journal of Financial and Quantitative Analysis
+PY  - 2022
+VL  - 58
+IS  - 4
+SP  - 1431
+EP  - 1472
+DO  - 10.1017/s0022109022001120
+UR  - https://doi.org/10.1017/s0022109022001120
+AB  - Practitioners allocate substantial resources to technical analysis whereas academic theories of market efficiency rule out technical trading profitability. We study this long-standing puzzle by applying a diverse set of machine learning algorithms. The results show that an investor can find profitable technical trading rules using past prices, and that this out-of-sample profitability decreases through time, showing that markets have become more efficient over time. In addition, we find that the evolutionary genetic algorithm’s attitude in not shying away from erroneous predictions gives it an edge in building profitable strategies compared to the strict loss-minimization-focused machine learning algorithms.
+KW  - lit-review-automation
+KW  - A 異象、套利限制與因子動物園
+N1  - 以多種機器學習演算法從過去價格尋找技術交易規則並發現其樣本外獲利隨時間遞減，直接對應v1以價量資料選股時訊號衰退與市場效率的問題。
+ER  - 
+
+TY  - JOUR
+AU  - Moallemi, Ciamac C.
+AU  - Sağlam, Mehmet
+TI  - Dynamic Portfolio Choice with Linear Rebalancing Rules
+JO  - Journal of Financial and Quantitative Analysis
+PY  - 2017
+VL  - 52
+IS  - 3
+SP  - 1247
+EP  - 1278
+DO  - 10.1017/s0022109017000345
+UR  - https://doi.org/10.1017/s0022109017000345
+AB  - We consider a broad class of dynamic portfolio optimization problems that allow for complex models of return predictability, transaction costs, trading constraints, and risk considerations. Determining an optimal policy in this general setting is almost always intractable. We propose a class of linear rebalancing rules and describe an efficient computational procedure to optimize with this class. We illustrate this method in the context of portfolio execution and show that it achieves near optimal performance. We consider another numerical example involving dynamic trading with mean-variance preferences and demonstrate that our method can result in economically large benefits.
+KW  - lit-review-automation
+KW  - B 交易成本與換手
+N1  - 在含交易成本與報酬可預測的動態投組問題中最佳化線性再平衡規則，可為方向B把手寫緩衝規則推廣為可最佳化的再平衡政策提供直接方法。
+ER  - 
+
+TY  - JOUR
+AU  - Cakici, Nusret
+AU  - Fieberg, Christian
+AU  - Metko, Daniel
+AU  - Zaremba, Adam
+TI  - Predicting Returns with Machine Learning across Horizons, Firm Size, and Time
+JO  - The Journal of Financial Data Science
+PY  - 2023
+VL  - 5
+IS  - 4
+SP  - 119
+EP  - 144
+DO  - 10.3905/jfds.2023.1.139
+UR  - https://doi.org/10.3905/jfds.2023.1.139
+KW  - lit-review-automation
+KW  - A 機器學習與已知因子
+N1  - 檢驗機器學習報酬預測在不同期間長度、公司規模與時期的表現，可直接支援方向A判斷ML獲利是否集中於小型難交易股與是否隨時間衰退。
+ER  - 
+
+TY  - JOUR
+AU  - Li, Xi
+AU  - Sullivan, Rodney N.
+AU  - Garcia-Feijóo, Luis
+TI  - The Limits to Arbitrage and the Low-Volatility Anomaly
+JO  - Financial Analysts Journal
+PY  - 2014
+VL  - 70
+IS  - 1
+SP  - 52
+EP  - 63
+DO  - 10.2469/faj.v70.n1.3
+UR  - https://doi.org/10.2469/faj.v70.n1.3
+KW  - lit-review-automation
+KW  - A 低波動與低beta異象
+N1  - 說明低波動異象受套利限制影響，可直接用來解釋方向A中v1在2025年未察覺的低波動傾斜之來源與可交易性。
+ER  - 
+
+TY  - JOUR
+AU  - Daniel, Kent
+AU  - Mota, Lira
+AU  - Rottke, Simon
+AU  - Santos, Tano
+A2  - Karolyi, Andrew
+TI  - The Cross-Section of Risk and Returns
+JO  - The Review of Financial Studies
+PY  - 2020
+VL  - 33
+IS  - 5
+SP  - 1927
+EP  - 1979
+DO  - 10.1093/rfs/hhaa021
+UR  - https://doi.org/10.1093/rfs/hhaa021
+AB  - A common practice in the finance literature is to create characteristic portfolios by sorting on characteristics associated with average returns. We show that the resultant portfolios are likely to capture not only the priced risk associated with the characteristic but also unpriced risk. We develop a procedure to remove this unpriced risk using covariance information estimated from past returns. We apply our methodology to the five Fama-French characteristic portfolios. The squared Sharpe ratio of the optimal combination of the resultant characteristic-efficient portfolios is 2.13, compared with 1.17 for the original characteristic portfolios.
+KW  - lit-review-automation
+KW  - A 機器學習與已知因子
+N1  - 以共變異資訊剔除特徵排序投組中的未定價風險，可直接用來對ML選股投組去除非預期的產業與波動度曝險（方向A）。
+ER  - 
+
+TY  - JOUR
+AU  - Barroso, Pedro
+AU  - Detzel, Andrew
+AU  - Maio, Paulo
+TI  - The volatility puzzle of the beta anomaly
+JO  - Journal of Financial Economics
+PY  - 2025
+VL  - 165
+SP  - 103994
+DO  - 10.1016/j.jfineco.2025.103994
+UR  - https://doi.org/10.1016/j.jfineco.2025.103994
+KW  - lit-review-automation
+KW  - A 低波動與低beta異象
+N1  - 探討beta異象與波動度之間的謎題，可直接幫助方向A釐清v1的低波動傾斜究竟是beta還是波動度曝險。
+ER  - 
+
+TY  - JOUR
+AU  - Li, Xi
+AU  - Sullivan, Rodney N.
+AU  - Garcia-Feijóo, Luis
+TI  - The Low-Volatility Anomaly: Market Evidence on Systematic Risk vs. Mispricing
+JO  - Financial Analysts Journal
+PY  - 2016
+VL  - 72
+IS  - 1
+SP  - 36
+EP  - 47
+DO  - 10.2469/faj.v72.n1.6
+UR  - https://doi.org/10.2469/faj.v72.n1.6
+KW  - lit-review-automation
+KW  - A 低波動與低beta異象
+N1  - 檢驗低波動異象來自系統風險或錯誤定價，可直接用於方向A判斷v1低波動傾斜帶來的報酬是否為新訊號。
+ER  - 
+
+TY  - JOUR
+AU  - Kim, Soohun
+AU  - Korajczyk, Robert A
+AU  - Neuhierl, Andreas
+A2  - Jiang, Wei
+TI  - Arbitrage Portfolios
+JO  - The Review of Financial Studies
+PY  - 2020
+VL  - 34
+IS  - 6
+SP  - 2813
+EP  - 2856
+DO  - 10.1093/rfs/hhaa102
+UR  - https://doi.org/10.1093/rfs/hhaa102
+AB  - We propose a new methodology for forming arbitrage portfolios that utilizes the information contained in firm characteristics for both abnormal returns and factor loadings. The methodology gives maximal weight to risk-based interpretations of characteristics’ predictive power before any attribution is made to abnormal returns. We apply the methodology to simulated economies and to a large panel of U.S. stock returns. The methodology works well in our simulation and when applied to stocks. Empirically, we find the arbitrage portfolio has (statistically and economically) significant alphas relative to several popular asset pricing models and annualized Sharpe ratios ranging from 1.31 to 1.66.
+KW  - lit-review-automation
+KW  - A 機器學習與已知因子
+N1  - 以特徵同時建模異常報酬與因子負荷並優先歸因於風險，提供方向A區分ML訊號中「新alpha」與「已知因子曝險」的方法。
+ER  - 
+
+TY  - JOUR
+AU  - Zhao, Albert Bo
+AU  - Cheng, Tingting
+TI  - Stock return prediction: Stacking a variety of models
+JO  - Journal of Empirical Finance
+PY  - 2022
+VL  - 67
+SP  - 288
+EP  - 317
+DO  - 10.1016/j.jempfin.2022.04.001
+UR  - https://doi.org/10.1016/j.jempfin.2022.04.001
+KW  - lit-review-automation
+KW  - A 機器學習與已知因子
+N1  - 以堆疊多種模型預測個股報酬，可直接作為方向A中ML選股模型設計與比較的參照。
+ER  - 
+
+TY  - JOUR
+AU  - de Roon, Frans
+AU  - Szymanowska, Marta
+TI  - Asset Pricing Restrictions on Predictability: Frictions Matter
+JO  - Management Science
+PY  - 2012
+VL  - 58
+IS  - 10
+SP  - 1916
+EP  - 1932
+DO  - 10.1287/mnsc.1120.1522
+UR  - https://doi.org/10.1287/mnsc.1120.1522
+AB  - U.S. stock portfolios sorted on size; momentum; transaction costs; market-to-book, investment-to-assets, and return-on-assets (ROA) ratios; and industry classification show considerable levels and variation of return predictability, inconsistent with asset pricing models. This means that a predictable risk premium is not equal to compensation for systematic risk as implied by asset pricing theory. We show that introducing market frictions relaxes these asset pricing moments from a strict equality to a range. Empirically, it is not short sales constraints but transaction costs (below 35 basis points) that help to reconcile the observed predictability with linear portfolio return-based factor models, and partly with the durable consumption model. Across the sorts, predictability in industry returns can be reconciled with all models considered with only a 25 basis point transaction cost, whereas for momentum and ROA portfolios, up to 115 basis points are needed. This paper was accepted by Wei Xiong, finance.
+KW  - lit-review-automation
+KW  - B 交易成本與換手
+N1  - 顯示僅需數十個基點交易成本即可解釋多數投組報酬可預測性，直接回應研究問題中「訊號扣除成本後還剩多少」。
+ER  - 
+
+TY  - JOUR
+AU  - Blitz, David
+AU  - Vidojevic, Milan
+TI  - The profitability of low-volatility
+JO  - Journal of Empirical Finance
+PY  - 2017
+VL  - 43
+SP  - 33
+EP  - 42
+DO  - 10.1016/j.jempfin.2017.05.001
+UR  - https://doi.org/10.1016/j.jempfin.2017.05.001
+KW  - lit-review-automation
+KW  - A 低波動與低beta異象
+N1  - 探討低波動效果與獲利能力因子的關係，可直接協助方向A判斷低波動傾斜的報酬是否被品質/獲利因子解釋。
+ER  - 
+
+TY  - JOUR
+AU  - Cao, Jie
+AU  - Han, Bing
+TI  - Idiosyncratic risk, costly arbitrage, and the cross-section of stock returns
+JO  - Journal of Banking &amp; Finance
+PY  - 2016
+VL  - 73
+SP  - 1
+EP  - 15
+DO  - 10.1016/j.jbankfin.2016.08.004
+UR  - https://doi.org/10.1016/j.jbankfin.2016.08.004
+KW  - lit-review-automation
+KW  - A 異象、套利限制與因子動物園
+N1  - 說明特異波動度異象受套利成本影響，對方向A理解波動度相關訊號為何集中於難交易股票並在扣成本後消失很有用。
+ER  - 
+
+TY  - JOUR
+AU  - BOWLES, BOONE
+AU  - REED, ADAM V.
+AU  - RINGGENBERG, MATTHEW C.
+AU  - THORNOCK, JACOB R.
+TI  - Anomaly Time
+JO  - The Journal of Finance
+PY  - 2024
+VL  - 79
+IS  - 5
+SP  - 3543
+EP  - 3579
+DO  - 10.1111/jofi.13372
+UR  - https://doi.org/10.1111/jofi.13372
+AB  - We examine the timing of returns around the publication of anomaly trading signals. Using a database that captures when information is first publicly released, we show that anomaly returns are concentrated in the first month after information release dates, and these returns decay soon thereafter. We also show that the academic convention of forming portfolios in June underestimates predictability because it uses stale information, which makes some anomalies appear insignificant. In contrast, we show many anomalies do predict returns if portfolios are formed immediately after information releases. Finally, we develop guidance on forming portfolios without using stale information.
+KW  - lit-review-automation
+KW  - A 異象、套利限制與因子動物園
+N1  - 顯示異象報酬集中於資訊公開後首月並迅速衰退，直接支援方向A關於異象衰退與訊號時效的討論。
+ER  - 
+
+TY  - JOUR
+AU  - Wang, Mingfu
+AU  - Ku, Hyejin
+TI  - Risk-sensitive policies for portfolio management
+JO  - Expert Systems with Applications
+PY  - 2022
+VL  - 198
+SP  - 116807
+DO  - 10.1016/j.eswa.2022.116807
+UR  - https://doi.org/10.1016/j.eswa.2022.116807
+KW  - lit-review-automation
+KW  - G 強化學習交易與配置
+N1  - 提出風險敏感的投組管理策略（強化學習政策）並考量交易成本，可直接參考於方向G學習再平衡時機與幅度。
+ER  - 
+
+TY  - JOUR
+AU  - Bali, Turan G.
+AU  - Cakici, Nusret
+AU  - Whitelaw, Robert F.
+TI  - Maxing out: Stocks as lotteries and the cross-section of expected returns
+JO  - Journal of Financial Economics
+PY  - 2011
+VL  - 99
+IS  - 2
+SP  - 427
+EP  - 446
+DO  - 10.1016/j.jfineco.2010.08.014
+UR  - https://doi.org/10.1016/j.jfineco.2010.08.014
+KW  - lit-review-automation
+KW  - A 低波動與低beta異象
+N1  - MAX彩券效應與特異波動度異象密切相關，是方向A檢查價量ML訊號是否只是重現已知波動/彩券特徵的重要基準。
+ER  - 
+
+TY  - JOUR
+AU  - Drobetz, Wolfgang
+AU  - Hollstein, Fabian
+AU  - Otto, Tizian
+AU  - Prokopczuk, Marcel
+TI  - Estimating Stock Market Betas via Machine Learning
+JO  - Journal of Financial and Quantitative Analysis
+PY  - 2024
+VL  - 60
+IS  - 3
+SP  - 1074
+EP  - 1110
+DO  - 10.1017/s0022109024000036
+UR  - https://doi.org/10.1017/s0022109024000036
+AB  - Machine learning-based stock market beta estimators outperform established benchmark models both statistically and economically. Analyzing the predictability of time-varying market betas of U.S. stocks, we document that machine learning-based estimators produce the lowest forecast and hedging errors. They also help to create better market-neutral anomaly strategies and minimum variance portfolios. Among the various techniques, random forests perform the best overall. Model complexity is highly time-varying. Historical stock market betas, turnover, and size are the most important predictors. Compared to linear regressions, allowing for nonlinearity and interactions significantly improves predictive performance.
+KW  - lit-review-automation
+KW  - A 低波動與低beta異象
+N1  - 以ML估計個股市場beta並改善市場中性與最小變異數投組，可直接用於方向A衡量並控制ML選股的beta/低波動曝險。
+ER  - 
+
+TY  - JOUR
+AU  - Allena, Rohit
+A2  - Giglio, Stefano
+TI  - Confident Risk Premiums and Investments Using Machine Learning Uncertainties
+JO  - The Review of Financial Studies
+PY  - 2025
+VL  - 39
+IS  - 5
+SP  - 1463
+EP  - 1505
+DO  - 10.1093/rfs/hhaf087
+UR  - https://doi.org/10.1093/rfs/hhaf087
+AB  - This paper derives ex-ante confidence intervals for stock risk premium forecasts that are based on a wide range of linear and machine learning models. Exploiting the cross-sectional variation in the precision of risk premium forecasts, I provide improved investment strategies. The confident-high-low strategies that take long-short positions exclusively on stocks with precise risk premium forecasts outperform traditional high-low strategies in delivering superior out-of-sample returns and Sharpe ratios across all models. The outperformance increases (decreases) with the model complexity (bias). The confident-high-low strategies are economically interpretable as trading strategies of ambiguity-averse investors who account for confidence intervals around risk premium forecasts.
+KW  - lit-review-automation
+KW  - A 機器學習與已知因子
+N1  - 為ML報酬預測建立信賴區間並只交易預測精確的股票，可直接用於方向A/B改善弱訊號下的選股與減少雜訊換手。
+ER  - 
+
+TY  - JOUR
+AU  - Fama, Eugene F.
+AU  - French, Kenneth R.
+TI  - A five-factor asset pricing model
+JO  - Journal of Financial Economics
+PY  - 2015
+VL  - 116
+IS  - 1
+SP  - 1
+EP  - 22
+DO  - 10.1016/j.jfineco.2014.10.010
+UR  - https://doi.org/10.1016/j.jfineco.2014.10.010
+KW  - lit-review-automation
+KW  - A 機器學習與已知因子
+N1  - Fama-French五因子模型是A方向檢驗ML訊號是否只是規模、價值、獲利等已知因子曝險時的標準對照基準。
+ER  - 
+
+TY  - JOUR
+AU  - Ho-Nguyen, Nam
+AU  - Kılınç-Karzan, Fatma
+TI  - Risk Guarantees for End-to-End Prediction and Optimization Processes
+JO  - Management Science
+PY  - 2022
+VL  - 68
+IS  - 12
+SP  - 8680
+EP  - 8698
+DO  - 10.1287/mnsc.2022.4321
+UR  - https://doi.org/10.1287/mnsc.2022.4321
+AB  - Prediction methods are often employed to estimate parameters of optimization models. Although the goal in an end-to-end framework is to achieve good performance on the subsequent optimization model, a formal understanding of the ways in which prediction methods can affect optimization performance is notably lacking. This paper identifies conditions on prediction methods that can guarantee good optimization performance. We provide two types of results: asymptotic guarantees under a well-known Fisher consistency criterion and nonasymptotic performance bounds under a more stringent criterion. We use these results to analyze optimization performance for several existing prediction methods and show that in certain settings, methods tailored to the optimization problem can fail to guarantee good performance. Conversely, optimization-agnostic methods can sometimes, surprisingly, have good guarantees. In a computational study on portfolio optimization, fractional knapsack, and multiclass classification problems, we compare the optimization performance of several prediction methods. We demonstrate that lack of Fisher consistency of the prediction method can indeed have a detrimental effect on performance. This paper was accepted by Chung Piaw Teo, optimization. Funding: This work was supported by the National Science Foundation, Division of Civil, Mechanical and Manufacturing Innovation [Grant 1454548]. Supplemental Material: Data and the e-companion are available at https://doi.org/10.1287/mnsc.2022.4321 .
+KW  - lit-review-automation
+KW  - B 決策導向與端到端學習
+N1  - 分析預測方法在何種條件下能保證下游最佳化（含投資組合）表現，為B方向決策導向／端到端學習是否優於先預測後最佳化提供理論依據。
+ER  - 
+
+TY  - JOUR
+AU  - Fjellavli, Martin
+AU  - Oliveira, Carlos
+AU  - Pimentel, Rita
+AU  - Schiøtz, Daniel
+TI  - Mean–Variance-Liquidity Portfolio Optimization with Reinforcement Learning
+JO  - The Journal of Financial Data Science
+PY  - 2025
+VL  - 7
+IS  - 2
+SP  - 124
+EP  - 145
+DO  - 10.3905/jfds.2025.1.183
+UR  - https://doi.org/10.3905/jfds.2025.1.183
+KW  - lit-review-automation
+KW  - G 強化學習交易與配置
+N1  - 以強化學習在均值-變異數之外納入流動性進行投資組合最佳化，直接對應G方向以RL學習考慮流動性與成本的調倉決策。
+ER  - 
+
+TY  - JOUR
+AU  - Fallahgoul, Hasan
+AU  - Franstianto, Vincentius
+AU  - Lin, Xin
+TI  - Asset pricing with neural networks: Significance tests
+JO  - Journal of Econometrics
+PY  - 2024
+VL  - 238
+IS  - 1
+SP  - 105574
+DO  - 10.1016/j.jeconom.2023.105574
+UR  - https://doi.org/10.1016/j.jeconom.2023.105574
+KW  - lit-review-automation
+KW  - F 深度學習資產定價
+N1  - 為神經網路資產定價模型提出特徵顯著性檢定，可直接用於A/F方向檢驗ML模型實際依賴哪些特徵、是否只是已知因子。
+ER  - 
+
+TY  - JOUR
+AU  - Linnainmaa, Juhani T
+AU  - Roberts, Michael R
+TI  - The History of the Cross-Section of Stock Returns
+JO  - The Review of Financial Studies
+PY  - 2018
+VL  - 31
+IS  - 7
+SP  - 2606
+EP  - 2649
+DO  - 10.1093/rfs/hhy030
+UR  - https://doi.org/10.1093/rfs/hhy030
+KW  - lit-review-automation
+KW  - A 異象、套利限制與因子動物園
+N1  - 以擴充歷史樣本檢驗異象的樣本外表現，顯示多數異象可能來自資料探勘，直接支持A方向異象衰退與驗證的討論。
+ER  - 
+
+TY  - JOUR
+AU  - Carrasco, Marine
+AU  - Koné, N’Golo
+TI  - Test for Trading Costs Effect in a Portfolio Selection Problem with Recursive Utility
+JO  - Journal of Financial Econometrics
+PY  - 2023
+VL  - 22
+IS  - 4
+SP  - 908
+EP  - 953
+DO  - 10.1093/jjfinec/nbad015
+UR  - https://doi.org/10.1093/jjfinec/nbad015
+AB  - This article addresses a portfolio selection problem with trading costs on stock market. More precisely, we develop a simple generalized method of moments (GMM)-based test procedure to test the significance of trading costs effect in the economy with a flexible form of transaction costs. We also propose a two-step procedure to test overidentifying restrictions in our GMM estimation. In an empirical analysis, we apply our test procedures to the class of anomalies used in Novy-Marx and Velikov (2016). We show that transaction costs have a significant effect on investors’ behavior for many anomalies. In that case, investors significantly improve the out-of-sample performance of their portfolios by accounting for trading costs.
+KW  - lit-review-automation
+KW  - B 交易成本與換手
+N1  - 以GMM檢定交易成本對異象投資組合選擇的影響並顯示納入成本可改善樣本外表現，直接支持B方向成本感知配置。
+ER  - 
+
+TY  - JOUR
+AU  - Mei, Xiaoling
+AU  - Nogales, Francisco J.
+TI  - Portfolio selection with proportional transaction costs and predictability
+JO  - Journal of Banking &amp; Finance
+PY  - 2018
+VL  - 94
+SP  - 131
+EP  - 151
+DO  - 10.1016/j.jbankfin.2018.07.012
+UR  - https://doi.org/10.1016/j.jbankfin.2018.07.012
+KW  - lit-review-automation
+KW  - B 交易成本與換手
+N1  - 在報酬可預測下求解含比例交易成本的多期投資組合，直接對應B方向將成本納入調倉決策並產生不交易區間的做法。
+ER  - 
+
+TY  - JOUR
+AU  - Grinold, Richard
+TI  - Nonlinear Trading Rules for Portfolio Management
+JO  - The Journal of Portfolio Management
+PY  - 2018
+VL  - 45
+IS  - 1
+SP  - 62
+EP  - 70
+DO  - 10.3905/jpm.2018.45.1.062
+UR  - https://doi.org/10.3905/jpm.2018.45.1.062
+KW  - lit-review-automation
+KW  - B 交易成本與換手
+N1  - 分析含成本時的非線性交易規則（如不交易區間），可為v1手寫緩衝規則提供B方向的理論基礎。
+ER  - 
+
+TY  - JOUR
+AU  - Bali, Turan G.
+AU  - Engle, Robert F.
+AU  - Tang, Yi
+TI  - Dynamic Conditional Beta Is Alive and Well in the Cross Section of Daily Stock Returns
+JO  - Management Science
+PY  - 2017
+VL  - 63
+IS  - 11
+SP  - 3760
+EP  - 3779
+DO  - 10.1287/mnsc.2016.2536
+UR  - https://doi.org/10.1287/mnsc.2016.2536
+AB  - This paper presents evidence for a significantly positive link between the dynamic conditional beta and the cross section of daily stock returns. An investment strategy that takes a long position in stocks in the highest conditional beta decile and a short position in stocks in the lowest conditional beta decile produces average returns and alphas in the range of 0.60%–0.80% per month. We provide an investor attention-based explanation of this finding. We show that stocks with high conditional beta have strong attention-grabbing characteristics, leading to a higher fraction of buyer-initiated trades for these stocks. We also find that stocks recently bought perform significantly better than stocks recently sold. Hence, the high beta stocks that investors are more likely to buy have higher expected returns than the low beta stocks that investors are more likely to sell. This paper was accepted by Lauren Cohen, finance.
+KW  - lit-review-automation
+KW  - A 低波動與低beta異象
+N1  - 以動態條件beta檢驗日報酬橫斷面中的beta與報酬關係，直接關聯A方向低beta/低波動傾斜如何影響選股績效。
+ER  - 
+
+TY  - JOUR
+AU  - Blitz, David
+TI  - The Value of Low Volatility
+JO  - The Journal of Portfolio Management
+PY  - 2016
+VL  - 42
+IS  - 3
+SP  - 94
+EP  - 100
+DO  - 10.3905/jpm.2016.42.3.094
+UR  - https://doi.org/10.3905/jpm.2016.42.3.094
+KW  - lit-review-automation
+KW  - A 低波動與低beta異象
+N1  - 探討低波動策略隱含的價值等因子曝險，有助解釋v1在2025年因低波動傾斜而失效的機制。
+ER  - 
+
+TY  - JOUR
+AU  - Wang, Haoran
+AU  - Zhou, Xun Yu
+TI  - Continuous‐time mean–variance portfolio selection: A reinforcement learning framework
+JO  - Mathematical Finance
+PY  - 2020
+VL  - 30
+IS  - 4
+SP  - 1273
+EP  - 1308
+DO  - 10.1111/mafi.12281
+UR  - https://doi.org/10.1111/mafi.12281
+AB  - We approach the continuous‐time mean–variance portfolio selection with reinforcement learning (RL). The problem is to achieve the best trade‐off between exploration and exploitation, and is formulated as an entropy‐regularized, relaxed stochastic control problem. We prove that the optimal feedback policy for this problem must be Gaussian, with time‐decaying variance. We then prove a policy improvement theorem, based on which we devise an implementable RL algorithm. We find that our algorithm and its variant outperform both traditional and deep neural network based algorithms in our simulation and empirical studies.
+KW  - lit-review-automation
+KW  - G 強化學習交易與配置
+N1  - 以熵正則化強化學習求解連續時間均值-變異數配置並證明最適策略形式，可作為方向 G 將再平衡決策交由 RL 學習的理論基礎。
+ER  - 
+
+TY  - JOUR
+AU  - Bradrania, Reza
+AU  - Veron, Jose Francisco
+TI  - The beta anomaly in the Australian stock market and the lottery demand
+JO  - Pacific-Basin Finance Journal
+PY  - 2023
+VL  - 77
+SP  - 101903
+DO  - 10.1016/j.pacfin.2022.101903
+UR  - https://doi.org/10.1016/j.pacfin.2022.101903
+KW  - lit-review-automation
+KW  - A 低波動與低beta異象
+N1  - 在澳洲市場檢驗 beta 異象並以彩券偏好解釋，可對照方向 A 中台股模型隱含的低波動/低 beta 傾斜在非美國市場的成因。
+ER  - 
+
+TY  - JOUR
+AU  - Blomvall, Jörgen
+AU  - Ekblom, Jonas
+AU  - Birge, John R.
+TI  - Approximate dynamic programming for high-dimensional portfolio choice with transaction costs
+JO  - Quantitative Finance
+PY  - 2026
+SP  - 1
+EP  - 26
+DO  - 10.1080/14697688.2026.2708220
+UR  - https://doi.org/10.1080/14697688.2026.2708220
+KW  - lit-review-automation
+KW  - B 交易成本與換手
+N1  - 以近似動態規劃求解含交易成本的高維多期投資組合選擇，可直接支援方向 B 將成本納入再平衡決策、取代手寫緩衝規則的研究。
+ER  - 
+
+TY  - JOUR
+AU  - Irvine, Paul
+AU  - Kim, Jeong Ho (John)
+AU  - Ren, Jue
+TI  - The Beta Anomaly and Mutual Fund Performance
+JO  - Management Science
+PY  - 2024
+VL  - 70
+IS  - 1
+SP  - 143
+EP  - 163
+DO  - 10.1287/mnsc.2022.4639
+UR  - https://doi.org/10.1287/mnsc.2022.4639
+AB  - We find evidence for the beta anomaly in mutual fund performance. This anomaly is not accounted for in the standard four-factor framework, nor by the addition of a betting-against-beta factor to the benchmark model. We identify the active component of alpha (active alpha) not attributable to the passive effects related to beta. Active alpha is persistent and associated with superior portfolio performance. We find that, although many investors use standard alpha to allocate capital, a subset of sophisticated investors allocate their money based on active alpha. Our procedure is useful across the commonly used benchmark models for measuring performance and can be extended to accommodate other potential factor beta anomalies. This paper was accepted by Karl Diether, finance. Supplemental Material: The data files are available at https://doi.org/10.1287/mnsc.2022.4639 .
+KW  - lit-review-automation
+KW  - A 低波動與低beta異象
+N1  - 將基金 alpha 拆解出與 beta 異象相關的被動部分以辨識主動 alpha，其方法可直接移植到方向 A 檢驗機器學習選股報酬有多少只是低 beta 暴露。
+ER  - 
+
+TY  - JOUR
+AU  - Soebhag, Amar
+AU  - Van Vliet, Bart
+AU  - Verwijmeren, Patrick
+TI  - Non-standard errors in asset pricing: Mind your sorts
+JO  - Journal of Empirical Finance
+PY  - 2024
+VL  - 78
+SP  - 101517
+DO  - 10.1016/j.jempfin.2024.101517
+UR  - https://doi.org/10.1016/j.jempfin.2024.101517
+KW  - lit-review-automation
+KW  - 驗證與回測過度配適
+N1  - 說明投資組合排序方式等研究設計選擇會大幅改變異象結果（非標準誤），可直接用於驗證方向中檢查台股選股結果對設計選擇的穩健性。
+ER  - 
+
+TY  - JOUR
+AU  - Gârleanu, Nicolae
+AU  - Pedersen, Lasse Heje
+TI  - Dynamic portfolio choice with frictions
+JO  - Journal of Economic Theory
+PY  - 2016
+VL  - 165
+SP  - 487
+EP  - 516
+DO  - 10.1016/j.jet.2016.06.001
+UR  - https://doi.org/10.1016/j.jet.2016.06.001
+KW  - lit-review-automation
+KW  - B 交易成本與換手
+N1  - 推廣 Garleanu-Pedersen 部分調整至一般摩擦下的動態組合，直接為方向 B 將交易成本納入選股決策、取代手寫緩衝規則提供理論核心。
+ER  - 
+
+TY  - BOOK
+AU  - Black Fischer
+TI  - Studies in the Theory of Capital Markets
+PY  - 1972
+KW  - lit-review-automation
+KW  - A 低波動與低beta異象
+N1  - 收錄 Black-Jensen-Scholes 對 CAPM 的實證檢驗，記錄低 beta 股票報酬過高的平坦證券市場線，是方向 A 判斷 v1 低波動傾斜來源的低 beta 異象原點文獻。
+ER  - 
+
+TY  - JOUR
+AU  - Carhart, Mark M.
+TI  - On Persistence in Mutual Fund Performance
+JO  - The Journal of Finance
+PY  - 1997
+VL  - 52
+IS  - 1
+SP  - 57
+EP  - 82
+DO  - 10.1111/j.1540-6261.1997.tb03808.x
+UR  - https://doi.org/10.1111/j.1540-6261.1997.tb03808.x
+AB  - Using a sample free of survivor bias, I demonstrate that common factors in stock returns and investment expenses almost completely explain persistence in equity mutual funds' mean and risk‐adjusted returns. Hendricks, Patel and Zeckhauser's (1993) “hot hands” result is mostly driven by the one‐year momentum effect of Jegadeesh and Titman (1993) , but individual funds do not earn higher returns from following the momentum strategy in stocks. The only significant persistence not explained is concentrated in strong underperformance by the worst‐return mutual funds. The results do not support the existence of skilled or informed mutual fund portfolio managers.
+KW  - lit-review-automation
+KW  - A 機器學習與已知因子
+N1  - 提出含動能的四因子模型，可直接用於方向 A 將 ML 選股報酬對市場、規模、價值、動能因子回歸，檢驗訊號是否為新資訊。
+ER  - 
+
+TY  - JOUR
+AU  - Hou, Kewei
+AU  - Xue, Chen
+AU  - Zhang, Lu
+TI  - Replicating Anomalies
+JO  - The Review of Financial Studies
+PY  - 2018
+VL  - 33
+IS  - 5
+SP  - 2019
+EP  - 2133
+DO  - 10.1093/rfs/hhy131
+UR  - https://doi.org/10.1093/rfs/hhy131
+AB  - Most anomalies fail to hold up to currently acceptable standards for empirical finance. With microcaps mitigated via NYSE breakpoints and value-weighted returns, 65% of the 452 anomalies in our extensive data library, including 96% of the trading frictions category, cannot clear the single test hurdle of the absolute $t$-value of 1.96. Imposing the higher multiple test hurdle of 2.78 at the 5% significance level raises the failure rate to 82%. Even for replicated anomalies, their economic magnitudes are much smaller than originally reported. In all, capital markets are more efficient than previously recognized. Received June 12, 2017; editorial decision October 29, 2018 by Editor Stijn Van Nieuwerburgh. Authors have furnished an Internet Appendix, which is available on the Oxford University Press Web site next to the link to the final published paper online.
+KW  - lit-review-automation
+KW  - A 異象、套利限制與因子動物園
+N1  - 以 452 個異象顯示多數在微型股處理與多重檢定門檻下失效，且交易摩擦類異象幾乎全滅，支持方向 A 關於異象衰減與難交易股票的論點。
+ER  - 
+
+TY  - JOUR
+AU  - JEGADEESH, NARASIMHAN
+AU  - TITMAN, SHERIDAN
+TI  - Returns to Buying Winners and Selling Losers: Implications for Stock Market Efficiency
+JO  - The Journal of Finance
+PY  - 1993
+VL  - 48
+IS  - 1
+SP  - 65
+EP  - 91
+DO  - 10.1111/j.1540-6261.1993.tb04702.x
+UR  - https://doi.org/10.1111/j.1540-6261.1993.tb04702.x
+AB  - This paper documents that strategies which buy stocks that have performed well in the past and sell stocks that have performed poorly in the past generate significant positive returns over 3‐to 12‐month holding periods. We find that the profitability of these strategies are not due to their systematic risk or to delayed stock price reactions to common factors. However, part of the abnormal returns generated in the first year after portfolio formation dissipates in the following two years. A similar pattern of returns around the earnings announcements of past winners and losers is also documented.
+KW  - lit-review-automation
+KW  - A 機器學習與已知因子
+N1  - 動能效應的原始文獻，方向 A 需以此判斷價量 ML 模型學到的是否只是 3-12 個月動能。
+ER  - 
+
+TY  - JOUR
+AU  - Davis, M. H. A.
+AU  - Norman, A. R.
+TI  - Portfolio Selection with Transaction Costs
+JO  - Mathematics of Operations Research
+PY  - 1990
+VL  - 15
+IS  - 4
+SP  - 676
+EP  - 713
+DO  - 10.1287/moor.15.4.676
+UR  - https://doi.org/10.1287/moor.15.4.676
+AB  - In this paper, optimal consumption and investment decisions are studied for an investor who has available a bank account paying a fixed rate of interest and a stock whose price is a log-normal diffusion. This problem was solved by Merton and others when transactions between bank and stock are costless. Here we suppose that there are charges on all transactions equal to a fixed percentage of the amount transacted. It is shown that the optimal buying and selling policies are the local times of the two-dimensional process of bank and stock holdings at the boundaries of a wedge-shaped region which is determined by the solution of a nonlinear free boundary problem. An algorithm for solving the free boundary problem is given.
+KW  - lit-review-automation
+KW  - B 交易成本與換手
+N1  - 證明比例交易成本下最適策略為「不交易區間」，正好為 v1 手寫緩衝規則（前 20 買、跌出 30 賣）提供方向 B 的理論依據。
+ER  - 
+
+TY  - GEN
+AU  - Black
+TI  - The capital asset pricing model: Some empirical tests
+PY  - 1972
+KW  - lit-review-automation
+KW  - A 低波動與低beta異象
+N1  - Black-Jensen-Scholes 實證發現低 beta 股票 alpha 為正，是方向 A 解釋 v1 隱性低波動傾斜的低 beta 異象基礎證據。
+ER  - 
+
+TY  - JOUR
+AU  - BRYZGALOVA, SVETLANA
+AU  - PELGER, MARKUS
+AU  - ZHU, JASON
+TI  - Forest through the Trees: Building Cross‐Sections of Stock Returns
+JO  - The Journal of Finance
+PY  - 2025
+VL  - 80
+IS  - 5
+SP  - 2447
+EP  - 2506
+DO  - 10.1111/jofi.13477
+UR  - https://doi.org/10.1111/jofi.13477
+AB  - We build cross‐sections of asset returns for a given set of characteristics, that is, managed portfolios serving as test assets, as well as building blocks for tradable risk factors. We use decision trees to endogenously group similar stocks together by selecting optimal portfolio splits to span the stochastic discount factor, projected on individual stocks. Our portfolios are interpretable and well diversified, reflecting many characteristics and their interactions. Compared to combinations of dozens (even hundreds) of single/double sorts, as well as machine‐learning prediction‐based portfolios, our cross‐sections are low‐dimensional yet have up to three times higher out‐of‐sample Sharpe ratios and alphas.
+KW  - lit-review-automation
+KW  - F 深度學習資產定價
+N1  - 以決策樹依 SDF 建構可解釋且樣本外 Sharpe 較高的橫斷面組合，並與 ML 預測組合比較，可為方向 A/F 檢視 ML 學到的特徵交互作用提供方法。
+ER  - 
+
+TY  - JOUR
+AU  - Fama, Eugene F.
+AU  - French, Kenneth R.
+TI  - Common risk factors in the returns on stocks and bonds
+JO  - Journal of Financial Economics
+PY  - 1993
+VL  - 33
+IS  - 1
+SP  - 3
+EP  - 56
+DO  - 10.1016/0304-405x(93)90023-5
+UR  - https://doi.org/10.1016/0304-405x(93)90023-5
+KW  - lit-review-automation
+KW  - A 機器學習與已知因子
+N1  - Fama-French 三因子模型，是方向 A 將 ML 選股報酬分解為市場、規模、價值暴露的標準基準。
+ER  - 
+
+TY  - JOUR
+AU  - FAMA, EUGENE F.
+AU  - FRENCH, KENNETH R.
+TI  - The Cross‐Section of Expected Stock Returns
+JO  - The Journal of Finance
+PY  - 1992
+VL  - 47
+IS  - 2
+SP  - 427
+EP  - 465
+DO  - 10.1111/j.1540-6261.1992.tb04398.x
+UR  - https://doi.org/10.1111/j.1540-6261.1992.tb04398.x
+AB  - Two easily measured variables, size and book‐to‐market equity, combine to capture the cross‐sectional variation in average stock returns associated with market β , size, leverage, book‐to‐market equity, and earnings‐price ratios. Moreover, when the tests allow for variation in β that is unrelated to size, the relation between market β and average return is flat, even when β is the only explanatory variable.
+KW  - lit-review-automation
+KW  - A 機器學習與已知因子
+N1  - 證明規模與淨值市價比主導橫斷面報酬且 beta 與報酬關係平坦，同時支持方向 A 的已知因子基準與低 beta 異象背景。
+ER  - 
+
+TY  - JOUR
+AU  - Kozak, Serhiy
+AU  - Nagel, Stefan
+AU  - Santosh, Shrihari
+TI  - Shrinking the cross-section
+JO  - Journal of Financial Economics
+PY  - 2020
+VL  - 135
+IS  - 2
+SP  - 271
+EP  - 292
+DO  - 10.1016/j.jfineco.2019.06.008
+UR  - https://doi.org/10.1016/j.jfineco.2019.06.008
+KW  - lit-review-automation
+KW  - A 異象、套利限制與因子動物園
+N1  - 以收縮估計在大量特徵下建構SDF，處理因子動物園與高維度過度配適問題，可作為方向A比較ML訊號與既有異象組合的正則化基準。
+ER  - 
+
+TY  - JOUR
+AU  - Black, Fischer
+TI  - Capital Market Equilibrium with Restricted Borrowing
+JO  - The Journal of Business
+PY  - 1972
+VL  - 45
+IS  - 3
+SP  - 444
+DO  - 10.1086/295472
+UR  - https://doi.org/10.1086/295472
+KW  - lit-review-automation
+KW  - A 低波動與低beta異象
+N1  - Black 受限借貸CAPM是低beta異象（BAB）的理論起源，可解釋v1在2025年失敗時隱含的低波動傾斜為何會產生報酬與風險。
+ER  - 
+
+TY  - JOUR
+AU  - Balduzzi, P
+TI  - Transaction costs and predictability: some utility cost calculations
+JO  - Journal of Financial Economics
+PY  - 1999
+VL  - 52
+IS  - 1
+SP  - 47
+EP  - 78
+DO  - 10.1016/s0304-405x(99)00004-5
+UR  - https://doi.org/10.1016/s0304-405x(99)00004-5
+KW  - lit-review-automation
+KW  - B 交易成本與換手
+N1  - 量化報酬可預測性在交易成本下的效用損失，直接回應方向B「弱訊號在成本後還剩多少價值」的核心問題。
+ER  - 
+
+TY  - JOUR
+AU  - DUMAS, BERNARD
+AU  - LUCIANO, ELISA
+TI  - An Exact Solution to a Dynamic Portfolio Choice Problem under Transactions Costs
+JO  - The Journal of Finance
+PY  - 1991
+VL  - 46
+IS  - 2
+SP  - 577
+EP  - 595
+DO  - 10.1111/j.1540-6261.1991.tb02675.x
+UR  - https://doi.org/10.1111/j.1540-6261.1991.tb02675.x
+AB  - The presence of any friction in financial markets qualitatively changes the nature of the optimization problem faced by an investor. It requires one to either act or do nothing, an issue which, of course, does not arise in frictionless situations. The investor considered here accumulates wealth without consuming until some terminal point in time when he consumes all. His objective is to maximize the expected utility derived from that terminal consumption. We postpone the terminal point far into the future to obtain a stationary portfolio rule. The portfolio policy is in the form of two control barriers between which portfolio proportions are allowed to fluctuate. We show how to calculate them.
+KW  - lit-review-automation
+KW  - B 交易成本與換手
+N1  - 證明交易成本下最適投組呈現兩道控制邊界的無交易區間，為「前20買、跌出前30賣」緩衝規則提供理論依據，屬方向B核心背景。
+ER  - 
+
+TY  - JOUR
+AU  - Lynch, Anthony W.
+AU  - Balduzzi, Pierluigi
+TI  - Predictability and Transaction Costs: The Impact on Rebalancing Rules and Behavior
+JO  - The Journal of Finance
+PY  - 2000
+VL  - 55
+IS  - 5
+SP  - 2285
+EP  - 2309
+DO  - 10.1111/0022-1082.00287
+UR  - https://doi.org/10.1111/0022-1082.00287
+AB  - Recent papers show that predictability calibrated to U.S. data has a large effect on the rebalancing behavior of a multiperiod investor. We find that this continues to be true in the presence of realistic transaction costs. In particular, predictability causes the no‐trade region for the risky‐asset holding to become state dependent and, on average, wider and higher. Predictability also motivates the investor to spend considerably more on rebalancing and to rebalance more often. In other results, we find that introducing costly liquidation of the risky asset for consumption lowers the average allocation to the risky asset, though only marginally early in life. Our experiments also vary the nature of the return predictability and introduce return heteroskedasticity.
+KW  - lit-review-automation
+KW  - B 交易成本與換手
+N1  - 顯示報酬可預測性使無交易區間變為狀態相依且更寬，直接支持方向B中依訊號強弱調整緩衝區與再平衡頻率的設計。
+ER  - 
+
+TY  - JOUR
+AU  - Korajczyk, Robert A.
+AU  - Sadka, Ronnie
+TI  - Are Momentum Profits Robust to Trading Costs?
+JO  - The Journal of Finance
+PY  - 2004
+VL  - 59
+IS  - 3
+SP  - 1039
+EP  - 1082
+DO  - 10.1111/j.1540-6261.2004.00656.x
+UR  - https://doi.org/10.1111/j.1540-6261.2004.00656.x
+AB  - We test whether momentum strategies remain profitable after considering market frictions induced by trading. Intraday data are used to estimate alternative measures of proportional and non‐proportional (price impact) trading costs. The price impact models imply that abnormal returns to portfolio strategies decline with portfolio size. We calculate break‐even fund sizes that lead to zero abnormal returns. In addition to equal‐ and value‐weighted momentum strategies, we derive a liquidity‐weighted strategy designed to reduce the cost of trades. Equal‐weighted strategies perform the best before trading costs and the worst after trading costs. Liquidity‐weighted and hybrid liquidity/value‐weighted strategies have the largest break‐even fund sizes: $5 billion or more (relative to December 1999 market capitalization) may be invested in these momentum strategies before the apparent profit opportunities vanish.
+KW  - lit-review-automation
+KW  - B 交易成本與換手
+N1  - 以價格衝擊模型檢驗動能策略成本後獲利與損益兩平規模，並提出流動性加權降低成本，直接對應v1成本前勝出、成本後虧損的問題。
+ER  - 
+
+TY  - JOUR
+AU  - Lewellen, Jonathan
+TI  - The Cross-section of Expected Stock Returns
+JO  - Critical Finance Review
+PY  - 2015
+VL  - 4
+IS  - 1
+SP  - 1
+EP  - 44
+DO  - 10.1561/104.00000024
+UR  - https://doi.org/10.1561/104.00000024
+KW  - lit-review-automation
+KW  - A 機器學習與已知因子
+N1  - 以Fama-MacBeth組合多個特徵產生樣本外報酬預測，是方向A中衡量非線性ML模型相對簡單線性特徵組合增益的重要基準。
+ER  - 
+
+TY  - JOUR
+AU  - JENSEN, THEIS INGERSLEV
+AU  - KELLY, BRYAN
+AU  - PEDERSEN, LASSE HEJE
+TI  - Is There a Replication Crisis in Finance?
+JO  - The Journal of Finance
+PY  - 2023
+VL  - 78
+IS  - 5
+SP  - 2465
+EP  - 2518
+DO  - 10.1111/jofi.13249
+UR  - https://doi.org/10.1111/jofi.13249
+AB  - Several papers argue that financial economics faces a replication crisis because the majority of studies cannot be replicated or are the result of multiple testing of too many factors. We develop and estimate a Bayesian model of factor replication that leads to different conclusions. The majority of asset pricing factors (i) can be replicated; (ii) can be clustered into 13 themes, the majority of which are significant parts of the tangency portfolio; (iii) work out‐of‐sample in a new large data set covering 93 countries; and (iv) have evidence that is strengthened (not weakened) by the large number of observed factors.
+KW  - lit-review-automation
+KW  - A 異象、套利限制與因子動物園
+N1  - 以貝氏模型重新評估因子可複製性與多重檢定，並提供93國資料的樣本外證據，可用於方向A判斷台股訊號是否屬已知因子主題。
+ER  - 
+
+TY  - JOUR
+AU  - Chordia, Tarun
+AU  - Subrahmanyam, Avanidhar
+AU  - Tong, Qing
+TI  - Have capital market anomalies attenuated in the recent era of high liquidity and trading activity?
+JO  - Journal of Accounting and Economics
+PY  - 2014
+VL  - 58
+IS  - 1
+SP  - 41
+EP  - 58
+DO  - 10.1016/j.jacceco.2014.06.001
+UR  - https://doi.org/10.1016/j.jacceco.2014.06.001
+KW  - lit-review-automation
+KW  - A 異象、套利限制與因子動物園
+N1  - 記錄高流動性時代異象報酬衰退，直接支持方向A關於異象衰減及ML訊號在近期樣本失效的討論。
+ER  - 
+
+TY  - JOUR
+AU  - FAMA, EUGENE F.
+AU  - FRENCH, KENNETH R.
+TI  - Multifactor Explanations of Asset Pricing Anomalies
+JO  - The Journal of Finance
+PY  - 1996
+VL  - 51
+IS  - 1
+SP  - 55
+EP  - 84
+DO  - 10.1111/j.1540-6261.1996.tb05202.x
+UR  - https://doi.org/10.1111/j.1540-6261.1996.tb05202.x
+AB  - Previous work shows that average returns on common stocks are related to firm characteristics like size, earnings/price, cash flow/price, book‐to‐market equity, past sales growth, long‐term past return, and short‐term past return. Because these patterns in average returns apparently are not explained by the CAPM, they are called anomalies. We find that, except for the continuation of short‐term returns, the anomalies largely disappear in a three‐factor model. Our results are consistent with rational ICAPM or APT asset pricing, but we also consider irrational pricing and data problems as possible explanations.
+KW  - lit-review-automation
+KW  - A 機器學習與已知因子
+N1  - 證明多數異象可被三因子模型解釋，是方向A以因子回歸拆解機器學習訊號、判斷其報酬是否為規模與價值等已知因子暴露的經典方法依據。
+ER  - 
+
+TY  - JOUR
+AU  - Lo, Andrew W.
+AU  - MacKinlay, A. Craig
+TI  - Data-Snooping Biases in Tests of Financial Asset Pricing Models
+JO  - Review of Financial Studies
+PY  - 1990
+VL  - 3
+IS  - 3
+SP  - 431
+EP  - 467
+DO  - 10.1093/rfs/3.3.431
+UR  - https://doi.org/10.1093/rfs/3.3.431
+KW  - lit-review-automation
+KW  - 驗證與回測過度配適
+N1  - 說明依據已知樣本特徵分組檢定資產定價模型會產生資料窺探偏誤，直接支持驗證方向中對回測過度配適與多重檢定的警示。
+ER  - 
+
+TY  - JOUR
+AU  - Liu, Hong
+TI  - Optimal Consumption and Investment with Transaction Costs and Multiple Risky Assets
+JO  - The Journal of Finance
+PY  - 2004
+VL  - 59
+IS  - 1
+SP  - 289
+EP  - 338
+DO  - 10.1111/j.1540-6261.2004.00634.x
+UR  - https://doi.org/10.1111/j.1540-6261.2004.00634.x
+AB  - We consider the optimal intertemporal consumption and investment policy of a constant absolute risk aversion (CARA) investor who faces fixed and proportional transaction costs when trading multiple risky assets. We show that when asset returns are uncorrelated, the optimal investment policy is to keep the dollar amount invested in each risky asset between two constant levels and upon reaching either of these thresholds, to trade to the corresponding optimal targets. An extensive analysis suggests that transaction cost is an important factor in affecting trading volume and that it can significantly diminish the importance of stock return predictability as reported in the literature.
+KW  - lit-review-automation
+KW  - B 交易成本與換手
+N1  - 推導多資產在固定與比例交易成本下的最適策略為不交易區間加上閾值調整，並指出成本會大幅削弱報酬可預測性的價值，為方向B中買賣緩衝區規則提供理論依據。
+ER  - 
+
+TY  - JOUR
+AU  - Haugen, Robert A.
+AU  - Baker, Nardin L.
+TI  - Commonality in the determinants of expected stock returns
+JO  - Journal of Financial Economics
+PY  - 1996
+VL  - 41
+IS  - 3
+SP  - 401
+EP  - 439
+DO  - 10.1016/0304-405x(95)00868-f
+UR  - https://doi.org/10.1016/0304-405x(95)00868-f
+KW  - lit-review-automation
+KW  - A 低波動與低beta異象
+N1  - 以大量特徵預測個股報酬並發現低風險股反而報酬較高，是多特徵選股模型與低波動異象的早期代表作，可協助方向A理解模型為何隱含低波動傾斜。
+ER  - 
+
+TY  - JOUR
+AU  - DeMiguel, Victor
+AU  - Garlappi, Lorenzo
+AU  - Uppal, Raman
+TI  - Optimal Versus Naive Diversification: How Inefficient is the 1/ N Portfolio Strategy?
+JO  - Review of Financial Studies
+PY  - 2007
+VL  - 22
+IS  - 5
+SP  - 1915
+EP  - 1953
+DO  - 10.1093/rfs/hhm075
+UR  - https://doi.org/10.1093/rfs/hhm075
+KW  - lit-review-automation
+KW  - 驗證與回測過度配適
+N1  - 顯示估計誤差下最適化組合樣本外常輸給 1/N，可作為台股 ML 策略樣本外比較的簡單基準與驗證背景。
+ER  - 
+
+TY  - JOUR
+AU  - Gibbons, Michael R.
+AU  - Ross, Stephen A.
+AU  - Shanken, Jay
+TI  - A Test of the Efficiency of a Given Portfolio
+JO  - Econometrica
+PY  - 1989
+VL  - 57
+IS  - 5
+SP  - 1121
+DO  - 10.2307/1913625
+UR  - https://doi.org/10.2307/1913625
+KW  - lit-review-automation
+KW  - 驗證與回測過度配適
+N1  - GRS 檢定可檢驗 ML 組合是否被已知因子張成（alpha 聯合為零），是方向 A 與驗證的標準統計工具。
+ER  - 
+
+TY  - JOUR
+AU  - Almgren, Robert
+AU  - Chriss, Neil
+TI  - Optimal execution of portfolio transactions
+JO  - The Journal of Risk
+PY  - 2001
+VL  - 3
+IS  - 2
+SP  - 5
+EP  - 39
+DO  - 10.21314/jor.2001.041
+UR  - https://doi.org/10.21314/jor.2001.041
+KW  - lit-review-automation
+KW  - G 避險與下單執行
+N1  - 最適下單執行的經典模型，權衡市場衝擊與價格風險，為方向 G 執行問題與方向 B 成本建模提供基礎。
+ER  - 
+
+TY  - JOUR
+AU  - Heaton, J. B.
+AU  - Polson, N. G.
+AU  - Witte, J. H.
+TI  - Deep learning for finance: deep portfolios
+JO  - Applied Stochastic Models in Business and Industry
+PY  - 2016
+VL  - 33
+IS  - 1
+SP  - 3
+EP  - 12
+DO  - 10.1002/asmb.2209
+UR  - https://doi.org/10.1002/asmb.2209
+AB  - We explore the use of deep learning hierarchical models for problems in financial prediction and classification. Financial prediction problems – such as those presented in designing and pricing securities, constructing portfolios, and risk management – often involve large data sets with complex data interactions that currently are difficult or impossible to specify in a full economic model. Applying deep learning methods to these problems can produce more useful results than standard methods in finance. In particular, deep learning can detect and exploit interactions in the data that are, at least currently, invisible to any existing financial economic theory. Copyright © 2016 John Wiley & Sons, Ltd.
+KW  - lit-review-automation
+KW  - F 深度學習資產定價
+N1  - 早期以深度自編碼器建構投資組合的研究，可作為方向 F 表示學習應用於選股的先例與對照。
+ER  - 

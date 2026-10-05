@@ -1,0 +1,39 @@
+{
+ "scored": 5721,
+ "signals_used": [
+  "coupling",
+  "tfidf",
+  "specter"
+ ],
+ "abstract_coverage": 0.343,
+ "reference_coverage": 0.906,
+ "cites_a_seed": 515,
+ "level_counts": {
+  "Normal": 3430,
+  "Low": 858,
+  "High": 855,
+  "Very Low": 285,
+  "Very High": 276
+ },
+ "signal_correlation": {
+  "coupling": {
+   "coupling": 1.0,
+   "tfidf": 0.204,
+   "specter": 0.442
+  },
+  "tfidf": {
+   "coupling": 0.204,
+   "tfidf": 1.0,
+   "specter": 0.224
+  },
+  "specter": {
+   "coupling": 0.442,
+   "tfidf": 0.224,
+   "specter": 1.0
+  }
+ },
+ "seeds_found_by_search": 17,
+ "seeds_median_composite_pct": 0.983,
+ "seeds_in_pool_share": 0.824,
+ "specter_used": true
+}

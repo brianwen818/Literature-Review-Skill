@@ -1,0 +1,62 @@
+[
+ {
+  "item_id": "10.1016/j.jempfin.2024.101517",
+  "title": "Non-standard errors in asset pricing: Mind your sorts",
+  "authors": "Soebhag, Amar; Van Vliet, Bart; Verwijmeren, Patrick",
+  "year": "2024",
+  "journal": "Journal of Empirical Finance",
+  "abstract": "",
+  "relevance_level": "Very High",
+  "n_cites_seed": 2.0,
+  "n_shared_refs": 15.0,
+  "keywords_hit": "machine learning asset pricing; autoencoder asset pricing; deep learning asset pricing"
+ },
+ {
+  "item_id": "10.3905/jfds.2026.1.218",
+  "title": "Monetizing Volatility in Portfolio Optimization: Quantifying the Optimality Gap Using Deep FBSDE Approach",
+  "authors": "Yazdani, Alireza; Nuriyev, Dmitriy; Duan, Songyun",
+  "year": "2026",
+  "journal": "Journal of Financial Data Science",
+  "abstract": "",
+  "relevance_level": "Very High",
+  "n_cites_seed": "",
+  "n_shared_refs": "",
+  "keywords_hit": "low volatility anomaly; end-to-end portfolio optimization; differentiable optimization; deep learning portfolio"
+ },
+ {
+  "item_id": "10.1093/rfs/hhi019",
+  "title": "A Simulation Approach to Dynamic Portfolio Choice with an Application to Learning About Return Predictability",
+  "authors": "Brandt, Michael W.; Goyal, Amit; Santa-Clara, Pedro; Stroud, Jonathan R.",
+  "year": "2005",
+  "journal": "Review of Financial Studies",
+  "abstract": "",
+  "relevance_level": "Very High",
+  "n_cites_seed": 0.0,
+  "n_shared_refs": 9.0,
+  "keywords_hit": "machine learning stock return prediction; anomaly return predictability; transaction costs portfolio choice; deep learning portfolio; reinforcement learning portfolio management"
+ },
+ {
+  "item_id": "10.1016/j.pacfin.2021.101498",
+  "title": "Value at risk and the cross-section of expected returns: Evidence from China",
+  "authors": "Gui, Pingshu; Zhu, Yifeng",
+  "year": "2021",
+  "journal": "Pacific-Basin Finance Journal",
+  "abstract": "",
+  "relevance_level": "Very High",
+  "n_cites_seed": 0.0,
+  "n_shared_refs": 11.0,
+  "keywords_hit": "cross-section of expected returns"
+ },
+ {
+  "item_id": "10.1093/rof/rfu052",
+  "title": "An Out-of-Sample Evaluation of Dynamic Portfolio Strategies",
+  "authors": "Lan, Chunhua",
+  "year": "2014",
+  "journal": "Review of Finance",
+  "abstract": "This article evaluates out-of-sample portfolio performance for a real-time investor who can exploit time variation in the conditional mean and volatility of stock returns in optimizing a multiperiod portfolio choice problem. With the presence of parameter uncertainty, our out-of-sample analysis shows that ignoring time variation in the first two return moments leads to significant utility costs of at least 1.97% of annualized certainty equivalent return. Accounting for the time-varying risk premium plays a more important role than considering time-varying volatility in improving portfolio performance. Interestingly, behaving myopically or ignoring the hedge against changes in future investment opportunities can lead to small out-of-sample utility losses or even utility gains.",
+  "relevance_level": "Very High",
+  "n_cites_seed": 0.0,
+  "n_shared_refs": 11.0,
+  "keywords_hit": "transaction costs portfolio choice; end-to-end portfolio optimization; portfolio turnover; deep learning portfolio; reinforcement learning portfolio management"
+ }
+]
